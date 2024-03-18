@@ -85,12 +85,13 @@ diag_dat <- diag_dat %>%
          asd_new = case_when(group == "asd" | asd == 1 ~ 1, .default = 0)
          ) %>%
   select(origID, group, control:asd_new) %>%
+  mutate(group2 = case_when(group == "control" ~ "control", .default = "neurodiverse")) %>%
   rename(dyslexia = dyslexia_new,
          adhd = adhd_new,
          asd = asd_new)
 
-  # 5) Save results in new data file
-write_csv(diag_dat, here("mw2324_06data/mw2324_processed", "diag_dat_20240207.csv"))
+# 5) Save results in new data file
+write_csv(diag_dat, here("mw2324_06data/mw2324_processed", "diag_dat_20240213.csv"))
 
-test <- read_csv(here("mw2324_06data/mw2324_processed", "diag_dat_20240207.csv"))
+test <- read_csv(here("mw2324_06data/mw2324_processed", "diag_dat_20240213.csv"))
 

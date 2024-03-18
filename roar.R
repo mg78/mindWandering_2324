@@ -146,7 +146,7 @@ outliers <- roar_dat %>%
          perc_tooSlow = (total_tooSlow/84)*100) %>%
   mutate(
     roar_exclude_rt = case_when(
-      perc_tooFast > 10 ~ 2, # participants with anticipations (rt < log(200) ) on more than 10% of trials coded as 2
+      perc_tooFast > 10 ~ 2, # participants with anticipations (rt < log(100) ) on more than 10% of trials coded as 2
       perc_tooSlow > 10 ~ 1, # participants with excessively slow responses (Hoaglin-Iglewicz procedure) on more than 10% of trials coded as 1
       TRUE ~ 0)
   )
@@ -186,3 +186,30 @@ roar_score <- roar_score %>%
 write_csv(roar_score, here("mw2324_06data/mw2324_processed", "roar_score_20240207.csv"))
 
 test <- read_csv(here("mw2324_06data/mw2324_processed", "roar_score_20240207.csv"))
+
+##### Some preliminary analyses
+diagnosis_dat <- read_csv(here("mw2324_06data/mw2324_processed", "diag_dat_20240213.csv"))
+
+roar_dat <- read_csv(here("mw2324_06data/mw2324_processed", "roar_score_20240207.csv")) %>%
+  inner_join(diagnosis_dat) %>%
+  filter(roar_exclude_rt == 0) 
+
+summary(roar_dat)
+
+ggplot(roar_dat, aes(x = roar_acc)) +
+  geom_histogram() +
+  labs(x = "Accuracy") +
+  theme_bw() +
+  xlim(c(0,1))
+
+ggplot(roar_dat, aes(x = roar_logRt)) +
+  geom_histogram() +
+  labs(x = "Accuracy") +
+  theme_bw()
+
+
+ggplot(roar_dat, aes(x = roar_logRt, y = roar_acc, colour = group)) +
+  geom_point() +
+  labs(x = "Reaction time (log)", y = "Accuracy (proportion correct)") +
+  theme_bw()
+
