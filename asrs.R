@@ -35,11 +35,9 @@ clean.asrs <- function(data){
     mutate(Response = as.numeric(Response))
 }
 
-
-
 # 1) Read in data files -----------
-asrs_sona_feb24 <- read_csv(here("mw2324_06data/data_exp_155541-v10-3_20240207", "data_exp_155541-v10_questionnaire-bb43.csv"))
-asrs_sl_feb24 <- read_csv(here("mw2324_06data/data_exp_158033-v3_20240207", "data_exp_158033-v3_questionnaire-bb43.csv"))
+asrs_sona_feb24 <- read_csv(here("mw2324_06data/data_exp_155541-v10_20240318", "data_exp_155541-v10_questionnaire-bb43.csv"))
+asrs_sl_feb24 <- read_csv(here("mw2324_06data/data_exp_158033-v3_20240318", "data_exp_158033-v3_questionnaire-bb43.csv"))
 
 # 2) For first data file -----------
 nsub <- check.n(asrs_sona_feb24) # check number of participants in data file
@@ -59,9 +57,9 @@ asrs_score <- asrs_dat %>%
   summarise(asrs_total = sum(Response, na.rm = TRUE))
 
 # 5) Save results in new data file -----------
-write_csv(asrs_score, here("mw2324_06data/mw2324_processed", "asrs_score_20240209.csv"))
+write_csv(asrs_score, here("mw2324_06data/mw2324_processed", "asrs_score_20240318.csv"))
 
-test <- read_csv(here("mw2324_06data/mw2324_processed", "asrs_score_20240209.csv"))
+test <- read_csv(here("mw2324_06data/mw2324_processed", "asrs_score_20240318.csv"))
 
 # OLD CODE-------------------
   rename(

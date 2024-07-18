@@ -40,8 +40,8 @@ clean.roar <- function(data){
 }
 
 # 1) Read in data files -----------
-roar_sona_feb24 <- read_csv(here("mw2324_06data/data_exp_155541-v10-3_20240207", "data_exp_155541-v10_task-simw.csv"))
-roar_sl_feb24 <- read_csv(here("mw2324_06data/data_exp_158033-v3_20240207", "data_exp_158033-v3_task-simw.csv"))
+roar_sona_feb24 <- read_csv(here("mw2324_06data/data_exp_155541-v10_20240318", "data_exp_155541-v10_task-simw.csv"))
+roar_sl_feb24 <- read_csv(here("mw2324_06data/data_exp_158033-v3_20240318", "data_exp_158033-v3_task-simw.csv"))
 
 # 2) For first data file -----------
 nsub <- check.n(roar_sona_feb24) # check number of participants in data file
@@ -183,9 +183,9 @@ roar_score <- roar_score %>%
   left_join(outliers)
 
 # 5) Save results in new data file ---------
-write_csv(roar_score, here("mw2324_06data/mw2324_processed", "roar_score_20240207.csv"))
+write_csv(roar_score, here("mw2324_06data/mw2324_processed", "roar_score_20240318.csv"))
 
-test <- read_csv(here("mw2324_06data/mw2324_processed", "roar_score_20240207.csv"))
+test <- read_csv(here("mw2324_06data/mw2324_processed", "roar_score_20240318.csv"))
 
 ##### Some preliminary analyses
 diagnosis_dat <- read_csv(here("mw2324_06data/mw2324_processed", "diag_dat_20240213.csv"))

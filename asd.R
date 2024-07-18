@@ -36,8 +36,8 @@ clean.asd <- function(data){
 }
 
 # 1) Read in data files -----------
-asd_sona_feb24 <- read_csv(here("mw2324_06data/data_exp_155541-v10-3_20240207", "data_exp_155541-v10_questionnaire-gew1.csv"))
-asd_sl_feb24 <- read_csv(here("mw2324_06data/data_exp_158033-v3_20240207", "data_exp_158033-v3_questionnaire-gew1.csv"))
+asd_sona_feb24 <- read_csv(here("mw2324_06data/data_exp_155541-v10_20240318", "data_exp_155541-v10_questionnaire-gew1.csv"))
+asd_sl_feb24 <- read_csv(here("mw2324_06data/data_exp_158033-v3_20240318", "data_exp_158033-v3_questionnaire-gew1.csv"))
 
 # 2) For first data file -----------
 nsub <- check.n(asd_sona_feb24) # check number of participants in data file
@@ -198,6 +198,6 @@ asd_scores <- asd_dat %>%
   )
 
 # 5) Save results in new data file -----------
-write_csv(asd_scores, here("mw2324_06data/mw2324_processed", "asd_scores_20240216.csv"))
+write_csv(asd_scores, here("mw2324_06data/mw2324_processed", "asd_scores_20240318.csv"))
 
-test <- read_csv(here("mw2324_06data/mw2324_processed", "asd_scores_20240216.csv"))
+test <- read_csv(here("mw2324_06data/mw2324_processed", "asd_scores_20240318.csv"))

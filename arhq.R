@@ -106,8 +106,8 @@ clean.arhq <- function(data){
 }
 
 # 1) Read in data files -----------
-arhq_sona_feb24 <- read_csv(here("mw2324_06data/data_exp_155541-v10-3_20240207", "data_exp_155541-v10_questionnaire-mf58.csv"))
-arhq_sl_feb24 <- read_csv(here("mw2324_06data/data_exp_158033-v3_20240207", "data_exp_158033-v3_questionnaire-mf58.csv"))
+arhq_sona_feb24 <- read_csv(here("mw2324_06data/data_exp_155541-v10_20240318", "data_exp_155541-v10_questionnaire-mf58.csv"))
+arhq_sl_feb24 <- read_csv(here("mw2324_06data/data_exp_158033-v3_20240318", "data_exp_158033-v3_questionnaire-mf58.csv"))
 
 # 2) For first data file -----------
 nsub <- check.n(arhq_sona_feb24) # check number of participants in data file
@@ -142,6 +142,6 @@ arhq_score <- arhq_dat %>%
             arhq = arhq_total/88)
 
 # 5) Save results in new data file
-write_csv(arhq_score, here("mw2324_06data/mw2324_processed", "arhq_score_20240207.csv"))
+write_csv(arhq_score, here("mw2324_06data/mw2324_processed", "arhq_score_20240318.csv"))
 
-test <- read_csv(here("mw2324_06data/mw2324_processed", "arhq_score_20240207.csv"))
+test <- read_csv(here("mw2324_06data/mw2324_processed", "arhq_score_20240318.csv"))

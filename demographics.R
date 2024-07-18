@@ -48,8 +48,8 @@ clean.demo <- function(data){
 }
 
 # 1) Read in data files -----------
-demo_sona_feb24 <- read_csv(here("mw2324_06data/data_exp_155541-v10-3_20240207", "data_exp_155541-v10_questionnaire-4eaj.csv"))
-demo_sl_feb24 <- read_csv(here("mw2324_06data/data_exp_158033-v3_20240207", "data_exp_158033-v3_questionnaire-4eaj.csv"))
+demo_sona_feb24 <- read_csv(here("mw2324_06data/data_exp_155541-v10_20240318", "data_exp_155541-v10_questionnaire-4eaj.csv"))
+demo_sl_feb24 <- read_csv(here("mw2324_06data/data_exp_158033-v3_20240318", "data_exp_158033-v3_questionnaire-4eaj.csv"))
 
 # 2) For first data file -----------
 n <- check.n(demo_sona_feb24) # check number of participants in data file
@@ -65,9 +65,9 @@ demo_dat <- demo_dat %>% # add participants 'temp' to main data frame
 
 
 # 4) Save results in new data file -----------
-write_csv(demo_dat, here("mw2324_06data/mw2324_processed", "demo_dat_20240209.csv"))
+write_csv(demo_dat, here("mw2324_06data/mw2324_processed", "demo_dat_20240318.csv"))
 
-test <- read_csv(here("mw2324_06data/mw2324_processed", "demo_dat_20240209.csv"))
+test <- read_csv(here("mw2324_06data/mw2324_processed", "demo_dat_20240318.csv"))
 
 
 

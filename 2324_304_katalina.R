@@ -10,11 +10,11 @@ library(tidyverse)
 # Model B: RC as a function of word reading ability (ROAR) and reading history (ARHQ) and MW
 
 # 1) Read in data files -----------
-demo_dat <- read_csv(here("mw2324_06data/mw2324_processed", "demo_dat_20240209.csv"))
-diag_dat <- read_csv(here("mw2324_06data/mw2324_processed", "diag_dat_20240207.csv"))
-arhq_score <- read_csv(here("mw2324_06data/mw2324_processed", "arhq_score_20240207.csv"))
-roar_score <- read_csv(here("mw2324_06data/mw2324_processed", "roar_score_20240207.csv"))
-feng <- read_csv(here("mw2324_06data/mw2324_processed", "mw_20240208.csv"))
+demo_dat <- read_csv(here("mw2324_06data/mw2324_processed", "demo_dat_20240318.csv"))
+diag_dat <- read_csv(here("mw2324_06data/mw2324_processed", "diag_dat_20240318.csv"))
+arhq_score <- read_csv(here("mw2324_06data/mw2324_processed", "arhq_score_20240318.csv"))
+roar_score <- read_csv(here("mw2324_06data/mw2324_processed", "roar_score_20240318.csv"))
+feng <- read_csv(here("mw2324_06data/mw2324_processed", "mw_20240318.csv"))
 
 # 2) Combine data ---------
 katalina_dat <- demo_dat %>%
@@ -25,7 +25,7 @@ katalina_dat <- demo_dat %>%
   select(-handedness, -footedness, -rt_mean, -rct)
 
 # 3) Save results in new data file ---------
-write_csv(katalina_dat, here("mw2324_06data/mw2324_processed", "katalina_dat_20240209.csv"))
+write_csv(katalina_dat, here("mw2324_06data/mw2324_processed", "katalina_dat_20240318.csv"))
 
 ##########
 # Abbreviations

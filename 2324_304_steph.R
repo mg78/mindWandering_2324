@@ -12,11 +12,11 @@ library(tidyverse)
 # Model B: MW freq as a function of ASD categories and ROAR + interaction?
 
 # 1) Read in data files -----------
-demo_dat <- read_csv(here("mw2324_06data/mw2324_processed", "demo_dat_20240209.csv"))
-diag_dat <- read_csv(here("mw2324_06data/mw2324_processed", "diag_dat_20240213.csv"))
-asd_scores <- read_csv(here("mw2324_06data/mw2324_processed", "asd_scores_20240216.csv"))
-roar_score <- read_csv(here("mw2324_06data/mw2324_processed", "roar_score_20240207.csv"))
-feng <- read_csv(here("mw2324_06data/mw2324_processed", "mw_20240208.csv"))
+demo_dat <- read_csv(here("mw2324_06data/mw2324_processed", "demo_dat_20240318.csv"))
+diag_dat <- read_csv(here("mw2324_06data/mw2324_processed", "diag_dat_20240318.csv"))
+asd_scores <- read_csv(here("mw2324_06data/mw2324_processed", "asd_scores_20240318.csv"))
+roar_score <- read_csv(here("mw2324_06data/mw2324_processed", "roar_score_20240318.csv"))
+feng <- read_csv(here("mw2324_06data/mw2324_processed", "mw_20240318.csv"))
 
 # 2) Combine data ---------
 steph_dat <- demo_dat %>%
@@ -28,7 +28,7 @@ steph_dat <- demo_dat %>%
   select(-handedness, -footedness, -rt_mean, -rct)
 
 # 3) Save results in new data file ---------
-write_csv(steph_dat, here("mw2324_06data/mw2324_processed", "steph_dat_20240216.csv"))
+write_csv(steph_dat, here("mw2324_06data/mw2324_processed", "steph_dat_20240318.csv"))
 
 ##########
 # Abbreviations
@@ -58,6 +58,7 @@ write_csv(steph_dat, here("mw2324_06data/mw2324_processed", "steph_dat_20240216.
 ############
 # Preliminary analyses
 
+steph_dat <- read_csv("mw2324_06data/mw2324_processed/steph_dat_20240216.csv")
 steph_dat <- steph_dat %>%
   filter(roar_exclude_rt == 0) %>%
   mutate(roar_acc_sc = scale(roar_acc),

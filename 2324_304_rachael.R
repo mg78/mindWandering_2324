@@ -11,11 +11,11 @@ library(tidyverse)
 
 
 # 1) Read in data files -----------
-demo_dat <- read_csv(here("mw2324_06data/mw2324_processed", "demo_dat_20240209.csv"))
-diag_dat <- read_csv(here("mw2324_06data/mw2324_processed", "diag_dat_20240213.csv"))
-asrs_score <- read_csv(here("mw2324_06data/mw2324_processed", "asrs_score_20240209.csv"))
-roar_score <- read_csv(here("mw2324_06data/mw2324_processed", "roar_score_20240207.csv"))
-feng <- read_csv(here("mw2324_06data/mw2324_processed", "mw_20240208.csv"))
+demo_dat <- read_csv(here("mw2324_06data/mw2324_processed", "demo_dat_20240318.csv"))
+diag_dat <- read_csv(here("mw2324_06data/mw2324_processed", "diag_dat_20240318.csv"))
+asrs_score <- read_csv(here("mw2324_06data/mw2324_processed", "asrs_score_20240318.csv"))
+roar_score <- read_csv(here("mw2324_06data/mw2324_processed", "roar_score_20240318.csv"))
+feng <- read_csv(here("mw2324_06data/mw2324_processed", "mw_20240318.csv"))
 
 # 2) Combine data ---------
 rachael_dat <- demo_dat %>%
@@ -26,7 +26,7 @@ rachael_dat <- demo_dat %>%
   select(-handedness, -footedness, -rt_mean, -rct, -rc_acc)
 
 # 3) Save results in new data file ---------
-write_csv(rachael_dat, here("mw2324_06data/mw2324_processed", "rachael_dat_20240215.csv"))
+write_csv(rachael_dat, here("mw2324_06data/mw2324_processed", "rachael_dat_20240318.csv"))
 
 
 # 4) Some more work and plots
@@ -59,6 +59,9 @@ dat <- dat %>%
       labels = c("lower", "higher")
     )
   )
+
+dat <- dat %>%
+  mutate(roar_mistakes = 1- roar_acc)
 
 ggplot(dat, aes(x = asrs_total, y = mw_freq, colour = cat_roar)) +
   geom_point() +
