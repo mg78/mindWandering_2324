@@ -1,0 +1,491 @@
+---
+title: "PSYC400 Analysis Script"
+author: "Molly Pugh"
+date: "2024-07-22"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Clear environment
+
+```{r}
+rm(list=ls())
+```
+
+# Load libraries
+
+```{r}
+library(broom)
+library(effects)
+library(gridExtra)
+library(here)
+library(lattice)
+library(knitr)
+library(lme4)
+library(MuMIn)
+library(sjPlot)
+library(tidyverse)
+library(memisc)
+library(ggplot2)
+library(Rmisc)
+```
+
+# Read in the data.
+
+```{r}
+DOCS <- read_csv("DOCS_Preview_Data.csv")
+MWT <- read_csv("Mind_Wandering_Task_Preview_Data.csv")
+DQ <- read_csv("Demographics_Preview_data.csv")
+```
+# Tidy the data.
+
+## Demographics Questionnaire
+
+### Select columns required from MWT dataset
+
+```{r}
+DQ_2 <- DQ %>%
+  dplyr::select("Participant Private ID", "Response",  "Question Key")
+```
+
+### Remove nas
+
+```{r}
+DQ_3 <- DQ_2 %>%
+  na.omit()
+```
+
+### Change into wide format
+
+```{r}
+DQ_3_wider <- DQ_3 %>%
+  pivot_wider(names_from = "Question Key",
+              values_from = "Response")
+```
+
+### Select final columns required
+
+```{r}
+DQ_4 <- DQ_3_wider %>%
+  dplyr::select("Participant Private ID", "Age",  "Gender", "multilingual", "OCD_Diagnosis")
+```
+
+## DOCS Questionnaire
+
+### Select columns required from DOCS dataset
+
+```{r}
+DOCS_2 <- DOCS %>%
+  dplyr::select("Participant Private ID", "Key", "Response", "Response Type")
+```
+
+### Remove nas
+
+```{r}
+DOCS_3 <- DOCS_2 %>%
+  na.omit()
+```
+
+### Filter Key Quantised and Response Type
+
+```{r}
+DOCS_4 <- DOCS_3 %>%
+  filter(Key == "quantised", `Response Type` == "response")
+```
+
+### Select needed columns
+
+```{r}
+DOCS_5 <- DOCS_4 %>%
+  dplyr::select("Participant Private ID","Response")
+```
+
+### Change "Response" to a numeric variable
+
+```{r}
+DOCS_5$Response <- as.numeric(DOCS_5$Response)
+```
+
+### Create total DOCS score for each participant
+
+```{r}
+DOCS_5$DOCS_Score <- DOCS_5 %>%
+  group_by("Participant Private ID") %>%
+  summarise(sum(Response))
+```
+
+## Mind Wandering Task
+
+### Select columns required from MWT dataset
+
+```{r}
+MWT_2 <- MWT %>%
+  dplyr::select("Participant Private ID", "Response",  "Spreadsheet: condition", "Spreadsheet: passage", "Spreadsheet: line", "Spreadsheet: set", "Spreadsheet: correct_response", "Object Name")
+```
+
+### Filter Responses
+
+```{r}
+MWT_3 <- MWT_2 %>%
+  filter(Response == c("Intentional", "On Task", "Unintentional"), 
+         `Response Type` == "response")
+```
+
+# Centre and Standardise Continuous Variables
+
+```{r}
+dat_4_z <- dat_4 %>%
+  mutate(zconf = (conf - mean(conf, na.rm = TRUE)) / sd(conf))
+```
+
+# Demographics
+
+### Initial Gender count
+
+```{r}
+initial_gender <- DQ_4 %>%
+  count("Gender")
+```
+
+### Initial Mean Age
+
+#### Change Age to Numeric
+
+```{r}
+DQ_4$Age <- as.numeric(DQ_4$Age)
+```
+
+```{r}
+initial_mean_age <-
+  mean(DQ_4$Age)
+```
+
+### Initial SD of Age
+
+```{r}
+initial_sd <-
+  sd(DQ_4$Age)
+```
+
+### Initial Age Range
+
+```{r}
+initial_range <- range(DQ_4$Age)
+```
+
+### Demographic with exclusions
+
+```{r}
+DQ_5
+```
+
+### Final Gender Count
+
+```{r}
+gender <- DQ_5 %>%
+  count("Gender")
+```
+
+### Final Mean age 
+
+```{r}
+mean_age <-
+  mean(DQ_5$Age)
+```
+
+### Final SD Age
+
+```{r}
+Age_sd <-
+  sd(DQ_5$Age)
+```
+
+### Final Age Range
+
+```{r}
+Age_range <- range(DQ_5$Age)
+```
+
+# Affect of OCD and Task Difficulty on mind wandering overall
+
+## Finding the most appropriate model
+
+### Random effects of participants and stimulus items on intercepts
+
+```{r}
+model_1.1 <- glmer(MW_overall ~ DOCS_Score + 
+                     
+                     Task_Difficulty + DOCS_Score:Task_Difficulty +
+                               
+                               (1 || ResponseId) + 
+                               
+                               (1 || Stimulus),
+                             
+                             family = "binomial", 
+                             glmerControl(optimizer="bobyqa", optCtrl=list(maxfun=2e5)),
+                             
+                             data = dat)
+
+summary(model_1.1)
+```
+
+### Random effects of participants on intercepts and slope of DOCS_Score, and stimulus items on intercepts
+
+```{r}
+model_2.1 <- glmer(MW_overall ~ DOCS_Score + 
+                     
+                     Task_Difficulty + DOCS_Score:Task_Difficulty +
+                               
+                               (dummy(Task_Difficulty) + 1 || ResponseId) + 
+                               
+                               (1 || Stimulus),
+                             
+                             family = "binomial", 
+                             glmerControl(optimizer="bobyqa", optCtrl=list(maxfun=2e5)),
+                             
+                             data = dat)
+
+summary(model_2.1)
+```
+
+### Comparing model_1.1 to model_2.1
+
+```{r}
+anova(model_1.1, model_2.1)
+```
+
+### Random effects of participants on intercepts and slope of DOCS_Score, and stimulus items on intercepts with covariances
+
+```{r}
+model_3.1 <- glmer(MW_overall ~ DOCS_Score + 
+                     
+                     Task_Difficulty + DOCS_Score:Task_Difficulty +
+                               
+                               (dummy(Task_Difficulty) + 1 | ResponseId) + 
+                               
+                               (1 | Stimulus),
+                             
+                             family = "binomial", 
+                             glmerControl(optimizer="bobyqa", optCtrl=list(maxfun=2e5)),
+                             
+                             data = dat)
+
+summary(model_3.1)
+```
+
+### Comparing model_3.1 to model_4.1
+
+```{r}
+anova(model_2.1, model_3.1)
+```
+
+## Visualising the results
+
+# Affect of OCD and task difficulty on mind wandering intention
+
+## Finding the most appropriate model
+
+### Random effects of participants and stimulus items on intercepts
+
+```{r}
+model_1.2 <- glmer(MW_intention ~ DOCS_Score + 
+                     
+                     Task_Difficulty + DOCS_Score:Task_Difficulty +
+                               
+                               (1 || ResponseId) + 
+                               
+                               (1 || Stimulus),
+                             
+                             family = "binomial", 
+                             glmerControl(optimizer="bobyqa", optCtrl=list(maxfun=2e5)),
+                             
+                             data = dat)
+
+summary(model_1.2)
+```
+
+### Random effects of participants on intercepts and slope of DOCS_Score, and stimulus items on intercepts
+
+```{r}
+model_2.2 <- glmer(MW_intention ~ DOCS_Score + 
+                     
+                     Task_Difficulty + DOCS_Score:Task_Difficulty +
+                               
+                               (dummy(Task_Difficulty) + 1 || ResponseId) + 
+                               
+                               (1 || Stimulus),
+                             
+                             family = "binomial", 
+                             glmerControl(optimizer="bobyqa", optCtrl=list(maxfun=2e5)),
+                             
+                             data = dat)
+
+summary(model_2.2)
+```
+
+### Comparing model_1.1 to model_2.1
+
+```{r}
+anova(model_1.2, model_2.2)
+```
+
+### Random effects of participants on intercepts and slope of DOCS_Score, and stimulus items on intercepts with covariances
+
+```{r}
+model_3.2 <- glmer(MW_intention ~ DOCS_Score + 
+                     
+                     Task_Difficulty + DOCS_Score:Task_Difficulty +
+                               
+                               (dummy(Task_Difficulty) + 1 | ResponseId) + 
+                               
+                               (1 | Stimulus),
+                             
+                             family = "binomial", 
+                             glmerControl(optimizer="bobyqa", optCtrl=list(maxfun=2e5)),
+                             
+                             data = dat)
+
+summary(model_3.2)
+```
+
+### Comparing model_2.2 to model_3.2
+
+```{r}
+anova(model_2.2, model_3.2)
+```
+
+## Visualising the results
+
+# Affect of OCD, task difficulty and mind wandering on Reading Comprehension
+
+## Finding the most appropriate model
+
+### Random effects of participants and stimulus items on intercepts
+
+```{r}
+model_1.3 <- glmer(Acc ~ DOCS_Score + 
+                     
+                     Task_Difficulty + MW + DOCS_Score:Task_Difficulty +
+                               
+                               (1 || ResponseId) + 
+                               
+                               (1 || Stimulus),
+                             
+                             family = "binomial", 
+                             glmerControl(optimizer="bobyqa", optCtrl=list(maxfun=2e5)),
+                             
+                             data = dat)
+
+summary(model_1.3)
+```
+
+
+### Random effects of participants on intercepts and task difficulty slope, and stimulus items on intercepts
+
+```{r}
+model_2.3 <- glmer(Acc ~ DOCS_Score + 
+                     
+                     Task_Difficulty + MW + DOCS_Score:Task_Difficulty +
+                               
+                               (dummy(Task_Difficulty)+ 1 || ResponseId) + 
+                               
+                               (1 || Stimulus),
+                             
+                             family = "binomial", 
+                             glmerControl(optimizer="bobyqa", optCtrl=list(maxfun=2e5)),
+                             
+                             data = dat)
+
+summary(model_2.3)
+```
+
+### Comparing model_1.3 to model_2.3
+
+```{r}
+anova(model_1.3, model_2.3)
+```
+
+### Random effects of participants on intercepts and task difficulty and mind wandering slope, and stimulus items on intercepts
+
+```{r}
+model_3.3 <- glmer(Acc ~ DOCS_Score + 
+                     
+                     Task_Difficulty + MW + DOCS_Score:Task_Difficulty +
+                               
+                               (dummy(Task_Difficulty) + 
+                                  dummy(MW) + 1 || ResponseId) + 
+                               
+                               (1 || Stimulus),
+                             
+                             family = "binomial", 
+                             glmerControl(optimizer="bobyqa", optCtrl=list(maxfun=2e5)),
+                             
+                             data = dat)
+
+summary(model_3.3)
+```
+
+### Comparing model_2.3 to model_3.3
+
+```{r}
+anova(model_2.3, model_3.3)
+```
+
+### Random effects of participants on intercepts and task difficulty and mind wandering slope, and stimulus items on intercepts and mind wandering slope
+
+```{r}
+model_4.3 <- glmer(Acc ~ DOCS_Score + 
+                     
+                     Task_Difficulty + MW + DOCS_Score:Task_Difficulty +
+                               
+                               (dummy(Task_Difficulty) + 
+                                 
+                                   dummy(MW) + 1 || ResponseId) + 
+                               
+                                 dummy(MW) + (1 || Stimulus),
+                               
+                             family = "binomial", 
+                             glmerControl(optimizer="bobyqa", optCtrl=list(maxfun=2e5)),
+                             
+                             data = dat)
+
+summary(model_4.3)
+```
+
+### Comparing model_3.3 to model_4.3
+
+```{r}
+anova(model_3.3, model_4.3)
+```
+
+### Random effects of participants on intercepts and task difficulty and mind wandering slope, and stimulus items on intercepts and mind wandering slope with covariances
+
+```{r}
+model_5.3 <- glmer(Acc ~ DOCS_Score + 
+                     
+                     Task_Difficulty + MW + DOCS_Score:Task_Difficulty +
+                               
+                               (dummy(Task_Difficulty) + 
+                                 
+                                   dummy(MW) + 1 | ResponseId) + 
+                               
+                                 dummy(MW) + (1 | Stimulus),
+                               
+                             family = "binomial", 
+                             glmerControl(optimizer="bobyqa", optCtrl=list(maxfun=2e5)),
+                             
+                             data = dat)
+
+summary(model_5.3)
+```
+
+### Comparing model_4.3 to model_5.3
+
+```{r}
+anova(model_4.3, model_5.3)
+```
+
+## Visualising the results

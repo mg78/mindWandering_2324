@@ -1,0 +1,352 @@
+﻿Event Index,UTC Timestamp,UTC Date and Time,Local Timestamp,Local Timezone,Local Date and Time,Experiment ID,Experiment Version,Tree Node Key,Repeat Key,Schedule ID,Participant Public ID,Participant Private ID,Participant Starting Group,Participant Status,Participant Completion Code,Participant External Session ID,Participant Device Type,Participant Device,Participant OS,Participant Browser,Participant Monitor Size,Participant Viewport Size,Checkpoint,Room ID,Room Order,Task Name,Task Version,randomiser-3edb,checkpoint-sudm,branch-hm4e,branch-vf4a,Page,Page ID,Page Counter,Question,Response Type,Key,Response,Tag,OptionOrder,Object Name,Object Number,Object ID
+1,1719919039732,02/07/2024 11:17:19,1719922639732,1,02/07/2024 13:17:19,179131,14,questionnaire-diry,,38674166,BLIND,11354582,,complete,,,computer,Desktop or Laptop,Windows 10,Chrome 126.0.0.0,1920x1080,1273x694,Consent,,0,Feedback - prize draw (Clone),3,Set2,Consent,Over 18,Proficiency English,,,,,info,,BEGIN,,,,,
+2,1719919044790,02/07/2024 11:17:24,1719922644790,1,02/07/2024 13:17:24,179131,14,questionnaire-diry,,38674166,BLIND,11354582,,complete,,,computer,Desktop or Laptop,Windows 10,Chrome 126.0.0.0,1920x1080,1273x694,Consent,,0,Feedback - prize draw (Clone),3,Set2,Consent,Over 18,Proficiency English,Page 1,rnfxsa,1,"If you would like to be entered into our prize draw with a chance to win 1 of 10 £10 Amazon vouchers, please enter your details below.
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Name-value,,,,fb_prizeDraw,1,object-5
+3,1719919044790,02/07/2024 11:17:24,1719922644790,1,02/07/2024 13:17:24,179131,14,questionnaire-diry,,38674166,BLIND,11354582,,complete,,,computer,Desktop or Laptop,Windows 10,Chrome 126.0.0.0,1920x1080,1273x694,Consent,,0,Feedback - prize draw (Clone),3,Set2,Consent,Over 18,Proficiency English,Page 1,rnfxsa,1,"If you would like to be entered into our prize draw with a chance to win 1 of 10 £10 Amazon vouchers, please enter your details below.
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Email address-value,,,,fb_prizeDraw,1,object-5
+4,1719919044790,02/07/2024 11:17:24,1719922644790,1,02/07/2024 13:17:24,179131,14,questionnaire-diry,,38674166,BLIND,11354582,,complete,,,computer,Desktop or Laptop,Windows 10,Chrome 126.0.0.0,1920x1080,1273x694,Consent,,0,Feedback - prize draw (Clone),3,Set2,Consent,Over 18,Proficiency English,,,,,info,,END,,,,,
+1,1720005909529,03/07/2024 11:25:09,1720009509529,1,03/07/2024 13:25:09,179131,14,questionnaire-diry,,38723433,BLIND,11364937,,complete,,,computer,Desktop or Laptop,Windows 10,Chrome 126.0.0.0,1280x1024,1280x889,Consent,,0,Feedback - prize draw (Clone),3,Set1,Consent,Over 18,Proficiency English,,,,,info,,BEGIN,,,,,
+2,1720005916029,03/07/2024 11:25:16,1720009516029,1,03/07/2024 13:25:16,179131,14,questionnaire-diry,,38723433,BLIND,11364937,,complete,,,computer,Desktop or Laptop,Windows 10,Chrome 126.0.0.0,1280x1024,1280x889,Consent,,0,Feedback - prize draw (Clone),3,Set1,Consent,Over 18,Proficiency English,Page 1,rnfxsa,1,"If you would like to be entered into our prize draw with a chance to win 1 of 10 £10 Amazon vouchers, please enter your details below.
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Name-value,,,,fb_prizeDraw,1,object-5
+3,1720005916029,03/07/2024 11:25:16,1720009516029,1,03/07/2024 13:25:16,179131,14,questionnaire-diry,,38723433,BLIND,11364937,,complete,,,computer,Desktop or Laptop,Windows 10,Chrome 126.0.0.0,1280x1024,1280x889,Consent,,0,Feedback - prize draw (Clone),3,Set1,Consent,Over 18,Proficiency English,Page 1,rnfxsa,1,"If you would like to be entered into our prize draw with a chance to win 1 of 10 £10 Amazon vouchers, please enter your details below.
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Email address-value,,,,fb_prizeDraw,1,object-5
+4,1720005916029,03/07/2024 11:25:16,1720009516029,1,03/07/2024 13:25:16,179131,14,questionnaire-diry,,38723433,BLIND,11364937,,complete,,,computer,Desktop or Laptop,Windows 10,Chrome 126.0.0.0,1280x1024,1280x889,Consent,,0,Feedback - prize draw (Clone),3,Set1,Consent,Over 18,Proficiency English,,,,,info,,END,,,,,
+1,1720127382923,04/07/2024 21:09:42,1720130982923,1,04/07/2024 23:09:42,179131,14,questionnaire-diry,,38761550,BLIND,11374756,,complete,,,computer,Desktop or Laptop,Chromium OS 14816.131.0,Chrome 103.0.0.0,1280x720,1280x569,Consent,,0,Feedback - prize draw (Clone),3,Set2,Consent,Over 18,Proficiency English,,,,,info,,BEGIN,,,,,
+2,1720127410661,04/07/2024 21:10:10,1720131010661,1,04/07/2024 23:10:10,179131,14,questionnaire-diry,,38761550,BLIND,11374756,,complete,,,computer,Desktop or Laptop,Chromium OS 14816.131.0,Chrome 103.0.0.0,1280x720,1280x569,Consent,,0,Feedback - prize draw (Clone),3,Set2,Consent,Over 18,Proficiency English,Page 1,rnfxsa,1,"If you would like to be entered into our prize draw with a chance to win 1 of 10 £10 Amazon vouchers, please enter your details below.
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Name-value,Caitlin,,,fb_prizeDraw,1,object-5
+3,1720127410663,04/07/2024 21:10:10,1720131010663,1,04/07/2024 23:10:10,179131,14,questionnaire-diry,,38761550,BLIND,11374756,,complete,,,computer,Desktop or Laptop,Chromium OS 14816.131.0,Chrome 103.0.0.0,1280x720,1280x569,Consent,,0,Feedback - prize draw (Clone),3,Set2,Consent,Over 18,Proficiency English,Page 1,rnfxsa,1,"If you would like to be entered into our prize draw with a chance to win 1 of 10 £10 Amazon vouchers, please enter your details below.
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Email address-value,littlemekatie@gmail.com,,,fb_prizeDraw,1,object-5
+4,1720127410664,04/07/2024 21:10:10,1720131010664,1,04/07/2024 23:10:10,179131,14,questionnaire-diry,,38761550,BLIND,11374756,,complete,,,computer,Desktop or Laptop,Chromium OS 14816.131.0,Chrome 103.0.0.0,1280x720,1280x569,Consent,,0,Feedback - prize draw (Clone),3,Set2,Consent,Over 18,Proficiency English,,,,,info,,END,,,,,
+1,1721164007756,16/07/2024 21:06:47,1721167607756,1,16/07/2024 23:06:47,179131,14,questionnaire-diry,,39016757,BLIND,11441695,,complete,,,computer,Desktop or Laptop,Mac OS 10.15.7,Safari 16.6,1440x900,1440x763,Consent,,0,Feedback - prize draw (Clone),3,Set1,Consent,Over 18,Proficiency English,,,,,info,,BEGIN,,,,,
+2,1721164033907,16/07/2024 21:07:13,1721167633907,1,16/07/2024 23:07:13,179131,14,questionnaire-diry,,39016757,BLIND,11441695,,complete,,,computer,Desktop or Laptop,Mac OS 10.15.7,Safari 16.6,1440x900,1440x763,Consent,,0,Feedback - prize draw (Clone),3,Set1,Consent,Over 18,Proficiency English,Page 1,rnfxsa,1,"If you would like to be entered into our prize draw with a chance to win 1 of 10 £10 Amazon vouchers, please enter your details below.
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Name-value,J Thompson Edwards,,,fb_prizeDraw,1,object-5
+3,1721164033907,16/07/2024 21:07:13,1721167633907,1,16/07/2024 23:07:13,179131,14,questionnaire-diry,,39016757,BLIND,11441695,,complete,,,computer,Desktop or Laptop,Mac OS 10.15.7,Safari 16.6,1440x900,1440x763,Consent,,0,Feedback - prize draw (Clone),3,Set1,Consent,Over 18,Proficiency English,Page 1,rnfxsa,1,"If you would like to be entered into our prize draw with a chance to win 1 of 10 £10 Amazon vouchers, please enter your details below.
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Email address-value,jthom1ju@icloud.com,,,fb_prizeDraw,1,object-5
+4,1721164033907,16/07/2024 21:07:13,1721167633907,1,16/07/2024 23:07:13,179131,14,questionnaire-diry,,39016757,BLIND,11441695,,complete,,,computer,Desktop or Laptop,Mac OS 10.15.7,Safari 16.6,1440x900,1440x763,Consent,,0,Feedback - prize draw (Clone),3,Set1,Consent,Over 18,Proficiency English,,,,,info,,END,,,,,
+1,1721203086742,17/07/2024 07:58:06,1721206686742,1,17/07/2024 09:58:06,179131,14,questionnaire-diry,,39021967,BLIND,11443514,,complete,,,computer,Desktop or Laptop,Windows 10,Edge 126.0.0.0,1536x864,1098x742,Consent,,0,Feedback - prize draw (Clone),3,Set2,Consent,Over 18,Proficiency English,,,,,info,,BEGIN,,,,,
+2,1721203100893,17/07/2024 07:58:20,1721206700893,1,17/07/2024 09:58:20,179131,14,questionnaire-diry,,39021967,BLIND,11443514,,complete,,,computer,Desktop or Laptop,Windows 10,Edge 126.0.0.0,1536x864,1098x742,Consent,,0,Feedback - prize draw (Clone),3,Set2,Consent,Over 18,Proficiency English,Page 1,rnfxsa,1,"If you would like to be entered into our prize draw with a chance to win 1 of 10 £10 Amazon vouchers, please enter your details below.
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Name-value,,,,fb_prizeDraw,1,object-5
+3,1721203100893,17/07/2024 07:58:20,1721206700893,1,17/07/2024 09:58:20,179131,14,questionnaire-diry,,39021967,BLIND,11443514,,complete,,,computer,Desktop or Laptop,Windows 10,Edge 126.0.0.0,1536x864,1098x742,Consent,,0,Feedback - prize draw (Clone),3,Set2,Consent,Over 18,Proficiency English,Page 1,rnfxsa,1,"If you would like to be entered into our prize draw with a chance to win 1 of 10 £10 Amazon vouchers, please enter your details below.
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Email address-value,,,,fb_prizeDraw,1,object-5
+4,1721203100893,17/07/2024 07:58:20,1721206700893,1,17/07/2024 09:58:20,179131,14,questionnaire-diry,,39021967,BLIND,11443514,,complete,,,computer,Desktop or Laptop,Windows 10,Edge 126.0.0.0,1536x864,1098x742,Consent,,0,Feedback - prize draw (Clone),3,Set2,Consent,Over 18,Proficiency English,,,,,info,,END,,,,,
+1,1721320144164,18/07/2024 16:29:04,1721323744164,1,18/07/2024 18:29:04,179131,14,questionnaire-diry,,39061092,BLIND,11455863,,complete,,,computer,Desktop or Laptop,Windows 10,Chrome 116.0.0.0,1536x864,1494x715,Consent,,0,Feedback - prize draw (Clone),3,Set1,Consent,Over 18,Proficiency English,,,,,info,,BEGIN,,,,,
+2,1721320232599,18/07/2024 16:30:32,1721323832599,1,18/07/2024 18:30:32,179131,14,questionnaire-diry,,39061092,BLIND,11455863,,complete,,,computer,Desktop or Laptop,Windows 10,Chrome 116.0.0.0,1536x864,1494x715,Consent,,0,Feedback - prize draw (Clone),3,Set1,Consent,Over 18,Proficiency English,Page 1,rnfxsa,1,"If you would like to be entered into our prize draw with a chance to win 1 of 10 £10 Amazon vouchers, please enter your details below.
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Name-value,Elaine Brokenshire,,,fb_prizeDraw,1,object-5
+3,1721320232601,18/07/2024 16:30:32,1721323832601,1,18/07/2024 18:30:32,179131,14,questionnaire-diry,,39061092,BLIND,11455863,,complete,,,computer,Desktop or Laptop,Windows 10,Chrome 116.0.0.0,1536x864,1494x715,Consent,,0,Feedback - prize draw (Clone),3,Set1,Consent,Over 18,Proficiency English,Page 1,rnfxsa,1,"If you would like to be entered into our prize draw with a chance to win 1 of 10 £10 Amazon vouchers, please enter your details below.
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Email address-value,elaine.brokenshire@gmail.com,,,fb_prizeDraw,1,object-5
+4,1721320232602,18/07/2024 16:30:32,1721323832602,1,18/07/2024 18:30:32,179131,14,questionnaire-diry,,39061092,BLIND,11455863,,complete,,,computer,Desktop or Laptop,Windows 10,Chrome 116.0.0.0,1536x864,1494x715,Consent,,0,Feedback - prize draw (Clone),3,Set1,Consent,Over 18,Proficiency English,,,,,info,,END,,,,,
+1,1721651445176,22/07/2024 12:30:45,1721655045176,1,22/07/2024 14:30:45,179131,14,questionnaire-diry,,39124753,BLIND,11475694,,complete,,,computer,Desktop or Laptop,Windows 10,Chrome 126.0.0.0,1920x1080,1920x911,Consent,,0,Feedback - prize draw (Clone),3,Set2,Consent,Over 18,Proficiency English,,,,,info,,BEGIN,,,,,
+2,1721651458523,22/07/2024 12:30:58,1721655058523,1,22/07/2024 14:30:58,179131,14,questionnaire-diry,,39124753,BLIND,11475694,,complete,,,computer,Desktop or Laptop,Windows 10,Chrome 126.0.0.0,1920x1080,1920x911,Consent,,0,Feedback - prize draw (Clone),3,Set2,Consent,Over 18,Proficiency English,Page 1,rnfxsa,1,"If you would like to be entered into our prize draw with a chance to win 1 of 10 £10 Amazon vouchers, please enter your details below.
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Name-value,Luke Stevenson,,,fb_prizeDraw,1,object-5
+3,1721651458523,22/07/2024 12:30:58,1721655058523,1,22/07/2024 14:30:58,179131,14,questionnaire-diry,,39124753,BLIND,11475694,,complete,,,computer,Desktop or Laptop,Windows 10,Chrome 126.0.0.0,1920x1080,1920x911,Consent,,0,Feedback - prize draw (Clone),3,Set2,Consent,Over 18,Proficiency English,Page 1,rnfxsa,1,"If you would like to be entered into our prize draw with a chance to win 1 of 10 £10 Amazon vouchers, please enter your details below.
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Email address-value,lstevenson2152@gmail.com,,,fb_prizeDraw,1,object-5
+4,1721651458523,22/07/2024 12:30:58,1721655058523,1,22/07/2024 14:30:58,179131,14,questionnaire-diry,,39124753,BLIND,11475694,,complete,,,computer,Desktop or Laptop,Windows 10,Chrome 126.0.0.0,1920x1080,1920x911,Consent,,0,Feedback - prize draw (Clone),3,Set2,Consent,Over 18,Proficiency English,,,,,info,,END,,,,,
+1,1721663034582,22/07/2024 15:43:54,1721666634582,1,22/07/2024 17:43:54,179131,14,questionnaire-diry,,39129880,BLIND,11476822,,complete,,,computer,Desktop or Laptop,Windows 10,Edge 123.0.0.0,1366x768,1358x654,Consent,,0,Feedback - prize draw (Clone),3,Set1,Consent,Over 18,Proficiency English,,,,,info,,BEGIN,,,,,
+2,1721663080558,22/07/2024 15:44:40,1721666680558,1,22/07/2024 17:44:40,179131,14,questionnaire-diry,,39129880,BLIND,11476822,,complete,,,computer,Desktop or Laptop,Windows 10,Edge 123.0.0.0,1366x768,1358x654,Consent,,0,Feedback - prize draw (Clone),3,Set1,Consent,Over 18,Proficiency English,Page 1,rnfxsa,1,"If you would like to be entered into our prize draw with a chance to win 1 of 10 £10 Amazon vouchers, please enter your details below.
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Name-value,Marc Bradbury,,,fb_prizeDraw,1,object-5
+3,1721663080558,22/07/2024 15:44:40,1721666680558,1,22/07/2024 17:44:40,179131,14,questionnaire-diry,,39129880,BLIND,11476822,,complete,,,computer,Desktop or Laptop,Windows 10,Edge 123.0.0.0,1366x768,1358x654,Consent,,0,Feedback - prize draw (Clone),3,Set1,Consent,Over 18,Proficiency English,Page 1,rnfxsa,1,"If you would like to be entered into our prize draw with a chance to win 1 of 10 £10 Amazon vouchers, please enter your details below.
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Email address-value,marcbrad73@gmail.com,,,fb_prizeDraw,1,object-5
+4,1721663080558,22/07/2024 15:44:40,1721666680558,1,22/07/2024 17:44:40,179131,14,questionnaire-diry,,39129880,BLIND,11476822,,complete,,,computer,Desktop or Laptop,Windows 10,Edge 123.0.0.0,1366x768,1358x654,Consent,,0,Feedback - prize draw (Clone),3,Set1,Consent,Over 18,Proficiency English,,,,,info,,END,,,,,
+1,1721672148279,22/07/2024 18:15:48,1721675748279,1,22/07/2024 20:15:48,179131,14,questionnaire-diry,,39134072,BLIND,11480604,,complete,,,computer,Desktop or Laptop,Windows 10,Firefox 128.0,1536x864,1536x702,Consent,,0,Feedback - prize draw (Clone),3,Set1,Consent,Over 18,Proficiency English,,,,,info,,BEGIN,,,,,
+2,1721672168194,22/07/2024 18:16:08,1721675768194,1,22/07/2024 20:16:08,179131,14,questionnaire-diry,,39134072,BLIND,11480604,,complete,,,computer,Desktop or Laptop,Windows 10,Firefox 128.0,1536x864,1536x702,Consent,,0,Feedback - prize draw (Clone),3,Set1,Consent,Over 18,Proficiency English,Page 1,rnfxsa,1,"If you would like to be entered into our prize draw with a chance to win 1 of 10 £10 Amazon vouchers, please enter your details below.
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Name-value,Ellie Cartwright,,,fb_prizeDraw,1,object-5
+3,1721672168194,22/07/2024 18:16:08,1721675768194,1,22/07/2024 20:16:08,179131,14,questionnaire-diry,,39134072,BLIND,11480604,,complete,,,computer,Desktop or Laptop,Windows 10,Firefox 128.0,1536x864,1536x702,Consent,,0,Feedback - prize draw (Clone),3,Set1,Consent,Over 18,Proficiency English,Page 1,rnfxsa,1,"If you would like to be entered into our prize draw with a chance to win 1 of 10 £10 Amazon vouchers, please enter your details below.
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Email address-value,elliecartwright@ymail.com,,,fb_prizeDraw,1,object-5
+4,1721672168194,22/07/2024 18:16:08,1721675768194,1,22/07/2024 20:16:08,179131,14,questionnaire-diry,,39134072,BLIND,11480604,,complete,,,computer,Desktop or Laptop,Windows 10,Firefox 128.0,1536x864,1536x702,Consent,,0,Feedback - prize draw (Clone),3,Set1,Consent,Over 18,Proficiency English,,,,,info,,END,,,,,
+1,1721763973806,23/07/2024 19:46:13,1721767573806,1,23/07/2024 21:46:13,179131,14,questionnaire-diry,,39158530,BLIND,11489771,,complete,,,computer,Desktop or Laptop,Windows 7,Chrome 90.0.4430.93,1366x768,1366x625,Consent,,0,Feedback - prize draw (Clone),3,Set2,Consent,Over 18,Proficiency English,,,,,info,,BEGIN,,,,,
+2,1721763985910,23/07/2024 19:46:25,1721767585910,1,23/07/2024 21:46:25,179131,14,questionnaire-diry,,39158530,BLIND,11489771,,complete,,,computer,Desktop or Laptop,Windows 7,Chrome 90.0.4430.93,1366x768,1366x625,Consent,,0,Feedback - prize draw (Clone),3,Set2,Consent,Over 18,Proficiency English,Page 1,rnfxsa,1,"If you would like to be entered into our prize draw with a chance to win 1 of 10 £10 Amazon vouchers, please enter your details below.
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Name-value,,,,fb_prizeDraw,1,object-5
+3,1721763985910,23/07/2024 19:46:25,1721767585910,1,23/07/2024 21:46:25,179131,14,questionnaire-diry,,39158530,BLIND,11489771,,complete,,,computer,Desktop or Laptop,Windows 7,Chrome 90.0.4430.93,1366x768,1366x625,Consent,,0,Feedback - prize draw (Clone),3,Set2,Consent,Over 18,Proficiency English,Page 1,rnfxsa,1,"If you would like to be entered into our prize draw with a chance to win 1 of 10 £10 Amazon vouchers, please enter your details below.
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Email address-value,,,,fb_prizeDraw,1,object-5
+4,1721763985910,23/07/2024 19:46:25,1721767585910,1,23/07/2024 21:46:25,179131,14,questionnaire-diry,,39158530,BLIND,11489771,,complete,,,computer,Desktop or Laptop,Windows 7,Chrome 90.0.4430.93,1366x768,1366x625,Consent,,0,Feedback - prize draw (Clone),3,Set2,Consent,Over 18,Proficiency English,,,,,info,,END,,,,,
+1,1721847342766,24/07/2024 18:55:42,1721850942766,1,24/07/2024 20:55:42,179131,14,questionnaire-diry,,39187061,BLIND,11495903,,complete,,,computer,Desktop or Laptop,Windows 10,Chrome 126.0.0.0,1280x720,1280x559,Consent,,0,Feedback - prize draw (Clone),3,Set2,Consent,Over 18,Proficiency English,,,,,info,,BEGIN,,,,,
+2,1721847386703,24/07/2024 18:56:26,1721850986703,1,24/07/2024 20:56:26,179131,14,questionnaire-diry,,39187061,BLIND,11495903,,complete,,,computer,Desktop or Laptop,Windows 10,Chrome 126.0.0.0,1280x720,1280x559,Consent,,0,Feedback - prize draw (Clone),3,Set2,Consent,Over 18,Proficiency English,Page 1,rnfxsa,1,"If you would like to be entered into our prize draw with a chance to win 1 of 10 £10 Amazon vouchers, please enter your details below.
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Name-value,Freya Cook,,,fb_prizeDraw,1,object-5
+3,1721847386703,24/07/2024 18:56:26,1721850986703,1,24/07/2024 20:56:26,179131,14,questionnaire-diry,,39187061,BLIND,11495903,,complete,,,computer,Desktop or Laptop,Windows 10,Chrome 126.0.0.0,1280x720,1280x559,Consent,,0,Feedback - prize draw (Clone),3,Set2,Consent,Over 18,Proficiency English,Page 1,rnfxsa,1,"If you would like to be entered into our prize draw with a chance to win 1 of 10 £10 Amazon vouchers, please enter your details below.
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Email address-value,freyacook2001@gmail.com,,,fb_prizeDraw,1,object-5
+4,1721847386703,24/07/2024 18:56:26,1721850986703,1,24/07/2024 20:56:26,179131,14,questionnaire-diry,,39187061,BLIND,11495903,,complete,,,computer,Desktop or Laptop,Windows 10,Chrome 126.0.0.0,1280x720,1280x559,Consent,,0,Feedback - prize draw (Clone),3,Set2,Consent,Over 18,Proficiency English,,,,,info,,END,,,,,
+1,1721914739430,25/07/2024 13:38:59,1721918339430,1,25/07/2024 15:38:59,179131,14,questionnaire-diry,,39200724,BLIND,11498786,,complete,,,computer,Desktop or Laptop,Windows 10,Edge 126.0.0.0,1366x768,1026x617,Consent,,0,Feedback - prize draw (Clone),3,Set1,Consent,Over 18,Proficiency English,,,,,info,,BEGIN,,,,,
+2,1721914756651,25/07/2024 13:39:16,1721918356651,1,25/07/2024 15:39:16,179131,14,questionnaire-diry,,39200724,BLIND,11498786,,complete,,,computer,Desktop or Laptop,Windows 10,Edge 126.0.0.0,1366x768,1026x617,Consent,,0,Feedback - prize draw (Clone),3,Set1,Consent,Over 18,Proficiency English,Page 1,rnfxsa,1,"If you would like to be entered into our prize draw with a chance to win 1 of 10 £10 Amazon vouchers, please enter your details below.
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Name-value,,,,fb_prizeDraw,1,object-5
+3,1721914756652,25/07/2024 13:39:16,1721918356652,1,25/07/2024 15:39:16,179131,14,questionnaire-diry,,39200724,BLIND,11498786,,complete,,,computer,Desktop or Laptop,Windows 10,Edge 126.0.0.0,1366x768,1026x617,Consent,,0,Feedback - prize draw (Clone),3,Set1,Consent,Over 18,Proficiency English,Page 1,rnfxsa,1,"If you would like to be entered into our prize draw with a chance to win 1 of 10 £10 Amazon vouchers, please enter your details below.
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Email address-value,,,,fb_prizeDraw,1,object-5
+4,1721914756652,25/07/2024 13:39:16,1721918356652,1,25/07/2024 15:39:16,179131,14,questionnaire-diry,,39200724,BLIND,11498786,,complete,,,computer,Desktop or Laptop,Windows 10,Edge 126.0.0.0,1366x768,1026x617,Consent,,0,Feedback - prize draw (Clone),3,Set1,Consent,Over 18,Proficiency English,,,,,info,,END,,,,,
+1,1721920971364,25/07/2024 15:22:51,1721924571364,1,25/07/2024 17:22:51,179131,14,questionnaire-diry,,39203348,BLIND,11500002,,complete,,,computer,Desktop or Laptop,Windows 10,Chrome 126.0.0.0,1920x1080,1920x911,Consent,,0,Feedback - prize draw (Clone),3,Set1,Consent,Over 18,Proficiency English,,,,,info,,BEGIN,,,,,
+2,1721920993556,25/07/2024 15:23:13,1721924593556,1,25/07/2024 17:23:13,179131,14,questionnaire-diry,,39203348,BLIND,11500002,,complete,,,computer,Desktop or Laptop,Windows 10,Chrome 126.0.0.0,1920x1080,1920x911,Consent,,0,Feedback - prize draw (Clone),3,Set1,Consent,Over 18,Proficiency English,Page 1,rnfxsa,1,"If you would like to be entered into our prize draw with a chance to win 1 of 10 £10 Amazon vouchers, please enter your details below.
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Name-value,Caroline Smith,,,fb_prizeDraw,1,object-5
+3,1721920993556,25/07/2024 15:23:13,1721924593556,1,25/07/2024 17:23:13,179131,14,questionnaire-diry,,39203348,BLIND,11500002,,complete,,,computer,Desktop or Laptop,Windows 10,Chrome 126.0.0.0,1920x1080,1920x911,Consent,,0,Feedback - prize draw (Clone),3,Set1,Consent,Over 18,Proficiency English,Page 1,rnfxsa,1,"If you would like to be entered into our prize draw with a chance to win 1 of 10 £10 Amazon vouchers, please enter your details below.
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Email address-value,carriesmith973@gmail.com,,,fb_prizeDraw,1,object-5
+4,1721920993557,25/07/2024 15:23:13,1721924593557,1,25/07/2024 17:23:13,179131,14,questionnaire-diry,,39203348,BLIND,11500002,,complete,,,computer,Desktop or Laptop,Windows 10,Chrome 126.0.0.0,1920x1080,1920x911,Consent,,0,Feedback - prize draw (Clone),3,Set1,Consent,Over 18,Proficiency English,,,,,info,,END,,,,,
+1,1721921452434,25/07/2024 15:30:52,1721925052434,1,25/07/2024 17:30:52,179131,14,questionnaire-diry,,39203473,BLIND,11499809,,complete,,,computer,Desktop or Laptop,Windows 10,Edge 126.0.0.0,1280x800,1232x652,Consent,,0,Feedback - prize draw (Clone),3,Set2,Consent,Over 18,Proficiency English,,,,,info,,BEGIN,,,,,
+2,1721921462552,25/07/2024 15:31:02,1721925062552,1,25/07/2024 17:31:02,179131,14,questionnaire-diry,,39203473,BLIND,11499809,,complete,,,computer,Desktop or Laptop,Windows 10,Edge 126.0.0.0,1280x800,1232x652,Consent,,0,Feedback - prize draw (Clone),3,Set2,Consent,Over 18,Proficiency English,Page 1,rnfxsa,1,"If you would like to be entered into our prize draw with a chance to win 1 of 10 £10 Amazon vouchers, please enter your details below.
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Name-value,Kelly Ash,,,fb_prizeDraw,1,object-5
+3,1721921462552,25/07/2024 15:31:02,1721925062552,1,25/07/2024 17:31:02,179131,14,questionnaire-diry,,39203473,BLIND,11499809,,complete,,,computer,Desktop or Laptop,Windows 10,Edge 126.0.0.0,1280x800,1232x652,Consent,,0,Feedback - prize draw (Clone),3,Set2,Consent,Over 18,Proficiency English,Page 1,rnfxsa,1,"If you would like to be entered into our prize draw with a chance to win 1 of 10 £10 Amazon vouchers, please enter your details below.
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Email address-value,kelly1.ash@staffordshire.gov.uk,,,fb_prizeDraw,1,object-5
+4,1721921462553,25/07/2024 15:31:02,1721925062553,1,25/07/2024 17:31:02,179131,14,questionnaire-diry,,39203473,BLIND,11499809,,complete,,,computer,Desktop or Laptop,Windows 10,Edge 126.0.0.0,1280x800,1232x652,Consent,,0,Feedback - prize draw (Clone),3,Set2,Consent,Over 18,Proficiency English,,,,,info,,END,,,,,
+1,1721980918147,26/07/2024 08:01:58,1721984518147,1,26/07/2024 10:01:58,179131,14,questionnaire-diry,,39211822,BLIND,11502755,,complete,,,computer,Desktop or Laptop,Windows 10,Edge 126.0.0.0,1280x720,1232x572,Consent,,0,Feedback - prize draw (Clone),3,Set2,Consent,Over 18,Proficiency English,,,,,info,,BEGIN,,,,,
+2,1721980940086,26/07/2024 08:02:20,1721984540086,1,26/07/2024 10:02:20,179131,14,questionnaire-diry,,39211822,BLIND,11502755,,complete,,,computer,Desktop or Laptop,Windows 10,Edge 126.0.0.0,1280x720,1232x572,Consent,,0,Feedback - prize draw (Clone),3,Set2,Consent,Over 18,Proficiency English,Page 1,rnfxsa,1,"If you would like to be entered into our prize draw with a chance to win 1 of 10 £10 Amazon vouchers, please enter your details below.
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Name-value,,,,fb_prizeDraw,1,object-5
+3,1721980940086,26/07/2024 08:02:20,1721984540086,1,26/07/2024 10:02:20,179131,14,questionnaire-diry,,39211822,BLIND,11502755,,complete,,,computer,Desktop or Laptop,Windows 10,Edge 126.0.0.0,1280x720,1232x572,Consent,,0,Feedback - prize draw (Clone),3,Set2,Consent,Over 18,Proficiency English,Page 1,rnfxsa,1,"If you would like to be entered into our prize draw with a chance to win 1 of 10 £10 Amazon vouchers, please enter your details below.
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Email address-value,,,,fb_prizeDraw,1,object-5
+4,1721980940087,26/07/2024 08:02:20,1721984540087,1,26/07/2024 10:02:20,179131,14,questionnaire-diry,,39211822,BLIND,11502755,,complete,,,computer,Desktop or Laptop,Windows 10,Edge 126.0.0.0,1280x720,1232x572,Consent,,0,Feedback - prize draw (Clone),3,Set2,Consent,Over 18,Proficiency English,,,,,info,,END,,,,,
+1,1722002566505,26/07/2024 14:02:46,1722006166505,1,26/07/2024 16:02:46,179131,14,questionnaire-diry,,39218184,BLIND,11504654,,complete,,,computer,Desktop or Laptop,Mac OS 10.15.7,Safari 17.5,1710x1107,1618x873,Consent,,0,Feedback - prize draw (Clone),3,Set1,Consent,Over 18,Proficiency English,,,,,info,,BEGIN,,,,,
+2,1722002576073,26/07/2024 14:02:56,1722006176073,1,26/07/2024 16:02:56,179131,14,questionnaire-diry,,39218184,BLIND,11504654,,complete,,,computer,Desktop or Laptop,Mac OS 10.15.7,Safari 17.5,1710x1107,1618x873,Consent,,0,Feedback - prize draw (Clone),3,Set1,Consent,Over 18,Proficiency English,Page 1,rnfxsa,1,"If you would like to be entered into our prize draw with a chance to win 1 of 10 £10 Amazon vouchers, please enter your details below.
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Name-value,,,,fb_prizeDraw,1,object-5
+3,1722002576073,26/07/2024 14:02:56,1722006176073,1,26/07/2024 16:02:56,179131,14,questionnaire-diry,,39218184,BLIND,11504654,,complete,,,computer,Desktop or Laptop,Mac OS 10.15.7,Safari 17.5,1710x1107,1618x873,Consent,,0,Feedback - prize draw (Clone),3,Set1,Consent,Over 18,Proficiency English,Page 1,rnfxsa,1,"If you would like to be entered into our prize draw with a chance to win 1 of 10 £10 Amazon vouchers, please enter your details below.
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Email address-value,,,,fb_prizeDraw,1,object-5
+4,1722002576073,26/07/2024 14:02:56,1722006176073,1,26/07/2024 16:02:56,179131,14,questionnaire-diry,,39218184,BLIND,11504654,,complete,,,computer,Desktop or Laptop,Mac OS 10.15.7,Safari 17.5,1710x1107,1618x873,Consent,,0,Feedback - prize draw (Clone),3,Set1,Consent,Over 18,Proficiency English,,,,,info,,END,,,,,
+1,1722090127317,27/07/2024 14:22:07,1722093727317,1,27/07/2024 16:22:07,179131,14,questionnaire-diry,,39234958,BLIND,11507917,,complete,,,computer,Desktop or Laptop,Windows 10,Edge 126.0.0.0,2048x1152,1747x1038,Consent,,0,Feedback - prize draw (Clone),3,Set1,Consent,Over 18,Proficiency English,,,,,info,,BEGIN,,,,,
+2,1722090153230,27/07/2024 14:22:33,1722093753230,1,27/07/2024 16:22:33,179131,14,questionnaire-diry,,39234958,BLIND,11507917,,complete,,,computer,Desktop or Laptop,Windows 10,Edge 126.0.0.0,2048x1152,1747x1038,Consent,,0,Feedback - prize draw (Clone),3,Set1,Consent,Over 18,Proficiency English,Page 1,rnfxsa,1,"If you would like to be entered into our prize draw with a chance to win 1 of 10 £10 Amazon vouchers, please enter your details below.
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Name-value,,,,fb_prizeDraw,1,object-5
+3,1722090153230,27/07/2024 14:22:33,1722093753230,1,27/07/2024 16:22:33,179131,14,questionnaire-diry,,39234958,BLIND,11507917,,complete,,,computer,Desktop or Laptop,Windows 10,Edge 126.0.0.0,2048x1152,1747x1038,Consent,,0,Feedback - prize draw (Clone),3,Set1,Consent,Over 18,Proficiency English,Page 1,rnfxsa,1,"If you would like to be entered into our prize draw with a chance to win 1 of 10 £10 Amazon vouchers, please enter your details below.
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Email address-value,,,,fb_prizeDraw,1,object-5
+4,1722090153230,27/07/2024 14:22:33,1722093753230,1,27/07/2024 16:22:33,179131,14,questionnaire-diry,,39234958,BLIND,11507917,,complete,,,computer,Desktop or Laptop,Windows 10,Edge 126.0.0.0,2048x1152,1747x1038,Consent,,0,Feedback - prize draw (Clone),3,Set1,Consent,Over 18,Proficiency English,,,,,info,,END,,,,,
+1,1722200671235,28/07/2024 21:04:31,1722204271235,1,28/07/2024 23:04:31,179131,14,questionnaire-diry,,39246469,BLIND,11510574,,complete,,,computer,Desktop or Laptop,Windows 10,Edge 126.0.0.0,1536x864,1528x750,Consent,,0,Feedback - prize draw (Clone),3,Set2,Consent,Over 18,Proficiency English,,,,,info,,BEGIN,,,,,
+2,1722200696541,28/07/2024 21:04:56,1722204296541,1,28/07/2024 23:04:56,179131,14,questionnaire-diry,,39246469,BLIND,11510574,,complete,,,computer,Desktop or Laptop,Windows 10,Edge 126.0.0.0,1536x864,1528x750,Consent,,0,Feedback - prize draw (Clone),3,Set2,Consent,Over 18,Proficiency English,Page 1,rnfxsa,1,"If you would like to be entered into our prize draw with a chance to win 1 of 10 £10 Amazon vouchers, please enter your details below.
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Name-value,Sue Kneill Boxley,,,fb_prizeDraw,1,object-5
+3,1722200696541,28/07/2024 21:04:56,1722204296541,1,28/07/2024 23:04:56,179131,14,questionnaire-diry,,39246469,BLIND,11510574,,complete,,,computer,Desktop or Laptop,Windows 10,Edge 126.0.0.0,1536x864,1528x750,Consent,,0,Feedback - prize draw (Clone),3,Set2,Consent,Over 18,Proficiency English,Page 1,rnfxsa,1,"If you would like to be entered into our prize draw with a chance to win 1 of 10 £10 Amazon vouchers, please enter your details below.
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Email address-value,suekb@outlook.com,,,fb_prizeDraw,1,object-5
+4,1722200696541,28/07/2024 21:04:56,1722204296541,1,28/07/2024 23:04:56,179131,14,questionnaire-diry,,39246469,BLIND,11510574,,complete,,,computer,Desktop or Laptop,Windows 10,Edge 126.0.0.0,1536x864,1528x750,Consent,,0,Feedback - prize draw (Clone),3,Set2,Consent,Over 18,Proficiency English,,,,,info,,END,,,,,
+1,1722202539699,28/07/2024 21:35:39,1722206139699,1,28/07/2024 23:35:39,179131,14,questionnaire-diry,,39246605,BLIND,11510688,,complete,,,computer,Desktop or Laptop,Windows 10,Chrome 127.0.0.0,1368x912,1368x761,Consent,,0,Feedback - prize draw (Clone),3,Set1,Consent,Over 18,Proficiency English,,,,,info,,BEGIN,,,,,
+2,1722202573600,28/07/2024 21:36:13,1722206173600,1,28/07/2024 23:36:13,179131,14,questionnaire-diry,,39246605,BLIND,11510688,,complete,,,computer,Desktop or Laptop,Windows 10,Chrome 127.0.0.0,1368x912,1368x761,Consent,,0,Feedback - prize draw (Clone),3,Set1,Consent,Over 18,Proficiency English,Page 1,rnfxsa,1,"If you would like to be entered into our prize draw with a chance to win 1 of 10 £10 Amazon vouchers, please enter your details below.
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Name-value,Lucy Butler,,,fb_prizeDraw,1,object-5
+3,1722202573600,28/07/2024 21:36:13,1722206173600,1,28/07/2024 23:36:13,179131,14,questionnaire-diry,,39246605,BLIND,11510688,,complete,,,computer,Desktop or Laptop,Windows 10,Chrome 127.0.0.0,1368x912,1368x761,Consent,,0,Feedback - prize draw (Clone),3,Set1,Consent,Over 18,Proficiency English,Page 1,rnfxsa,1,"If you would like to be entered into our prize draw with a chance to win 1 of 10 £10 Amazon vouchers, please enter your details below.
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Email address-value,lucycspry@gmail.com,,,fb_prizeDraw,1,object-5
+4,1722202573600,28/07/2024 21:36:13,1722206173600,1,28/07/2024 23:36:13,179131,14,questionnaire-diry,,39246605,BLIND,11510688,,complete,,,computer,Desktop or Laptop,Windows 10,Chrome 127.0.0.0,1368x912,1368x761,Consent,,0,Feedback - prize draw (Clone),3,Set1,Consent,Over 18,Proficiency English,,,,,info,,END,,,,,
+1,1722325172795,30/07/2024 07:39:32,1722328772795,1,30/07/2024 09:39:32,179131,14,questionnaire-diry,,39271774,BLIND,11517134,,complete,,,computer,Desktop or Laptop,Windows 10,Edge 127.0.0.0,1536x864,1488x714,Consent,,0,Feedback - prize draw (Clone),3,Set1,Consent,Over 18,Proficiency English,,,,,info,,BEGIN,,,,,
+2,1722325193286,30/07/2024 07:39:53,1722328793286,1,30/07/2024 09:39:53,179131,14,questionnaire-diry,,39271774,BLIND,11517134,,complete,,,computer,Desktop or Laptop,Windows 10,Edge 127.0.0.0,1536x864,1488x714,Consent,,0,Feedback - prize draw (Clone),3,Set1,Consent,Over 18,Proficiency English,Page 1,rnfxsa,1,"If you would like to be entered into our prize draw with a chance to win 1 of 10 £10 Amazon vouchers, please enter your details below.
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Name-value,Darren Mountford,,,fb_prizeDraw,1,object-5
+3,1722325193286,30/07/2024 07:39:53,1722328793286,1,30/07/2024 09:39:53,179131,14,questionnaire-diry,,39271774,BLIND,11517134,,complete,,,computer,Desktop or Laptop,Windows 10,Edge 127.0.0.0,1536x864,1488x714,Consent,,0,Feedback - prize draw (Clone),3,Set1,Consent,Over 18,Proficiency English,Page 1,rnfxsa,1,"If you would like to be entered into our prize draw with a chance to win 1 of 10 £10 Amazon vouchers, please enter your details below.
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Email address-value,d.mountford@sky.com,,,fb_prizeDraw,1,object-5
+4,1722325193287,30/07/2024 07:39:53,1722328793287,1,30/07/2024 09:39:53,179131,14,questionnaire-diry,,39271774,BLIND,11517134,,complete,,,computer,Desktop or Laptop,Windows 10,Edge 127.0.0.0,1536x864,1488x714,Consent,,0,Feedback - prize draw (Clone),3,Set1,Consent,Over 18,Proficiency English,,,,,info,,END,,,,,
+1,1720783342856,12/07/2024 11:22:22,1720786942856,1,12/07/2024 13:22:22,179131,14,questionnaire-diry,,38936617,BLIND,11416216,,complete,,,computer,Desktop or Laptop,Windows 10,Chrome 126.0.0.0,2568x1286,2560x1279,Consent,,0,Feedback - prize draw (Clone),3,Set2,Consent,Over 18,Proficiency English,,,,,info,,BEGIN,,,,,
+2,1720783360954,12/07/2024 11:22:40,1720786960954,1,12/07/2024 13:22:40,179131,14,questionnaire-diry,,38936617,BLIND,11416216,,complete,,,computer,Desktop or Laptop,Windows 10,Chrome 126.0.0.0,2568x1286,2560x1279,Consent,,0,Feedback - prize draw (Clone),3,Set2,Consent,Over 18,Proficiency English,Page 1,rnfxsa,1,"If you would like to be entered into our prize draw with a chance to win 1 of 10 £10 Amazon vouchers, please enter your details below.
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Name-value,Thomas Pugh,,,fb_prizeDraw,1,object-5
+3,1720783360954,12/07/2024 11:22:40,1720786960954,1,12/07/2024 13:22:40,179131,14,questionnaire-diry,,38936617,BLIND,11416216,,complete,,,computer,Desktop or Laptop,Windows 10,Chrome 126.0.0.0,2568x1286,2560x1279,Consent,,0,Feedback - prize draw (Clone),3,Set2,Consent,Over 18,Proficiency English,Page 1,rnfxsa,1,"If you would like to be entered into our prize draw with a chance to win 1 of 10 £10 Amazon vouchers, please enter your details below.
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Email address-value,tompugh57@gmail.com,,,fb_prizeDraw,1,object-5
+4,1720783360954,12/07/2024 11:22:40,1720786960954,1,12/07/2024 13:22:40,179131,14,questionnaire-diry,,38936617,BLIND,11416216,,complete,,,computer,Desktop or Laptop,Windows 10,Chrome 126.0.0.0,2568x1286,2560x1279,Consent,,0,Feedback - prize draw (Clone),3,Set2,Consent,Over 18,Proficiency English,,,,,info,,END,,,,,
+1,1720714760255,11/07/2024 16:19:20,1720718360255,1,11/07/2024 18:19:20,179131,14,questionnaire-diry,,38916050,BLIND,11412156,,complete,,,computer,Desktop or Laptop,Chromium OS 14816.131.0,Chrome 103.0.0.0,1366x768,1366x617,Consent,,0,Feedback - prize draw (Clone),3,Set1,Consent,Over 18,Proficiency English,,,,,info,,BEGIN,,,,,
+2,1720714799271,11/07/2024 16:19:59,1720718399271,1,11/07/2024 18:19:59,179131,14,questionnaire-diry,,38916050,BLIND,11412156,,complete,,,computer,Desktop or Laptop,Chromium OS 14816.131.0,Chrome 103.0.0.0,1366x768,1366x617,Consent,,0,Feedback - prize draw (Clone),3,Set1,Consent,Over 18,Proficiency English,Page 1,rnfxsa,1,"If you would like to be entered into our prize draw with a chance to win 1 of 10 £10 Amazon vouchers, please enter your details below.
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Name-value,Judy Bladon,,,fb_prizeDraw,1,object-5
+3,1720714799272,11/07/2024 16:19:59,1720718399272,1,11/07/2024 18:19:59,179131,14,questionnaire-diry,,38916050,BLIND,11412156,,complete,,,computer,Desktop or Laptop,Chromium OS 14816.131.0,Chrome 103.0.0.0,1366x768,1366x617,Consent,,0,Feedback - prize draw (Clone),3,Set1,Consent,Over 18,Proficiency English,Page 1,rnfxsa,1,"If you would like to be entered into our prize draw with a chance to win 1 of 10 £10 Amazon vouchers, please enter your details below.
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Email address-value,judy.bladon46@gmail.com,,,fb_prizeDraw,1,object-5
+4,1720714799273,11/07/2024 16:19:59,1720718399273,1,11/07/2024 18:19:59,179131,14,questionnaire-diry,,38916050,BLIND,11412156,,complete,,,computer,Desktop or Laptop,Chromium OS 14816.131.0,Chrome 103.0.0.0,1366x768,1366x617,Consent,,0,Feedback - prize draw (Clone),3,Set1,Consent,Over 18,Proficiency English,,,,,info,,END,,,,,
+1,1720689011735,11/07/2024 09:10:11,1720692611735,1,11/07/2024 11:10:11,179131,14,questionnaire-diry,,38890828,BLIND,11407914,,complete,,,computer,Desktop or Laptop,Windows 10,Chrome 126.0.0.0,1920x1080,1920x929,Consent,,0,Feedback - prize draw (Clone),3,Set1,Consent,Over 18,Proficiency English,,,,,info,,BEGIN,,,,,
+2,1720689029283,11/07/2024 09:10:29,1720692629283,1,11/07/2024 11:10:29,179131,14,questionnaire-diry,,38890828,BLIND,11407914,,complete,,,computer,Desktop or Laptop,Windows 10,Chrome 126.0.0.0,1920x1080,1920x929,Consent,,0,Feedback - prize draw (Clone),3,Set1,Consent,Over 18,Proficiency English,Page 1,rnfxsa,1,"If you would like to be entered into our prize draw with a chance to win 1 of 10 £10 Amazon vouchers, please enter your details below.
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Name-value,Oliver Harris,,,fb_prizeDraw,1,object-5
+3,1720689029283,11/07/2024 09:10:29,1720692629283,1,11/07/2024 11:10:29,179131,14,questionnaire-diry,,38890828,BLIND,11407914,,complete,,,computer,Desktop or Laptop,Windows 10,Chrome 126.0.0.0,1920x1080,1920x929,Consent,,0,Feedback - prize draw (Clone),3,Set1,Consent,Over 18,Proficiency English,Page 1,rnfxsa,1,"If you would like to be entered into our prize draw with a chance to win 1 of 10 £10 Amazon vouchers, please enter your details below.
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Email address-value,oliverjharris02@gmail.com,,,fb_prizeDraw,1,object-5
+4,1720689029283,11/07/2024 09:10:29,1720692629283,1,11/07/2024 11:10:29,179131,14,questionnaire-diry,,38890828,BLIND,11407914,,complete,,,computer,Desktop or Laptop,Windows 10,Chrome 126.0.0.0,1920x1080,1920x929,Consent,,0,Feedback - prize draw (Clone),3,Set1,Consent,Over 18,Proficiency English,,,,,info,,END,,,,,
+1,1720633358798,10/07/2024 17:42:38,1720636958798,1,10/07/2024 19:42:38,179131,14,questionnaire-diry,,38880478,BLIND,11404877,,complete,,,computer,Desktop or Laptop,Windows 10,Chrome 126.0.0.0,1280x720,1280x559,Consent,,0,Feedback - prize draw (Clone),3,Set2,Consent,Over 18,Proficiency English,,,,,info,,BEGIN,,,,,
+2,1720633373846,10/07/2024 17:42:53,1720636973846,1,10/07/2024 19:42:53,179131,14,questionnaire-diry,,38880478,BLIND,11404877,,complete,,,computer,Desktop or Laptop,Windows 10,Chrome 126.0.0.0,1280x720,1280x559,Consent,,0,Feedback - prize draw (Clone),3,Set2,Consent,Over 18,Proficiency English,Page 1,rnfxsa,1,"If you would like to be entered into our prize draw with a chance to win 1 of 10 £10 Amazon vouchers, please enter your details below.
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Name-value,,,,fb_prizeDraw,1,object-5
+3,1720633373846,10/07/2024 17:42:53,1720636973846,1,10/07/2024 19:42:53,179131,14,questionnaire-diry,,38880478,BLIND,11404877,,complete,,,computer,Desktop or Laptop,Windows 10,Chrome 126.0.0.0,1280x720,1280x559,Consent,,0,Feedback - prize draw (Clone),3,Set2,Consent,Over 18,Proficiency English,Page 1,rnfxsa,1,"If you would like to be entered into our prize draw with a chance to win 1 of 10 £10 Amazon vouchers, please enter your details below.
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Email address-value,,,,fb_prizeDraw,1,object-5
+4,1720633373846,10/07/2024 17:42:53,1720636973846,1,10/07/2024 19:42:53,179131,14,questionnaire-diry,,38880478,BLIND,11404877,,complete,,,computer,Desktop or Laptop,Windows 10,Chrome 126.0.0.0,1280x720,1280x559,Consent,,0,Feedback - prize draw (Clone),3,Set2,Consent,Over 18,Proficiency English,,,,,info,,END,,,,,
+1,1720195389328,05/07/2024 16:03:09,1720198989328,1,05/07/2024 18:03:09,179131,14,questionnaire-diry,,38777078,BLIND,11378346,,complete,,,computer,Desktop or Laptop,Windows 10,Edge 126.0.0.0,1280x720,1232x598,Consent,,0,Feedback - prize draw (Clone),3,Set2,Consent,Over 18,Proficiency English,,,,,info,,BEGIN,,,,,
+2,1720195399733,05/07/2024 16:03:19,1720198999733,1,05/07/2024 18:03:19,179131,14,questionnaire-diry,,38777078,BLIND,11378346,,complete,,,computer,Desktop or Laptop,Windows 10,Edge 126.0.0.0,1280x720,1232x598,Consent,,0,Feedback - prize draw (Clone),3,Set2,Consent,Over 18,Proficiency English,Page 1,rnfxsa,1,"If you would like to be entered into our prize draw with a chance to win 1 of 10 £10 Amazon vouchers, please enter your details below.
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Name-value,sabrina nowinski,,,fb_prizeDraw,1,object-5
+3,1720195399733,05/07/2024 16:03:19,1720198999733,1,05/07/2024 18:03:19,179131,14,questionnaire-diry,,38777078,BLIND,11378346,,complete,,,computer,Desktop or Laptop,Windows 10,Edge 126.0.0.0,1280x720,1232x598,Consent,,0,Feedback - prize draw (Clone),3,Set2,Consent,Over 18,Proficiency English,Page 1,rnfxsa,1,"If you would like to be entered into our prize draw with a chance to win 1 of 10 £10 Amazon vouchers, please enter your details below.
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Email address-value,sabrinanowinski@hotmail.com,,,fb_prizeDraw,1,object-5
+4,1720195399733,05/07/2024 16:03:19,1720198999733,1,05/07/2024 18:03:19,179131,14,questionnaire-diry,,38777078,BLIND,11378346,,complete,,,computer,Desktop or Laptop,Windows 10,Edge 126.0.0.0,1280x720,1232x598,Consent,,0,Feedback - prize draw (Clone),3,Set2,Consent,Over 18,Proficiency English,,,,,info,,END,,,,,
+1,1720182932786,05/07/2024 12:35:32,1720186532786,1,05/07/2024 14:35:32,179131,14,questionnaire-diry,,38770888,BLIND,11376874,,complete,,,computer,Desktop or Laptop,Windows 10,Chrome 126.0.0.0,1920x1080,1920x919,Consent,,0,Feedback - prize draw (Clone),3,Set1,Consent,Over 18,Proficiency English,,,,,info,,BEGIN,,,,,
+2,1720182950191,05/07/2024 12:35:50,1720186550191,1,05/07/2024 14:35:50,179131,14,questionnaire-diry,,38770888,BLIND,11376874,,complete,,,computer,Desktop or Laptop,Windows 10,Chrome 126.0.0.0,1920x1080,1920x919,Consent,,0,Feedback - prize draw (Clone),3,Set1,Consent,Over 18,Proficiency English,Page 1,rnfxsa,1,"If you would like to be entered into our prize draw with a chance to win 1 of 10 £10 Amazon vouchers, please enter your details below.
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Name-value,Chris Morgan,,,fb_prizeDraw,1,object-5
+3,1720182950191,05/07/2024 12:35:50,1720186550191,1,05/07/2024 14:35:50,179131,14,questionnaire-diry,,38770888,BLIND,11376874,,complete,,,computer,Desktop or Laptop,Windows 10,Chrome 126.0.0.0,1920x1080,1920x919,Consent,,0,Feedback - prize draw (Clone),3,Set1,Consent,Over 18,Proficiency English,Page 1,rnfxsa,1,"If you would like to be entered into our prize draw with a chance to win 1 of 10 £10 Amazon vouchers, please enter your details below.
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Email address-value,chrisjmorgan@aol.com,,,fb_prizeDraw,1,object-5
+4,1720182950192,05/07/2024 12:35:50,1720186550192,1,05/07/2024 14:35:50,179131,14,questionnaire-diry,,38770888,BLIND,11376874,,complete,,,computer,Desktop or Laptop,Windows 10,Chrome 126.0.0.0,1920x1080,1920x919,Consent,,0,Feedback - prize draw (Clone),3,Set1,Consent,Over 18,Proficiency English,,,,,info,,END,,,,,
+1,1720005695490,03/07/2024 11:21:35,1720009295490,1,03/07/2024 13:21:35,179131,14,questionnaire-diry,,38723327,BLIND,11364855,,complete,,,computer,Desktop or Laptop,Windows 10,Edge 126.0.0.0,1280x1024,1232x876,Consent,,0,Feedback - prize draw (Clone),3,Set2,Consent,Over 18,Proficiency English,,,,,info,,BEGIN,,,,,
+2,1720005700016,03/07/2024 11:21:40,1720009300016,1,03/07/2024 13:21:40,179131,14,questionnaire-diry,,38723327,BLIND,11364855,,complete,,,computer,Desktop or Laptop,Windows 10,Edge 126.0.0.0,1280x1024,1232x876,Consent,,0,Feedback - prize draw (Clone),3,Set2,Consent,Over 18,Proficiency English,Page 1,rnfxsa,1,"If you would like to be entered into our prize draw with a chance to win 1 of 10 £10 Amazon vouchers, please enter your details below.
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Name-value,,,,fb_prizeDraw,1,object-5
+3,1720005700016,03/07/2024 11:21:40,1720009300016,1,03/07/2024 13:21:40,179131,14,questionnaire-diry,,38723327,BLIND,11364855,,complete,,,computer,Desktop or Laptop,Windows 10,Edge 126.0.0.0,1280x1024,1232x876,Consent,,0,Feedback - prize draw (Clone),3,Set2,Consent,Over 18,Proficiency English,Page 1,rnfxsa,1,"If you would like to be entered into our prize draw with a chance to win 1 of 10 £10 Amazon vouchers, please enter your details below.
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Email address-value,,,,fb_prizeDraw,1,object-5
+4,1720005700017,03/07/2024 11:21:40,1720009300017,1,03/07/2024 13:21:40,179131,14,questionnaire-diry,,38723327,BLIND,11364855,,complete,,,computer,Desktop or Laptop,Windows 10,Edge 126.0.0.0,1280x1024,1232x876,Consent,,0,Feedback - prize draw (Clone),3,Set2,Consent,Over 18,Proficiency English,,,,,info,,END,,,,,
+1,1721651322608,22/07/2024 12:28:42,1721654922608,1,22/07/2024 14:28:42,179131,14,questionnaire-diry,,39124722,BLIND,11475795,,complete,,,computer,Desktop or Laptop,Windows 10,Edge 126.0.0.0,1280x720,1232x598,Consent,,0,Feedback - prize draw (Clone),3,Set2,Consent,Over 18,Proficiency English,,,,,info,,BEGIN,,,,,
+2,1721651335348,22/07/2024 12:28:55,1721654935348,1,22/07/2024 14:28:55,179131,14,questionnaire-diry,,39124722,BLIND,11475795,,complete,,,computer,Desktop or Laptop,Windows 10,Edge 126.0.0.0,1280x720,1232x598,Consent,,0,Feedback - prize draw (Clone),3,Set2,Consent,Over 18,Proficiency English,Page 1,rnfxsa,1,"If you would like to be entered into our prize draw with a chance to win 1 of 10 £10 Amazon vouchers, please enter your details below.
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Name-value,Molly Stafford,,,fb_prizeDraw,1,object-5
+3,1721651335348,22/07/2024 12:28:55,1721654935348,1,22/07/2024 14:28:55,179131,14,questionnaire-diry,,39124722,BLIND,11475795,,complete,,,computer,Desktop or Laptop,Windows 10,Edge 126.0.0.0,1280x720,1232x598,Consent,,0,Feedback - prize draw (Clone),3,Set2,Consent,Over 18,Proficiency English,Page 1,rnfxsa,1,"If you would like to be entered into our prize draw with a chance to win 1 of 10 £10 Amazon vouchers, please enter your details below.
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Email address-value,molly2203@outlook.com,,,fb_prizeDraw,1,object-5
+4,1721651335348,22/07/2024 12:28:55,1721654935348,1,22/07/2024 14:28:55,179131,14,questionnaire-diry,,39124722,BLIND,11475795,,complete,,,computer,Desktop or Laptop,Windows 10,Edge 126.0.0.0,1280x720,1232x598,Consent,,0,Feedback - prize draw (Clone),3,Set2,Consent,Over 18,Proficiency English,,,,,info,,END,,,,,
+1,1721811215961,24/07/2024 08:53:35,1721814815961,1,24/07/2024 10:53:35,179131,14,questionnaire-diry,,39163146,BLIND,11491302,,complete,,,computer,Desktop or Laptop,Windows 10,Edge 126.0.0.0,1600x900,1552x790,Consent,,0,Feedback - prize draw (Clone),3,Set1,Consent,Over 18,Proficiency English,,,,,info,,BEGIN,,,,,
+2,1721811229554,24/07/2024 08:53:49,1721814829554,1,24/07/2024 10:53:49,179131,14,questionnaire-diry,,39163146,BLIND,11491302,,complete,,,computer,Desktop or Laptop,Windows 10,Edge 126.0.0.0,1600x900,1552x790,Consent,,0,Feedback - prize draw (Clone),3,Set1,Consent,Over 18,Proficiency English,Page 1,rnfxsa,1,"If you would like to be entered into our prize draw with a chance to win 1 of 10 £10 Amazon vouchers, please enter your details below.
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Name-value,,,,fb_prizeDraw,1,object-5
+3,1721811229554,24/07/2024 08:53:49,1721814829554,1,24/07/2024 10:53:49,179131,14,questionnaire-diry,,39163146,BLIND,11491302,,complete,,,computer,Desktop or Laptop,Windows 10,Edge 126.0.0.0,1600x900,1552x790,Consent,,0,Feedback - prize draw (Clone),3,Set1,Consent,Over 18,Proficiency English,Page 1,rnfxsa,1,"If you would like to be entered into our prize draw with a chance to win 1 of 10 £10 Amazon vouchers, please enter your details below.
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Email address-value,,,,fb_prizeDraw,1,object-5
+4,1721811229555,24/07/2024 08:53:49,1721814829555,1,24/07/2024 10:53:49,179131,14,questionnaire-diry,,39163146,BLIND,11491302,,complete,,,computer,Desktop or Laptop,Windows 10,Edge 126.0.0.0,1600x900,1552x790,Consent,,0,Feedback - prize draw (Clone),3,Set1,Consent,Over 18,Proficiency English,,,,,info,,END,,,,,
+1,1721732144660,23/07/2024 10:55:44,1721735744660,1,23/07/2024 12:55:44,179131,14,questionnaire-diry,,39144157,BLIND,11485637,,complete,,,computer,Desktop or Laptop,Mac OS 10.15.7,Chrome 126.0.0.0,1440x900,1429x680,Consent,,0,Feedback - prize draw (Clone),3,Set2,Consent,Over 18,Proficiency English,,,,,info,,BEGIN,,,,,
+2,1721732159900,23/07/2024 10:55:59,1721735759900,1,23/07/2024 12:55:59,179131,14,questionnaire-diry,,39144157,BLIND,11485637,,complete,,,computer,Desktop or Laptop,Mac OS 10.15.7,Chrome 126.0.0.0,1440x900,1429x680,Consent,,0,Feedback - prize draw (Clone),3,Set2,Consent,Over 18,Proficiency English,Page 1,rnfxsa,1,"If you would like to be entered into our prize draw with a chance to win 1 of 10 £10 Amazon vouchers, please enter your details below.
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Name-value,Alicia Turner,,,fb_prizeDraw,1,object-5
+3,1721732159900,23/07/2024 10:55:59,1721735759900,1,23/07/2024 12:55:59,179131,14,questionnaire-diry,,39144157,BLIND,11485637,,complete,,,computer,Desktop or Laptop,Mac OS 10.15.7,Chrome 126.0.0.0,1440x900,1429x680,Consent,,0,Feedback - prize draw (Clone),3,Set2,Consent,Over 18,Proficiency English,Page 1,rnfxsa,1,"If you would like to be entered into our prize draw with a chance to win 1 of 10 £10 Amazon vouchers, please enter your details below.
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Email address-value,aliciahoughtonturner@gmail.com,,,fb_prizeDraw,1,object-5
+4,1721732159900,23/07/2024 10:55:59,1721735759900,1,23/07/2024 12:55:59,179131,14,questionnaire-diry,,39144157,BLIND,11485637,,complete,,,computer,Desktop or Laptop,Mac OS 10.15.7,Chrome 126.0.0.0,1440x900,1429x680,Consent,,0,Feedback - prize draw (Clone),3,Set2,Consent,Over 18,Proficiency English,,,,,info,,END,,,,,
+1,1721647881325,22/07/2024 11:31:21,1721651481325,1,22/07/2024 13:31:21,179131,14,questionnaire-diry,,39123505,BLIND,11475464,,complete,,,computer,Desktop or Laptop,Windows 10,Chrome 126.0.0.0,1680x1050,1680x889,Consent,,0,Feedback - prize draw (Clone),3,Set1,Consent,Over 18,Proficiency English,,,,,info,,BEGIN,,,,,
+2,1721647904729,22/07/2024 11:31:44,1721651504729,1,22/07/2024 13:31:44,179131,14,questionnaire-diry,,39123505,BLIND,11475464,,complete,,,computer,Desktop or Laptop,Windows 10,Chrome 126.0.0.0,1680x1050,1680x889,Consent,,0,Feedback - prize draw (Clone),3,Set1,Consent,Over 18,Proficiency English,Page 1,rnfxsa,1,"If you would like to be entered into our prize draw with a chance to win 1 of 10 £10 Amazon vouchers, please enter your details below.
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Name-value,Dylan Atkinson,,,fb_prizeDraw,1,object-5
+3,1721647904729,22/07/2024 11:31:44,1721651504729,1,22/07/2024 13:31:44,179131,14,questionnaire-diry,,39123505,BLIND,11475464,,complete,,,computer,Desktop or Laptop,Windows 10,Chrome 126.0.0.0,1680x1050,1680x889,Consent,,0,Feedback - prize draw (Clone),3,Set1,Consent,Over 18,Proficiency English,Page 1,rnfxsa,1,"If you would like to be entered into our prize draw with a chance to win 1 of 10 £10 Amazon vouchers, please enter your details below.
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Email address-value,atkinson.dylan@btinternet.com,,,fb_prizeDraw,1,object-5
+4,1721647904729,22/07/2024 11:31:44,1721651504729,1,22/07/2024 13:31:44,179131,14,questionnaire-diry,,39123505,BLIND,11475464,,complete,,,computer,Desktop or Laptop,Windows 10,Chrome 126.0.0.0,1680x1050,1680x889,Consent,,0,Feedback - prize draw (Clone),3,Set1,Consent,Over 18,Proficiency English,,,,,info,,END,,,,,
+1,1721240695087,17/07/2024 18:24:55,1721244295087,1,17/07/2024 20:24:55,179131,14,questionnaire-diry,,39041946,BLIND,11448509,,complete,,,computer,Desktop or Laptop,Windows 10,Chrome 116.0.0.0,1536x864,1494x715,Consent,,0,Feedback - prize draw (Clone),3,Set1,Consent,Over 18,Proficiency English,,,,,info,,BEGIN,,,,,
+2,1721240738459,17/07/2024 18:25:38,1721244338459,1,17/07/2024 20:25:38,179131,14,questionnaire-diry,,39041946,BLIND,11448509,,complete,,,computer,Desktop or Laptop,Windows 10,Chrome 116.0.0.0,1536x864,1494x715,Consent,,0,Feedback - prize draw (Clone),3,Set1,Consent,Over 18,Proficiency English,Page 1,rnfxsa,1,"If you would like to be entered into our prize draw with a chance to win 1 of 10 £10 Amazon vouchers, please enter your details below.
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Name-value,John Brokenshire,,,fb_prizeDraw,1,object-5
+3,1721240738460,17/07/2024 18:25:38,1721244338460,1,17/07/2024 20:25:38,179131,14,questionnaire-diry,,39041946,BLIND,11448509,,complete,,,computer,Desktop or Laptop,Windows 10,Chrome 116.0.0.0,1536x864,1494x715,Consent,,0,Feedback - prize draw (Clone),3,Set1,Consent,Over 18,Proficiency English,Page 1,rnfxsa,1,"If you would like to be entered into our prize draw with a chance to win 1 of 10 £10 Amazon vouchers, please enter your details below.
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Email address-value,jonormousb@yahoo.com,,,fb_prizeDraw,1,object-5
+4,1721240738460,17/07/2024 18:25:38,1721244338460,1,17/07/2024 20:25:38,179131,14,questionnaire-diry,,39041946,BLIND,11448509,,complete,,,computer,Desktop or Laptop,Windows 10,Chrome 116.0.0.0,1536x864,1494x715,Consent,,0,Feedback - prize draw (Clone),3,Set1,Consent,Over 18,Proficiency English,,,,,info,,END,,,,,
+1,1721140344155,16/07/2024 14:32:24,1721143944155,1,16/07/2024 16:32:24,179131,14,questionnaire-diry,,39006724,BLIND,11436876,,complete,,,computer,Desktop or Laptop,Windows 10,Edge 126.0.0.0,1280x720,1232x572,Consent,,0,Feedback - prize draw (Clone),3,Set2,Consent,Over 18,Proficiency English,,,,,info,,BEGIN,,,,,
+2,1721140365579,16/07/2024 14:32:45,1721143965579,1,16/07/2024 16:32:45,179131,14,questionnaire-diry,,39006724,BLIND,11436876,,complete,,,computer,Desktop or Laptop,Windows 10,Edge 126.0.0.0,1280x720,1232x572,Consent,,0,Feedback - prize draw (Clone),3,Set2,Consent,Over 18,Proficiency English,Page 1,rnfxsa,1,"If you would like to be entered into our prize draw with a chance to win 1 of 10 £10 Amazon vouchers, please enter your details below.
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Name-value,Sheryl Al-Omran,,,fb_prizeDraw,1,object-5
+3,1721140365579,16/07/2024 14:32:45,1721143965579,1,16/07/2024 16:32:45,179131,14,questionnaire-diry,,39006724,BLIND,11436876,,complete,,,computer,Desktop or Laptop,Windows 10,Edge 126.0.0.0,1280x720,1232x572,Consent,,0,Feedback - prize draw (Clone),3,Set2,Consent,Over 18,Proficiency English,Page 1,rnfxsa,1,"If you would like to be entered into our prize draw with a chance to win 1 of 10 £10 Amazon vouchers, please enter your details below.
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Email address-value,narmola@gmail.com,,,fb_prizeDraw,1,object-5
+4,1721140365580,16/07/2024 14:32:45,1721143965580,1,16/07/2024 16:32:45,179131,14,questionnaire-diry,,39006724,BLIND,11436876,,complete,,,computer,Desktop or Laptop,Windows 10,Edge 126.0.0.0,1280x720,1232x572,Consent,,0,Feedback - prize draw (Clone),3,Set2,Consent,Over 18,Proficiency English,,,,,info,,END,,,,,
+1,1720892447932,13/07/2024 17:40:47,1720896047932,1,13/07/2024 19:40:47,179131,14,questionnaire-diry,,38955857,BLIND,11421833,,complete,,,computer,Desktop or Laptop,Chromium OS 14541.0.0,Chrome 123.0.0.0,1536x864,1536x730,Consent,,0,Feedback - prize draw (Clone),3,Set1,Consent,Over 18,Proficiency English,,,,,info,,BEGIN,,,,,
+2,1720892500772,13/07/2024 17:41:40,1720896100772,1,13/07/2024 19:41:40,179131,14,questionnaire-diry,,38955857,BLIND,11421833,,complete,,,computer,Desktop or Laptop,Chromium OS 14541.0.0,Chrome 123.0.0.0,1536x864,1536x730,Consent,,0,Feedback - prize draw (Clone),3,Set1,Consent,Over 18,Proficiency English,Page 1,rnfxsa,1,"If you would like to be entered into our prize draw with a chance to win 1 of 10 £10 Amazon vouchers, please enter your details below.
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Name-value,nicola murray,,,fb_prizeDraw,1,object-5
+3,1720892500773,13/07/2024 17:41:40,1720896100773,1,13/07/2024 19:41:40,179131,14,questionnaire-diry,,38955857,BLIND,11421833,,complete,,,computer,Desktop or Laptop,Chromium OS 14541.0.0,Chrome 123.0.0.0,1536x864,1536x730,Consent,,0,Feedback - prize draw (Clone),3,Set1,Consent,Over 18,Proficiency English,Page 1,rnfxsa,1,"If you would like to be entered into our prize draw with a chance to win 1 of 10 £10 Amazon vouchers, please enter your details below.
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Email address-value,nicolajmurray1979@yahoo.co.uk,,,fb_prizeDraw,1,object-5
+4,1720892500774,13/07/2024 17:41:40,1720896100774,1,13/07/2024 19:41:40,179131,14,questionnaire-diry,,38955857,BLIND,11421833,,complete,,,computer,Desktop or Laptop,Chromium OS 14541.0.0,Chrome 123.0.0.0,1536x864,1536x730,Consent,,0,Feedback - prize draw (Clone),3,Set1,Consent,Over 18,Proficiency English,,,,,info,,END,,,,,
+1,1720711451698,11/07/2024 15:24:11,1720715051698,1,11/07/2024 17:24:11,179131,14,questionnaire-diry,,38912951,BLIND,11411662,,complete,,,computer,Desktop or Laptop,Windows 10,Edge 126.0.0.0,1536x864,1528x708,Consent,,0,Feedback - prize draw (Clone),3,Set2,Consent,Over 18,Proficiency English,,,,,info,,BEGIN,,,,,
+2,1720711465477,11/07/2024 15:24:25,1720715065477,1,11/07/2024 17:24:25,179131,14,questionnaire-diry,,38912951,BLIND,11411662,,complete,,,computer,Desktop or Laptop,Windows 10,Edge 126.0.0.0,1536x864,1528x708,Consent,,0,Feedback - prize draw (Clone),3,Set2,Consent,Over 18,Proficiency English,Page 1,rnfxsa,1,"If you would like to be entered into our prize draw with a chance to win 1 of 10 £10 Amazon vouchers, please enter your details below.
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Name-value,d seehra,,,fb_prizeDraw,1,object-5
+3,1720711465477,11/07/2024 15:24:25,1720715065477,1,11/07/2024 17:24:25,179131,14,questionnaire-diry,,38912951,BLIND,11411662,,complete,,,computer,Desktop or Laptop,Windows 10,Edge 126.0.0.0,1536x864,1528x708,Consent,,0,Feedback - prize draw (Clone),3,Set2,Consent,Over 18,Proficiency English,Page 1,rnfxsa,1,"If you would like to be entered into our prize draw with a chance to win 1 of 10 £10 Amazon vouchers, please enter your details below.
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Email address-value,dashyseehra@yahoo.com,,,fb_prizeDraw,1,object-5
+4,1720711465477,11/07/2024 15:24:25,1720715065477,1,11/07/2024 17:24:25,179131,14,questionnaire-diry,,38912951,BLIND,11411662,,complete,,,computer,Desktop or Laptop,Windows 10,Edge 126.0.0.0,1536x864,1528x708,Consent,,0,Feedback - prize draw (Clone),3,Set2,Consent,Over 18,Proficiency English,,,,,info,,END,,,,,
+END OF FILE
