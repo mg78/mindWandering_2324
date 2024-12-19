@@ -9,6 +9,7 @@
 # 3) For subsequent data files, use function clean.arhq() again, but assign output to 'temp' and add rows to the original data frame.
 # 4) Once dataframe with participants from all setups is created, score responses and calculate score
 # 5) Save results in new data file
+#TEST
 
 # Set-up ------------------------------------------------------------------
 # Load relevant libraries
