@@ -34,7 +34,7 @@ check.n <- function(data){
 
 clean.mw <- function(data){
   data %>%
-    select("Participant Private ID", "Task Name", "Task Version", "Spreadsheet", "Display", "Trial Number",
+    select("Participant Private ID", "Task Name", "Task Version","Spreadsheet", "Display", "Trial Number",
            "Response Type", "Response", "Object Name", "Object Number", "Reaction Time",
            "Spreadsheet: display":"Spreadsheet: item_correct") %>%
     filter(.data$`Response Type` == "response")
@@ -98,13 +98,13 @@ mm <- mw_dat %>%
   filter(display == "block") %>%
   filter(block > 0) %>%
   mutate(item_correct = case_when(response == item_answer ~ 1, TRUE ~0)) %>%
-  group_by(origID, condition) %>%
+  group_by(origID, condition, set) %>%
   summarise(mm_acc = mean(item_correct)*100,
             mm_rt = mean(rt))
 
 ## Mind wandering
 mw <- mw_dat %>%
-  select(origID, display, spreadsheet, trial, response, block) %>%
+  select(origID, display, spreadsheet, trial, response, block, set) %>%
   filter(display == "probe") %>%
   mutate(condition = case_when(
     spreadsheet == "set1_eded_30" & block == "1" ~ "Easy",
@@ -115,23 +115,23 @@ mw <- mw_dat %>%
     spreadsheet == "set2_dede_30" & block == "2" ~ "Easy",
     spreadsheet == "set2_dede_30" & block == "3" ~ "Difficult",
     spreadsheet == "set2_dede_30" & block == "4" ~ "Easy")) %>%
-  mutate(mw_response = recode(response,
+  mutate(mw_response = dplyr::recode(response,
                           "On Task" = "0",
                           "Intentional" = "1",
                           "Unintentional" = "1")) %>%
   mutate(mw_response = as.numeric(mw_response)) %>%
-  mutate(mw_intent = recode(response,
+  mutate(mw_intent = dplyr::recode(response,
                             "Unintentional" = "0",
                             "Intentional" = "1")) %>%
   mutate(mw_intent = as.numeric(mw_intent))
 
 mw_score <- mw %>%
-  group_by(origID, condition) %>%
+  group_by(origID, condition, set) %>%
   summarise(mw_freq = mean(mw_response)*100)
 
 mw_intent_score <- mw %>%
   filter(response != "On Task") %>%
-  group_by(origID, condition) %>%
+  group_by(origID, condition, set) %>%
   summarise(mw_intent_freq = mean(mw_intent)*100)
 
 ## Combine into one df
@@ -142,6 +142,6 @@ mw_scores <- mm %>%
 
 # 5) Save results in new data file
 
-write_csv(mw_scores, here("mw2425_06data/erinRothwell-Wood/mw_2425_erw_processed", "mw_scores_20250215.csv"))
+write_csv(mw_scores, here("mw2425_06data/erinRothwell-Wood/mw_2425_erw_processed", "mw_scores_20250223.csv"))
 
-test <- read_csv(here("mw2425_06data/erinRothwell-Wood/mw_2425_erw_processed", "mw_scores_20250215.csv"))
+test <- read_csv(here("mw2425_06data/erinRothwell-Wood/mw_2425_erw_processed", "mw_scores_20250223.csv"))

@@ -24,6 +24,7 @@ write_csv(erin_demo_fb, here("mw2425_06data/erinRothwell-Wood/mw_2425_erw_proces
 
 ##########
 # Abbreviations
+# erin_demo_fb_20250215.csv
 # origID: participant number
 # age: age in years
 # gender: man, woman, prefer not to say, other (see under gender_text)

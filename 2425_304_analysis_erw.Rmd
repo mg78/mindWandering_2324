@@ -1,0 +1,89 @@
+---
+title: "Analysis for mind wandering during mental maths task"
+author: "Erin and Margriet"
+date: "2025-02-20"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Lab activity 2 - Statistics anxiety and engagement in module activities
+
+# Step 1. Loading the relevant libraries
+```{r libraries}
+library(broom)
+library(car)
+library(tidyverse)
+library(here)
+```
+
+# Step 2. Read in the data
+```{r read in data}
+demo_fb <- read_csv("erin_demo_fb_20240318.csv")
+mw <- read_csv("mw_scores_20250215.csv")
+
+head(stars) # Look at the data frames
+head(engage)
+```
+
+# Step 3: Calculating descriptive statistics
+
+```{r descriptives}
+descriptives_demo <- demo_fb %>%
+  summarise(mean_anx = mean(mean_anxiety, na.rm = TRUE),
+            sd_anx = sd(mean_anxiety, na.rm = TRUE),
+            mean_weeks = mean(n_weeks, na.rm = TRUE),
+            sd_weeks = sd(n_weeks, na.rm = TRUE))
+descriptives_demo
+
+
+descriptives_mw
+
+group_by() #condition
+```
+
+# Step 4: Visualise the data
+
+```{r scatterplot}
+ggplot(joined, aes(x = mean_anxiety, y = n_weeks)) +
+  geom_point() +
+  geom_smooth(method = "lm") +
+  labs(x = "Anxiety", y = "Engagement") +
+  theme_bw()
+```
+
+# Step 5: Build the regression model ----------------------------------
+
+```{r model}
+# Test whether task performance (accuracy) is different on easy and difficult blocks - paired t-test with mm_acc
+
+# Test whether task performance (reaction times) is different on easy and difficult blocks - paired t-test with mm_rt
+
+# Test whether mind wandering frequency is different during easy and difficult blocks - multiple regression with mw_freq as DV and condition as the IV (and set as IV)
+
+mod <- lm(mw_freq ~ condition + set, data = mw)
+mod_summary <- summary(mod)
+mod_summary
+
+# Test whether mind wandering intention is different during easy and difficult blocks - multiple regression with mw_intent as DV and condition as the IV (and set as IV)
+
+mod <- lm(mw_freq ~ condition + set, data = mw)
+mod_summary <- summary(mod)
+mod_summary
+```
+
+# Step 6: Checking assumptions
+
+```{r assumptions}
+crPlots(mod)                  # Plot linear line and line that best fits the data to check the relationship between outcome and predictor is linear
+
+qqPlot(mod$residuals)         # Create qq-plot to check residuals are normally distributed
+
+residualPlot(mod)             # Create residual plot to check residual show homoscedasticity
+```
+
+# Step 7: Write up
+
+**A simple linear regression was performed with engagement (*M* = 4.54, *SD* = 0.56) as the outcome variable and statistics anxiety (*M* = 2.08, *SD* = 0.56) as the predictor variable. The results of the regression indicated that the model significantly predicted course engagement (*F*(1, 35) = 11.99, *p* \< .001, *R\^2* = 0.25), accounting for 25% of the variance. Anxiety was a significant negative predictor (*beta* = -2.17, *p* \< 0.001): as anxiety increased, course engagement decreased.**
