@@ -10,7 +10,7 @@ library(tidyverse)
 
 # 1) Read in data files -----------
 demo_dat <- read_csv(here("mw2425_06data/erinRothwell-Wood/mw_2425_erw_processed", "demo_dat_20250215.csv"))
-mw_scores <- read_csv(here("mw2425_06data/erinRothwell-Wood/mw_2425_erw_processed", "mw_scores_20250215.csv"))
+mw_scores <- read_csv(here("mw2425_06data/erinRothwell-Wood/mw_2425_erw_processed", "mw_scores_20250223.csv"))
 fb_dat <- read_csv(here("mw2425_06data/erinRothwell-Wood/mw_2425_erw_processed", "fb_20250215.csv"))
 
 # 2) Combine data ---------
