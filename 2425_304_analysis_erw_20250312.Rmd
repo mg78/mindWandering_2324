@@ -1,0 +1,746 @@
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+# Step 1. Loading the relevant libraries
+```{r libraries}
+library(broom)
+library(car)
+library(tidyverse)
+library(here)
+library(ggplot2)
+library(tidyr)
+library(rstatix) # allows group_by()
+library(effectsize) # a neat little package that provides the effect size
+library(ggpubr) # allows us to examine QQ Plots 
+
+```
+
+# Step 2. Read in the data
+```{r read in data}
+demo_fb <- read_csv("erin_demo_fb_20240318.csv")
+mw <- read_csv("mw_scores_20250223.csv")
+
+demo_fb <- read_csv(here("mw2425_06data/erinRothwell-Wood/mw_2425_erw_processed", "erin_demo_fb_20240318.csv"))
+mw <- read_csv(here("mw2425_06data/erinRothwell-Wood/mw_2425_erw_processed", "mw_scores_20250223.csv"))
+
+```
+```{r}
+# Merge datasets on origID (participant ID)
+merged_data <- mw %>%
+  left_join(demo_fb, by = "origID")
+```
+
+
+################################## Removing the extreme outlier ####################################################
+
+```{r}
+library(dplyr)
+
+data <- merged_data %>% filter(origID != 12538151)
+
+```
+
+################################# Gender split, mean age, SD age ######################################################
+
+```{r}
+# Going to use the demo_fb data set as the merged_data one has two rows for every participant
+#First remove the extreme outlier participant from the demo_fb data set
+
+demographics <- demo_fb %>% filter(origID != 12538151)
+
+#Now find gender split, mean age, sd of age
+
+# Count the number of men and women
+table(demographics$gender)
+
+# Calculate mean age
+mean_age <- mean(demographics$age, na.rm = TRUE)
+print(mean_age)
+
+# Calculate standard deviation of age
+sd_age <- sd(demographics$age, na.rm = TRUE)
+print(sd_age)
+```
+
+################################ Histogram to represent the skewed age range ###################################
+```{r}
+ggplot(demographics, aes(x = age, fill = gender)) +
+  geom_histogram(binwidth = 2.5, position = "stack", color = "black") +
+  labs(title = "Age Distribution by Gender", x = "Age", y = "Count") +
+  scale_fill_manual(values = c("blue", "pink")) +  # Adjust colors as needed
+  theme_minimal()
+```
+
+############################## Calculating the means and sds for all relevant variables ##################################################
+
+```{r}
+
+# Group by condition and calculate the mean and standard deviation for all relevant variables
+stats_by_condition <- data %>%
+  group_by(condition) %>%
+  summarise(
+    mean_mm_acc = mean(mm_acc, na.rm = TRUE),
+    sd_mm_acc = sd(mm_acc, na.rm = TRUE),
+    mean_mm_rt = mean(mm_rt, na.rm = TRUE),
+    sd_mm_rt = sd(mm_rt, na.rm = TRUE),
+    mean_mw_freq = mean(mw_freq, na.rm = TRUE),
+    sd_mw_freq = sd(mw_freq, na.rm = TRUE),
+    mean_mw_intent_freq = mean(mw_intent_freq, na.rm = TRUE),
+    sd_mw_intent_freq = sd(mw_intent_freq, na.rm = TRUE)
+  )
+
+# Print result
+print(stats_by_condition)
+
+
+```
+
+############################### Creating Bar Charts to represent the means/sd's ##########################################
+
+```{r}
+
+# Compute summary statistics for mm_acc
+mm_acc_stats <- data %>%
+  group_by(condition) %>%
+  summarise(
+    mean_mm_acc = mean(mm_acc, na.rm = TRUE),
+    sd_mm_acc = sd(mm_acc, na.rm = TRUE)
+  )
+
+# Create bar plot with error bars
+ggplot(mm_acc_stats, aes(x = condition, y = mean_mm_acc, fill = condition)) +
+  geom_bar(stat = "identity", position = "dodge", alpha = 0.7) +  # Bar plot
+  geom_errorbar(aes(ymin = mean_mm_acc - sd_mm_acc, ymax = mean_mm_acc + sd_mm_acc),
+                width = 0.2, position = position_dodge(0.9)) +  # Error bars for SD
+  labs(title = "Mean mm_acc by Condition",
+       x = "Condition",
+       y = "Mean Accuracy (mm_acc)") +
+  theme_minimal() +
+  theme(legend.position = "none")  # Remove legend since we only have 2 conditions
+
+# Compute summary statistics for mm_rt
+mm_rt_stats <- data %>%
+  group_by(condition) %>%
+  summarise(
+    mean_mm_rt = mean(mm_rt, na.rm = TRUE),
+    sd_mm_rt = sd(mm_rt, na.rm = TRUE)
+  )
+
+# Create bar plot with error bars
+ggplot(mm_rt_stats, aes(x = condition, y = mean_mm_rt, fill = condition)) +
+  geom_bar(stat = "identity", position = "dodge", alpha = 0.7) +  # Bar plot
+  geom_errorbar(aes(ymin = mean_mm_rt - sd_mm_rt, ymax = mean_mm_rt + sd_mm_rt),
+                width = 0.2, position = position_dodge(0.9)) +  # Error bars for SD
+  labs(title = "Mean mm_rt by Condition",
+       x = "Condition",
+       y = "Mean Reaction Time (mm_rt)") +
+  theme_minimal() +
+  theme(legend.position = "none")  # Remove legend since we only have 2 conditions
+
+
+# Compute summary statistics for mw_freq
+mw_freq_stats <- data %>%
+  group_by(condition) %>%
+  summarise(
+    mean_mw_freq = mean(mw_freq, na.rm = TRUE),
+    sd_mw_freq = sd(mw_freq, na.rm = TRUE)
+  )
+
+# Create bar plot with error bars
+ggplot(mw_freq_stats, aes(x = condition, y = mean_mw_freq, fill = condition)) +
+  geom_bar(stat = "identity", position = "dodge", alpha = 0.7) +  # Bar plot
+  geom_errorbar(aes(ymin = mean_mw_freq - sd_mw_freq, ymax = mean_mw_freq + sd_mw_freq),
+                width = 0.2, position = position_dodge(0.9)) +  # Error bars for SD
+  labs(title = "Mean mw_freq by Condition",
+       x = "Condition",
+       y = "Mean Mind-Wandering Frequency (mw_freq)") +
+  theme_minimal() +
+  theme(legend.position = "none")  # Remove legend since we only have 2 conditions
+
+
+
+# Compute summary statistics for mw_intent_freq
+mw_intent_freq_stats <- data %>%
+  group_by(condition) %>%
+  summarise(
+    mean_mw_intent_freq = mean(mw_intent_freq, na.rm = TRUE),
+    sd_mw_intent_freq = sd(mw_intent_freq, na.rm = TRUE)
+  )
+
+# Create bar plot with error bars
+ggplot(mw_intent_freq_stats, aes(x = condition, y = mean_mw_intent_freq, fill = condition)) +
+  geom_bar(stat = "identity", position = "dodge", alpha = 0.7) +  # Bar plot
+  geom_errorbar(aes(ymin = mean_mw_intent_freq - sd_mw_intent_freq, ymax = mean_mw_intent_freq + sd_mw_intent_freq),
+                width = 0.2, position = position_dodge(0.9)) +  # Error bars for SD
+  labs(title = "Mean mw_intent_freq by Condition",
+       x = "Condition",
+       y = "Mean Intentional Mind-Wandering Frequency (mw_intent_freq)") +
+  theme_minimal() +
+  theme(legend.position = "none")  # Remove legend since we only have 2 conditions
+
+
+#Reaction Time Box Plot with individual points
+ggplot(data, aes(x = condition, y = mm_rt, color = condition)) +
+  geom_jitter(alpha = 0.5, width = 0.2) +  # Adds jittered points
+  geom_boxplot(alpha = 0.2, outlier.shape = NA) +  # Adds boxplot without outliers
+  labs(title = "Scatter and Boxplot of mm_rt by Condition",
+       x = "Condition",
+       y = "Reaction Time (mm_rt)") +
+  theme_minimal()
+
+
+```
+######## mm_acc by condition t-test#################
+```{r}
+t.test(mm_acc ~ condition, paired = TRUE, data = data)
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+####################################### Research Question 1 ##########################################################
+How is MW freq affected by easy + diff conditions during mental maths qs
+
+
+
+
+```{r}
+# Calculate mean difference (Difficult - Easy)
+mw_freq_stats$mean_mw_freq[mw_freq_stats$condition == "Difficult"] - 
+mw_freq_stats$mean_mw_freq[mw_freq_stats$condition == "Easy"]
+
+
+t.test(mw_freq ~ condition, paired = TRUE, data = data)
+
+
+# Compute mean difference
+mean_diff <- mean(data$mw_freq[data$condition == "Difficult"] - 
+                  data$mw_freq[data$condition == "Easy"])
+
+# Compute standard deviation of differences
+sd_diff <- sd(data$mw_freq[data$condition == "Difficult"] - 
+              data$mw_freq[data$condition == "Easy"])
+
+# Calculate Cohen’s d
+cohen_d <- mean_diff / sd_diff
+cohen_d
+
+
+
+```
+
+A paired samples t-test was conducted to compare mind-wandering frequency during difficult and easy questions. The results indicated that participants mind-wandered significantly more during difficult questions (M = 36.92%, SD = 29.50%) than during easy questions (M = 23.26%, SD = 24.18%), t(41) = 3.41, p < .001, d = 0.53. The mean difference was 12.80 (95% CI [5.22, 20.37]), suggesting a moderate increase in mind-wandering frequency when participants were answering more difficult questions.
+
+############ Visualise results of paired t-test ########################
+
+```{r}
+
+library(ggplot2)
+
+# Compute summary statistics (mean and standard error)
+summary_data <- data %>%
+  group_by(condition) %>%
+  summarise(mean_mw = mean(mw_freq), 
+            se_mw = sd(mw_freq) / sqrt(n()))  # Standard error
+
+# Bar plot
+ggplot(summary_data, aes(x = condition, y = mean_mw, fill = condition)) +
+  geom_bar(stat = "identity", width = 0.5, alpha = 0.7) +
+  geom_errorbar(aes(ymin = mean_mw - se_mw, ymax = mean_mw + se_mw), 
+                width = 0.2, color = "black") +  # Error bars
+  theme_minimal() +
+  labs(title = "Mind-Wandering Frequency by Question Difficulty",
+       x = "Condition",
+       y = "Mean Mind-Wandering Frequency") +
+  scale_fill_manual(values = c("blue", "red")) +
+  theme(legend.position = "none")
+
+
+
+ggplot(data, aes(x = condition, y = mw_freq, fill = condition)) +
+  geom_boxplot(alpha = 0.6, outlier.shape = NA) +  # Boxplot without outlier dots
+  geom_jitter(aes(color = condition), width = 0.2, alpha = 0.6) +  # Individual points
+  stat_summary(fun = mean, geom = "point", shape = 18, size = 4, color = "black") +  # Mean point
+  theme_minimal() +
+  labs(title = "Mind-Wandering Frequency by Question Difficulty",
+       x = "Condition",
+       y = "Mind-Wandering Frequency") +
+  scale_fill_manual(values = c("blue", "red")) +
+  theme(legend.position = "none")
+
+
+```
+
+
+
+
+########################### Checking assumptions of normality #############################################
+
+```{r}
+diff_mw <- data$mw_freq[data$condition == "Difficult"] - 
+           data$mw_freq[data$condition == "Easy"]
+
+
+hist(diff_mw, main = "Histogram of Differences", xlab = "Difference (Difficult - Easy)", col = "lightblue", breaks = 10)
+
+
+shapiro.test(diff_mw)
+
+
+```
+
+A Shapiro-Wilk test indicated that the assumption of normality was violated (W = 0.88, p < .001). Therefore, a Wilcoxon Signed-Rank Test was conducted instead of a paired samples t-test.
+
+```{r}
+wilcox.test(mw_freq ~ condition, paired = TRUE, data = data)
+
+```
+A Wilcoxon Signed-Rank Test indicated a significant difference in mind-wandering frequency between Easy and Difficult questions, V = 449.5, p = .002. These results suggest that participants mind-wandered more during Difficult questions compared to Easy ones.
+
+####################Multiple regression#################################
+
+```{r}
+RQ_1_Reg <- lm(mw_freq ~ condition + set.x + age + gender, data = data)
+# View regression results
+summary(model)
+```
+
+1. Effect of Condition
+Participants in the "Easy" condition had 12.80% lower mind-wandering frequency (mw_freq) compared to those in the "Difficult" condition (p = 0.0257).
+This suggests that harder tasks lead to more mind-wandering, which aligns with cognitive load theories—easier tasks may allow participants to stay more engaged.
+
+2. Effect of Set.x
+Set (1 vs. 2) had no significant effect (p = 0.4159), meaning Set 1 and Set 2 were equally difficult/easy as intended
+
+3. Effect of Age
+Age did not significantly predict mind-wandering frequency (p = 0.3396).
+This suggests that younger and older participants mind-wander at similar rates in this task.
+
+4. Effect of Gender
+Women had 15.20% higher mind-wandering frequency compared to men (p = 0.0274).
+This is an interesting finding! It could be due to differences in cognitive processing, engagement.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+################################################### Research Question 2 #################################################################
+Is there a difference in the type of MW in the easy vs difficult conditions
+
+
+```{r}
+library(tidyr)
+library(dplyr)
+
+# Reshape data to wide format
+wide_data <- data %>%
+  select(origID, condition, mw_intent_freq) %>%
+  pivot_wider(names_from = condition, values_from = mw_intent_freq)
+
+# Remove rows with missing values (paired t-test requires complete cases)
+wide_data <- na.omit(wide_data)
+
+t.test(wide_data$Easy, wide_data$Difficult, paired = TRUE)
+
+
+```
+
+A paired-samples t-test was conducted to compare intentional mind-wandering frequency in the Easy and Difficult conditions. The results indicated no significant difference, t(26) = -0.77, p = .447, d = -0.15, 95% CI [-26.25, 11.91]. On average, participants reported slightly lower intentional mind-wandering in the Difficult condition (M = , SD = ) compared to the Easy condition (M = , SD = ), but this difference was not statistically significant.
+
+```{r}
+shapiro.test(wide_data$Easy - wide_data$Difficult)
+
+```
+
+t-test is valid 
+
+
+```{r}
+
+# Calculate the difference between conditions
+differences <- wide_data$Easy - wide_data$Difficult
+
+# Compute mean difference
+mean_diff <- mean(differences)
+
+# Compute standard deviation of the differences
+sd_diff <- sd(differences)
+
+# Compute Cohen's d
+cohens_d <- mean_diff / sd_diff
+
+# Print result
+print(cohens_d)
+
+```
+
+There is no significant difference in mw_intent_freq between the Easy and Difficult conditions (p = 0.45).
+The effect size (d = -0.15) confirms that the difference is very tiny.
+
+############# visualising data ###########
+```{r}
+library(ggplot2)
+
+ggplot(data, aes(x = condition, y = mw_intent_freq)) +
+  geom_boxplot(aes(fill = condition), alpha = 0.5) +  
+  geom_jitter(width = 0.2, alpha = 0.5) +  
+  theme_minimal() +
+  labs(title = "Intentional Mind-Wandering Frequency by Condition",
+       x = "Condition", y = "Intentional Mind-Wandering Frequency")
+
+```
+
+################### Multiple Regression ####################################
+```{r}
+long_data <- data %>%
+  select(origID, condition, set.x, age, gender, mw_intent_freq)  # Keep relevant variables
+
+model_intent <- lm(mw_intent_freq ~ condition + set.x + age + gender, data = long_data)
+summary(model_intent)
+
+```
+
+None of the predictors are significant
+Condition (Easy vs. Difficult): Participants in the Easy condition had 13.05% lower intentional mind-wandering than those in the Difficult condition, but this difference is not statistically significant (p = 0.196).
+Set.x: No significant effect (p = 0.481), confirming that Set 1 and Set 2 were equally difficult/easy as expected. 
+Age: Small positive effect (β = 0.4452) but not significant (p = 0.177) - older participants might intentionally mind-wander more, but this is unclear.
+Gender (Women vs. Men): Women reported 11.73% lower intentional mind-wandering than men, but this effect is not significant (p = 0.350).
+
+R² = 0.0706 - Only 7.06% of the variance in intentional mind-wandering is explained by this model.
+Adjusted R² = 0.0076 - After adjusting for the number of predictors, the model explains almost no variance.
+F-statistic = 1.121, p = 0.3555 - The overall model is NOT statistically significant, meaning that these predictors do not explain intentional mind-wandering well.
+
+```{r}
+plot(model_intent)
+
+```
+
+
+Unlike previous model predicting mw_freq, where condition and gender were significant, this model suggests that intentional mind-wandering is not strongly related to these variables.
+
+
+Task difficulty may affect men and women differently???
+```{r}
+model_interaction <- lm(mw_intent_freq ~ condition * gender + set.x + age, data = long_data)
+summary(model_interaction)
+
+```
+
+Main Effects (No Significant Predictors)
+Condition (Easy vs. Difficult) - Participants in the Easy condition reported 33.53% lower intentional mind-wandering than those in the Difficult condition, but this effect is not significant (p = 0.1395).
+Gender (Women vs. Men) - Women reported 24.88% lower intentional mind-wandering than men, but this effect is also not significant (p = 0.1700).
+
+Age & Set.x - No significant effects (p > 0.1).
+Interaction Effect (Condition × Gender)
+The interaction term conditionEasy:genderWoman = 25.56 (p = 0.3108)
+This suggests that the gender difference in intentional mind-wandering depends on task difficulty, but the effect is not statistically significant.
+
+R² = 0.087 - Only 8.7% of variance in intentional mind-wandering is explained.
+Adjusted R² = 0.008 - After adjusting for predictors, the model explains almost nothing.
+F-statistic (1.106, p = 0.3671) - The overall model is not statistically significant.
+
+No strong evidence that task difficulty (condition) or gender affects intentional mind-wandering.
+No evidence of an interaction between condition and gender.
+Other factors likely explain intentional mind-wandering better (e.g., motivation, cognitive control, fatigue).
+
+```{r}
+plot(model_interaction$fitted.values, model_interaction$residuals)
+abline(h = 0, col = "red")
+
+
+plot(model_interaction, which = 3)  # Scale-Location plot
+
+
+qqnorm(model_interaction$residuals)
+qqline(model_interaction$residuals, col = "red")  # Reference line
+
+
+```
+
+Linearity - Is good
+Homoscedasticity - is good
+Normality of residuals - not good - but deviation is moderate
+So There is a mild violation 
+
+
+
+
+
+
+
+
+
+
+
+################################################# Research Question 3 ###########################################################
+Test Performance in relation to Mind Wandering
+
+
+#################### Correlation: to test mind-wandering against test performance#######################
+
+```{r}
+cor_test <- cor.test(data$mw_freq, data$mm_acc, method = "pearson")
+print(cor_test)
+
+```
+Correlation coefficient (r) = -0.5088
+
+This indicates a moderate negative correlation between mw_freq and mm_acc 
+As mind-wandering increases, test performance decreases.
+p-value = 7.748e-07 
+
+This is extremely significant (p < 0.05), meaning the relationship between mw_freq and mm_acc is unlikely to be due to chance.
+95% Confidence Interval: [-0.6521, -0.3304]
+
+We are 95% confident that the true correlation is between -0.652 and -0.330, further confirming a negative relationship.
+
+There is strong statistical evidence that higher mind-wandering leads to lower test performance.
+However, correlation does not imply causation. Other factors could also play a role.
+
+####### visulaising the results ###################
+
+```{r}
+
+# Compute correlation coefficient
+cor_value <- cor(data$mw_freq, data$mm_acc)
+
+# Create scatter plot with regression line
+ggplot(data, aes(x = mw_freq, y = mm_acc)) +
+  geom_point(color = "blue", alpha = 0.6) +  # Scatter points
+  geom_smooth(method = "lm", color = "red", se = TRUE) +  # Regression line with confidence interval
+  annotate("text", x = max(data$mw_freq), y = min(data$mm_acc), 
+           label = paste("r =", round(cor_value, 3)), 
+           color = "black", hjust = 1, size = 5) +  # Display correlation coefficient
+  labs(title = "Correlation between MW Frequency and MM Accuracy",
+       x = "MW Frequency (%)",
+       y = "MM Accuracy (%)") +
+  theme_minimal()
+
+```
+
+
+
+```{r}
+
+
+# Run multiple regression model
+model <- lm(mm_acc ~ mw_freq + condition + set.x + age + gender, data = data)
+
+# View the results
+summary(model)
+
+```
+
+Only mw_freq is statistically significant (p = 1.54e-05).
+This strongly suggests higher mind-wandering negatively impacts test performance.
+Condition, set, age, and gender are not significant (p > 0.05), meaning they do not have a strong independent effect on test scores in this dataset.
+Multiple R² = 0.3084
+The model explains 30.84% of the variance in test performance.
+This suggests that other factors (not included in this model) also play a role.
+Adjusted R² = 0.2641
+Adjusted for the number of predictors, the model still explains 26.41% of the variance.
+
+###########################Checking Assumptions#########################
+```{r}
+
+# Scatterplots for numeric predictors
+ggplot(data, aes(x = mw_freq, y = mm_acc)) + 
+  geom_point() + 
+  geom_smooth(method = "lm", col = "red") +
+  labs(title = "Linearity Check: MW Frequency vs MM Accuracy")
+
+ggplot(data, aes(x = age, y = mm_acc)) + 
+  geom_point() + 
+  geom_smooth(method = "lm", col = "red") +
+  labs(title = "Linearity Check: Age vs MM Accuracy")
+
+```
+
+
+```{r}
+plot(model$fitted.values, resid(model),
+     main = "Residual Plot: Checking Homoscedasticity",
+     xlab = "Fitted Values", ylab = "Residuals",
+     pch = 19, col = "blue")
+abline(h = 0, col = "red", lwd = 2)
+
+```
+```{r}
+qqnorm(resid(model))
+qqline(resid(model), col = "red")
+
+shapiro.test(resid(model))
+
+```
+
+The residuals are NOT normally distributed - violates the normality assumption
+This could impact the reliability of hypothesis tests and confidence intervals in regression model.
+
+
+
+
+
+```{r}
+# Run multiple regression with interaction
+model_interaction <- lm(mm_acc ~ mw_freq * condition + set.x + age + gender, data = data)
+
+# View summary results
+summary(model_interaction)
+
+
+```
+note to self: the write up of this is in results word doc in the my files
+
+################################ Checking Assumptions ############################################
+```{r}
+# Check linearity for mw_freq
+ggplot(data, aes(x = mw_freq, y = mm_acc, color = condition)) + 
+  geom_point() + 
+  geom_smooth(method = "lm", col = "red") +
+  labs(title = "Linearity Check: MW Frequency vs MM Accuracy")
+
+# Check linearity for age
+ggplot(data, aes(x = age, y = mm_acc)) + 
+  geom_point() + 
+  geom_smooth(method = "lm", col = "red") +
+  labs(title = "Linearity Check: Age vs MM Accuracy")
+
+
+plot(model_interaction$fitted.values, resid(model_interaction),
+     main = "Residual Plot: Checking Homoscedasticity",
+     xlab = "Fitted Values", ylab = "Residuals",
+     pch = 19, col = "blue")
+abline(h = 0, col = "red", lwd = 2)
+
+hist(resid(model_interaction), main = "Histogram of Residuals", col = "lightblue")
+
+qqnorm(resid(model_interaction))
+qqline(resid(model_interaction), col = "red")
+
+shapiro.test(resid(model_interaction))
+
+
+```
+The residuals are NOT normally distributed - violates the normality assumption
+This could impact the reliability of hypothesis tests and confidence intervals in regression model.
+
+
+
+
+
+############# Intentionality of Mind-wandering against task performance ####################################
+```{r}
+# Run multiple regression with additional predictors
+model_intent_full <- lm(mm_acc ~ mw_intent_freq + condition + set.x + age + gender, data = data)
+
+# View summary results
+summary(model_intent_full)
+
+```
+
+Itentional mind-wandering (mw_intent_freq) does not significantly impact test performance (p =0.276)
+ndition (Easy vs. Difficult) is a significant predictor (p=0.024), with better test performance in the Easy condition.
+Set, age, and gender do not significantly impact test scores.
+
+#############################Checking Assumptions###################################
+```{r}
+library(ggplot2)
+
+# Check linearity for mw_intent_freq
+ggplot(data, aes(x = mw_intent_freq, y = mm_acc)) + 
+  geom_point() + 
+  geom_smooth(method = "lm", col = "red") +
+  labs(title = "Linearity Check: MW Intent Frequency vs MM Accuracy")
+
+# Check linearity for age
+ggplot(data, aes(x = age, y = mm_acc)) + 
+  geom_point() + 
+  geom_smooth(method = "lm", col = "red") +
+  labs(title = "Linearity Check: Age vs MM Accuracy")
+
+
+plot(model_intent_full$fitted.values, resid(model_intent_full),
+     main = "Residual Plot: Checking Homoscedasticity",
+     xlab = "Fitted Values", ylab = "Residuals",
+     pch = 19, col = "blue")
+abline(h = 0, col = "red", lwd = 2)
+
+
+hist(resid(model_intent_full), main = "Histogram of Residuals", col = "lightblue")
+
+qqnorm(resid(model_intent_full))
+qqline(resid(model_intent_full), col = "red")
+
+shapiro.test(resid(model_intent_full))
+
+```
+
+
+
+```{r}
+
+# Run regression with interaction term
+model_intent_interaction <- lm(mm_acc ~ mw_intent_freq * condition + set.x + age + gender, data = data)
+
+# View summary results
+summary(model_intent_interaction)
+
+```
+note to self: the write up of this is in results word doc in the my files
+
+########################## Checking Assumptions ######################################
+```{r}
+library(ggplot2)
+
+# Check linearity for mw_intent_freq
+ggplot(data, aes(x = mw_intent_freq, y = mm_acc, color = condition)) + 
+  geom_point() + 
+  geom_smooth(method = "lm", col = "red") +
+  labs(title = "Linearity Check: MW Intent Frequency vs MM Accuracy")
+
+# Check linearity for age
+ggplot(data, aes(x = age, y = mm_acc)) + 
+  geom_point() + 
+  geom_smooth(method = "lm", col = "red") +
+  labs(title = "Linearity Check: Age vs MM Accuracy")
+
+
+plot(model_intent_interaction$fitted.values, resid(model_intent_interaction),
+     main = "Residual Plot: Checking Homoscedasticity",
+     xlab = "Fitted Values", ylab = "Residuals",
+     pch = 19, col = "blue")
+abline(h = 0, col = "red", lwd = 2)
+
+
+hist(resid(model_intent_interaction), main = "Histogram of Residuals", col = "lightblue")
+
+qqnorm(resid(model_intent_interaction))
+qqline(resid(model_intent_interaction), col = "red")
+
+shapiro.test(resid(model_intent_interaction))
+
+```
+
+Residuals do not follow a normal distribution, violating the normality assumption of multiple regression. This can affect the reliability of hypothesis and confidence intervals.
