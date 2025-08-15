@@ -22,6 +22,14 @@ write_csv(erin_demo_fb, here("mw2425_06data/erinRothwell-Wood/mw_2425_erw_proces
 
 # NOTE: Other file needed: mw_scores_20250215.csv
 
+desc_mm <- mw_scores %>%
+  group_by(condition) %>%
+  summarise(mm_acc_m = mean(mm_acc),
+            mm_acc_sd = sd(mm_acc),
+            mm_rt_m = mean(mm_rt),
+            mm_rt_sc = sd(mm_rt))
+desc_mm
+
 ##########
 # Abbreviations
 # erin_demo_fb_20250215.csv

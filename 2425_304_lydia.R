@@ -5,7 +5,7 @@ library(tidyverse)
 
 # Required variables
 # Demographics (age, gender, language background) - to report
-# Mind wandering during mental maths task (incl. performance on mental maths task)
+# Mind wandering
 # Feedback
 
 # 1) Read in data files -----------

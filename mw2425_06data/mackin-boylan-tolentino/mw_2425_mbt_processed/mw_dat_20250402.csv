@@ -1,0 +1,919 @@
+origID,order,trial,response,mw_response,mw_intent,condition
+12533358,Digital first,1,On Task,0,NA,Digital
+12533358,Digital first,2,Intentional,1,1,Digital
+12533358,Digital first,3,On Task,0,NA,Digital
+12533358,Digital first,4,On Task,0,NA,Digital
+12533358,Digital first,5,Intentional,1,1,Digital
+12533358,Digital first,6,On Task,0,NA,Digital
+12533358,Digital first,7,On Task,0,NA,Digital
+12533358,Digital first,8,On Task,0,NA,Digital
+12533358,Digital first,9,Unintentional,1,0,Digital
+12533358,Digital first,10,Unintentional,1,0,Digital
+12533358,Digital first,11,Unintentional,1,0,Digital
+12533358,Digital first,12,On Task,0,NA,Digital
+12533358,Digital first,13,Unintentional,1,0,Digital
+12533358,Digital first,14,On Task,0,NA,Digital
+12533358,Digital first,1,On Task,0,NA,Physical
+12533358,Digital first,2,On Task,0,NA,Physical
+12533358,Digital first,3,On Task,0,NA,Physical
+12533358,Digital first,4,Unintentional,1,0,Physical
+12533358,Digital first,5,On Task,0,NA,Physical
+12533358,Digital first,6,Unintentional,1,0,Physical
+12533358,Digital first,7,On Task,0,NA,Physical
+12533358,Digital first,8,On Task,0,NA,Physical
+12533358,Digital first,9,On Task,0,NA,Physical
+12533358,Digital first,10,Intentional,1,1,Physical
+12533358,Digital first,11,Unintentional,1,0,Physical
+12533358,Digital first,12,Unintentional,1,0,Physical
+12533358,Digital first,13,Unintentional,1,0,Physical
+12533363,Digital first,1,On Task,0,NA,Digital
+12533363,Digital first,2,On Task,0,NA,Digital
+12533363,Digital first,3,On Task,0,NA,Digital
+12533363,Digital first,4,On Task,0,NA,Digital
+12533363,Digital first,5,On Task,0,NA,Digital
+12533363,Digital first,6,On Task,0,NA,Digital
+12533363,Digital first,7,On Task,0,NA,Digital
+12533363,Digital first,8,On Task,0,NA,Digital
+12533363,Digital first,9,On Task,0,NA,Digital
+12533363,Digital first,10,On Task,0,NA,Digital
+12533363,Digital first,11,On Task,0,NA,Digital
+12533363,Digital first,12,On Task,0,NA,Digital
+12533363,Digital first,13,On Task,0,NA,Digital
+12533363,Digital first,14,On Task,0,NA,Digital
+12533363,Digital first,1,On Task,0,NA,Physical
+12533363,Digital first,2,On Task,0,NA,Physical
+12533363,Digital first,3,On Task,0,NA,Physical
+12533363,Digital first,4,On Task,0,NA,Physical
+12533363,Digital first,5,On Task,0,NA,Physical
+12533363,Digital first,6,On Task,0,NA,Physical
+12533363,Digital first,7,On Task,0,NA,Physical
+12533363,Digital first,8,On Task,0,NA,Physical
+12533363,Digital first,9,On Task,0,NA,Physical
+12533363,Digital first,10,On Task,0,NA,Physical
+12533363,Digital first,11,On Task,0,NA,Physical
+12533363,Digital first,12,On Task,0,NA,Physical
+12533363,Digital first,13,On Task,0,NA,Physical
+12533366,Digital first,1,On Task,0,NA,Digital
+12533366,Digital first,2,On Task,0,NA,Digital
+12533366,Digital first,3,On Task,0,NA,Digital
+12533366,Digital first,4,On Task,0,NA,Digital
+12533366,Digital first,5,Unintentional,1,0,Digital
+12533366,Digital first,6,On Task,0,NA,Digital
+12533366,Digital first,7,On Task,0,NA,Digital
+12533366,Digital first,8,Unintentional,1,0,Digital
+12533366,Digital first,9,On Task,0,NA,Digital
+12533366,Digital first,10,On Task,0,NA,Digital
+12533366,Digital first,11,On Task,0,NA,Digital
+12533366,Digital first,12,On Task,0,NA,Digital
+12533366,Digital first,13,On Task,0,NA,Digital
+12533366,Digital first,14,On Task,0,NA,Digital
+12533366,Digital first,1,Unintentional,1,0,Physical
+12533366,Digital first,2,On Task,0,NA,Physical
+12533366,Digital first,3,On Task,0,NA,Physical
+12533366,Digital first,4,On Task,0,NA,Physical
+12533366,Digital first,5,Unintentional,1,0,Physical
+12533366,Digital first,6,Unintentional,1,0,Physical
+12533366,Digital first,7,On Task,0,NA,Physical
+12533366,Digital first,8,Unintentional,1,0,Physical
+12533366,Digital first,9,On Task,0,NA,Physical
+12533366,Digital first,10,On Task,0,NA,Physical
+12533366,Digital first,11,On Task,0,NA,Physical
+12533366,Digital first,12,Unintentional,1,0,Physical
+12533366,Digital first,13,On Task,0,NA,Physical
+12533370,Digital first,1,On Task,0,NA,Digital
+12533370,Digital first,2,On Task,0,NA,Digital
+12533370,Digital first,3,On Task,0,NA,Digital
+12533370,Digital first,4,Intentional,1,1,Digital
+12533370,Digital first,5,On Task,0,NA,Digital
+12533370,Digital first,6,On Task,0,NA,Digital
+12533370,Digital first,7,Unintentional,1,0,Digital
+12533370,Digital first,8,On Task,0,NA,Digital
+12533370,Digital first,9,Unintentional,1,0,Digital
+12533370,Digital first,10,On Task,0,NA,Digital
+12533370,Digital first,11,On Task,0,NA,Digital
+12533370,Digital first,12,Unintentional,1,0,Digital
+12533370,Digital first,13,Unintentional,1,0,Digital
+12533370,Digital first,14,Intentional,1,1,Digital
+12533370,Digital first,1,On Task,0,NA,Physical
+12533370,Digital first,2,On Task,0,NA,Physical
+12533370,Digital first,3,On Task,0,NA,Physical
+12533370,Digital first,4,Unintentional,1,0,Physical
+12533370,Digital first,5,Unintentional,1,0,Physical
+12533370,Digital first,6,On Task,0,NA,Physical
+12533370,Digital first,7,On Task,0,NA,Physical
+12533370,Digital first,8,On Task,0,NA,Physical
+12533370,Digital first,9,On Task,0,NA,Physical
+12533370,Digital first,10,On Task,0,NA,Physical
+12533370,Digital first,11,On Task,0,NA,Physical
+12533370,Digital first,12,Unintentional,1,0,Physical
+12533370,Digital first,13,Unintentional,1,0,Physical
+12533377,Digital first,1,On Task,0,NA,Digital
+12533377,Digital first,2,On Task,0,NA,Digital
+12533377,Digital first,3,On Task,0,NA,Digital
+12533377,Digital first,4,Unintentional,1,0,Digital
+12533377,Digital first,5,Unintentional,1,0,Digital
+12533377,Digital first,6,On Task,0,NA,Digital
+12533377,Digital first,7,On Task,0,NA,Digital
+12533377,Digital first,8,Intentional,1,1,Digital
+12533377,Digital first,9,On Task,0,NA,Digital
+12533377,Digital first,10,On Task,0,NA,Digital
+12533377,Digital first,11,Unintentional,1,0,Digital
+12533377,Digital first,12,Unintentional,1,0,Digital
+12533377,Digital first,13,On Task,0,NA,Digital
+12533377,Digital first,14,On Task,0,NA,Digital
+12533377,Digital first,1,Unintentional,1,0,Physical
+12533377,Digital first,2,Unintentional,1,0,Physical
+12533377,Digital first,3,On Task,0,NA,Physical
+12533377,Digital first,4,On Task,0,NA,Physical
+12533377,Digital first,5,Unintentional,1,0,Physical
+12533377,Digital first,6,On Task,0,NA,Physical
+12533377,Digital first,7,On Task,0,NA,Physical
+12533377,Digital first,8,On Task,0,NA,Physical
+12533377,Digital first,9,On Task,0,NA,Physical
+12533377,Digital first,10,On Task,0,NA,Physical
+12533377,Digital first,11,Unintentional,1,0,Physical
+12533377,Digital first,12,On Task,0,NA,Physical
+12533377,Digital first,13,On Task,0,NA,Physical
+12533380,Digital first,1,On Task,0,NA,Digital
+12533380,Digital first,2,On Task,0,NA,Digital
+12533380,Digital first,3,On Task,0,NA,Digital
+12533380,Digital first,4,On Task,0,NA,Digital
+12533380,Digital first,5,On Task,0,NA,Digital
+12533380,Digital first,6,On Task,0,NA,Digital
+12533380,Digital first,7,On Task,0,NA,Digital
+12533380,Digital first,8,On Task,0,NA,Digital
+12533380,Digital first,9,On Task,0,NA,Digital
+12533380,Digital first,10,On Task,0,NA,Digital
+12533380,Digital first,11,On Task,0,NA,Digital
+12533380,Digital first,12,On Task,0,NA,Digital
+12533380,Digital first,13,On Task,0,NA,Digital
+12533380,Digital first,14,On Task,0,NA,Digital
+12533380,Digital first,1,Unintentional,1,0,Physical
+12533380,Digital first,2,On Task,0,NA,Physical
+12533380,Digital first,3,Unintentional,1,0,Physical
+12533380,Digital first,4,On Task,0,NA,Physical
+12533380,Digital first,5,On Task,0,NA,Physical
+12533380,Digital first,6,Unintentional,1,0,Physical
+12533380,Digital first,7,On Task,0,NA,Physical
+12533380,Digital first,8,On Task,0,NA,Physical
+12533380,Digital first,9,On Task,0,NA,Physical
+12533380,Digital first,10,Unintentional,1,0,Physical
+12533380,Digital first,11,On Task,0,NA,Physical
+12533380,Digital first,12,On Task,0,NA,Physical
+12533380,Digital first,13,On Task,0,NA,Physical
+12533360,Digital first,1,On Task,0,NA,Digital
+12533360,Digital first,2,On Task,0,NA,Digital
+12533360,Digital first,3,On Task,0,NA,Digital
+12533360,Digital first,4,On Task,0,NA,Digital
+12533360,Digital first,5,On Task,0,NA,Digital
+12533360,Digital first,6,On Task,0,NA,Digital
+12533360,Digital first,7,Unintentional,1,0,Digital
+12533360,Digital first,8,On Task,0,NA,Digital
+12533360,Digital first,9,On Task,0,NA,Digital
+12533360,Digital first,10,On Task,0,NA,Digital
+12533360,Digital first,11,Unintentional,1,0,Digital
+12533360,Digital first,12,On Task,0,NA,Digital
+12533360,Digital first,13,Unintentional,1,0,Digital
+12533360,Digital first,1,On Task,0,NA,Physical
+12533360,Digital first,2,Unintentional,1,0,Physical
+12533360,Digital first,3,Unintentional,1,0,Physical
+12533360,Digital first,4,On Task,0,NA,Physical
+12533360,Digital first,5,Unintentional,1,0,Physical
+12533360,Digital first,6,On Task,0,NA,Physical
+12533360,Digital first,7,Unintentional,1,0,Physical
+12533360,Digital first,8,Unintentional,1,0,Physical
+12533360,Digital first,9,Unintentional,1,0,Physical
+12533360,Digital first,10,On Task,0,NA,Physical
+12533360,Digital first,11,On Task,0,NA,Physical
+12533360,Digital first,12,On Task,0,NA,Physical
+12533360,Digital first,13,On Task,0,NA,Physical
+12533360,Digital first,14,On Task,0,NA,Physical
+12533362,Digital first,1,On Task,0,NA,Digital
+12533362,Digital first,2,On Task,0,NA,Digital
+12533362,Digital first,3,On Task,0,NA,Digital
+12533362,Digital first,4,On Task,0,NA,Digital
+12533362,Digital first,5,On Task,0,NA,Digital
+12533362,Digital first,6,On Task,0,NA,Digital
+12533362,Digital first,7,Unintentional,1,0,Digital
+12533362,Digital first,8,Intentional,1,1,Digital
+12533362,Digital first,9,Intentional,1,1,Digital
+12533362,Digital first,10,On Task,0,NA,Digital
+12533362,Digital first,11,Unintentional,1,0,Digital
+12533362,Digital first,12,Intentional,1,1,Digital
+12533362,Digital first,13,Intentional,1,1,Digital
+12533362,Digital first,1,Intentional,1,1,Physical
+12533362,Digital first,2,Unintentional,1,0,Physical
+12533362,Digital first,3,Unintentional,1,0,Physical
+12533362,Digital first,4,Unintentional,1,0,Physical
+12533362,Digital first,5,Intentional,1,1,Physical
+12533362,Digital first,6,Unintentional,1,0,Physical
+12533362,Digital first,7,Intentional,1,1,Physical
+12533362,Digital first,8,Intentional,1,1,Physical
+12533362,Digital first,9,Unintentional,1,0,Physical
+12533362,Digital first,10,Unintentional,1,0,Physical
+12533362,Digital first,11,Intentional,1,1,Physical
+12533362,Digital first,12,Unintentional,1,0,Physical
+12533362,Digital first,13,Unintentional,1,0,Physical
+12533362,Digital first,14,Unintentional,1,0,Physical
+12533367,Digital first,1,On Task,0,NA,Digital
+12533367,Digital first,2,On Task,0,NA,Digital
+12533367,Digital first,3,On Task,0,NA,Digital
+12533367,Digital first,4,Unintentional,1,0,Digital
+12533367,Digital first,5,Unintentional,1,0,Digital
+12533367,Digital first,6,On Task,0,NA,Digital
+12533367,Digital first,7,On Task,0,NA,Digital
+12533367,Digital first,8,Unintentional,1,0,Digital
+12533367,Digital first,9,Unintentional,1,0,Digital
+12533367,Digital first,10,On Task,0,NA,Digital
+12533367,Digital first,11,On Task,0,NA,Digital
+12533367,Digital first,12,On Task,0,NA,Digital
+12533367,Digital first,13,Unintentional,1,0,Digital
+12533367,Digital first,1,On Task,0,NA,Physical
+12533367,Digital first,2,On Task,0,NA,Physical
+12533367,Digital first,3,On Task,0,NA,Physical
+12533367,Digital first,4,On Task,0,NA,Physical
+12533367,Digital first,5,On Task,0,NA,Physical
+12533367,Digital first,6,On Task,0,NA,Physical
+12533367,Digital first,7,On Task,0,NA,Physical
+12533367,Digital first,8,On Task,0,NA,Physical
+12533367,Digital first,9,On Task,0,NA,Physical
+12533367,Digital first,10,On Task,0,NA,Physical
+12533367,Digital first,11,On Task,0,NA,Physical
+12533367,Digital first,12,On Task,0,NA,Physical
+12533367,Digital first,13,On Task,0,NA,Physical
+12533367,Digital first,14,On Task,0,NA,Physical
+12533371,Digital first,1,On Task,0,NA,Digital
+12533371,Digital first,2,On Task,0,NA,Digital
+12533371,Digital first,3,Unintentional,1,0,Digital
+12533371,Digital first,4,On Task,0,NA,Digital
+12533371,Digital first,5,Unintentional,1,0,Digital
+12533371,Digital first,6,Unintentional,1,0,Digital
+12533371,Digital first,7,On Task,0,NA,Digital
+12533371,Digital first,8,Unintentional,1,0,Digital
+12533371,Digital first,9,Intentional,1,1,Digital
+12533371,Digital first,10,On Task,0,NA,Digital
+12533371,Digital first,11,On Task,0,NA,Digital
+12533371,Digital first,12,On Task,0,NA,Digital
+12533371,Digital first,13,On Task,0,NA,Digital
+12533371,Digital first,1,Unintentional,1,0,Physical
+12533371,Digital first,2,On Task,0,NA,Physical
+12533371,Digital first,3,On Task,0,NA,Physical
+12533371,Digital first,4,Unintentional,1,0,Physical
+12533371,Digital first,5,On Task,0,NA,Physical
+12533371,Digital first,6,On Task,0,NA,Physical
+12533371,Digital first,7,On Task,0,NA,Physical
+12533371,Digital first,8,Unintentional,1,0,Physical
+12533371,Digital first,9,Unintentional,1,0,Physical
+12533371,Digital first,10,On Task,0,NA,Physical
+12533371,Digital first,11,On Task,0,NA,Physical
+12533371,Digital first,12,On Task,0,NA,Physical
+12533371,Digital first,13,Unintentional,1,0,Physical
+12533371,Digital first,14,Unintentional,1,0,Physical
+12533374,Digital first,1,On Task,0,NA,Digital
+12533374,Digital first,2,On Task,0,NA,Digital
+12533374,Digital first,3,On Task,0,NA,Digital
+12533374,Digital first,4,On Task,0,NA,Digital
+12533374,Digital first,5,On Task,0,NA,Digital
+12533374,Digital first,6,Unintentional,1,0,Digital
+12533374,Digital first,7,On Task,0,NA,Digital
+12533374,Digital first,8,On Task,0,NA,Digital
+12533374,Digital first,9,Intentional,1,1,Digital
+12533374,Digital first,10,Unintentional,1,0,Digital
+12533374,Digital first,11,On Task,0,NA,Digital
+12533374,Digital first,12,On Task,0,NA,Digital
+12533374,Digital first,13,Unintentional,1,0,Digital
+12533374,Digital first,1,Intentional,1,1,Physical
+12533374,Digital first,2,On Task,0,NA,Physical
+12533374,Digital first,3,On Task,0,NA,Physical
+12533374,Digital first,4,Unintentional,1,0,Physical
+12533374,Digital first,5,Unintentional,1,0,Physical
+12533374,Digital first,6,On Task,0,NA,Physical
+12533374,Digital first,7,On Task,0,NA,Physical
+12533374,Digital first,8,Intentional,1,1,Physical
+12533374,Digital first,9,On Task,0,NA,Physical
+12533374,Digital first,10,On Task,0,NA,Physical
+12533374,Digital first,11,Unintentional,1,0,Physical
+12533374,Digital first,12,On Task,0,NA,Physical
+12533374,Digital first,13,On Task,0,NA,Physical
+12533374,Digital first,14,On Task,0,NA,Physical
+12533379,Digital first,1,On Task,0,NA,Digital
+12533379,Digital first,2,On Task,0,NA,Digital
+12533379,Digital first,3,Unintentional,1,0,Digital
+12533379,Digital first,4,On Task,0,NA,Digital
+12533379,Digital first,5,On Task,0,NA,Digital
+12533379,Digital first,6,On Task,0,NA,Digital
+12533379,Digital first,7,On Task,0,NA,Digital
+12533379,Digital first,8,On Task,0,NA,Digital
+12533379,Digital first,9,On Task,0,NA,Digital
+12533379,Digital first,10,On Task,0,NA,Digital
+12533379,Digital first,11,Unintentional,1,0,Digital
+12533379,Digital first,12,Unintentional,1,0,Digital
+12533379,Digital first,13,On Task,0,NA,Digital
+12533379,Digital first,1,Unintentional,1,0,Physical
+12533379,Digital first,2,Unintentional,1,0,Physical
+12533379,Digital first,3,On Task,0,NA,Physical
+12533379,Digital first,4,On Task,0,NA,Physical
+12533379,Digital first,5,On Task,0,NA,Physical
+12533379,Digital first,6,On Task,0,NA,Physical
+12533379,Digital first,7,On Task,0,NA,Physical
+12533379,Digital first,8,Unintentional,1,0,Physical
+12533379,Digital first,9,Unintentional,1,0,Physical
+12533379,Digital first,10,On Task,0,NA,Physical
+12533379,Digital first,11,On Task,0,NA,Physical
+12533379,Digital first,12,On Task,0,NA,Physical
+12533379,Digital first,13,On Task,0,NA,Physical
+12533379,Digital first,14,Unintentional,1,0,Physical
+12533361,Physical first,1,On Task,0,NA,Physical
+12533361,Physical first,2,On Task,0,NA,Physical
+12533361,Physical first,3,On Task,0,NA,Physical
+12533361,Physical first,4,On Task,0,NA,Physical
+12533361,Physical first,5,On Task,0,NA,Physical
+12533361,Physical first,6,On Task,0,NA,Physical
+12533361,Physical first,7,Unintentional,1,0,Physical
+12533361,Physical first,8,On Task,0,NA,Physical
+12533361,Physical first,9,On Task,0,NA,Physical
+12533361,Physical first,10,Unintentional,1,0,Physical
+12533361,Physical first,11,On Task,0,NA,Physical
+12533361,Physical first,12,On Task,0,NA,Physical
+12533361,Physical first,13,On Task,0,NA,Physical
+12533361,Physical first,14,On Task,0,NA,Physical
+12533361,Physical first,1,Unintentional,1,0,Digital
+12533361,Physical first,2,Unintentional,1,0,Digital
+12533361,Physical first,3,On Task,0,NA,Digital
+12533361,Physical first,4,Unintentional,1,0,Digital
+12533361,Physical first,5,On Task,0,NA,Digital
+12533361,Physical first,6,On Task,0,NA,Digital
+12533361,Physical first,7,On Task,0,NA,Digital
+12533361,Physical first,8,Unintentional,1,0,Digital
+12533361,Physical first,9,Unintentional,1,0,Digital
+12533361,Physical first,10,Unintentional,1,0,Digital
+12533361,Physical first,11,Unintentional,1,0,Digital
+12533361,Physical first,12,On Task,0,NA,Digital
+12533361,Physical first,13,Unintentional,1,0,Digital
+12533364,Physical first,1,On Task,0,NA,Physical
+12533364,Physical first,2,On Task,0,NA,Physical
+12533364,Physical first,3,On Task,0,NA,Physical
+12533364,Physical first,4,On Task,0,NA,Physical
+12533364,Physical first,5,On Task,0,NA,Physical
+12533364,Physical first,6,Unintentional,1,0,Physical
+12533364,Physical first,7,On Task,0,NA,Physical
+12533364,Physical first,8,Unintentional,1,0,Physical
+12533364,Physical first,9,On Task,0,NA,Physical
+12533364,Physical first,10,On Task,0,NA,Physical
+12533364,Physical first,11,Unintentional,1,0,Physical
+12533364,Physical first,12,On Task,0,NA,Physical
+12533364,Physical first,13,On Task,0,NA,Physical
+12533364,Physical first,14,On Task,0,NA,Physical
+12533364,Physical first,1,Intentional,1,1,Digital
+12533364,Physical first,2,On Task,0,NA,Digital
+12533364,Physical first,3,On Task,0,NA,Digital
+12533364,Physical first,4,Unintentional,1,0,Digital
+12533364,Physical first,5,Unintentional,1,0,Digital
+12533364,Physical first,6,On Task,0,NA,Digital
+12533364,Physical first,7,On Task,0,NA,Digital
+12533364,Physical first,8,On Task,0,NA,Digital
+12533364,Physical first,9,Unintentional,1,0,Digital
+12533364,Physical first,10,On Task,0,NA,Digital
+12533364,Physical first,11,Unintentional,1,0,Digital
+12533364,Physical first,12,On Task,0,NA,Digital
+12533364,Physical first,13,On Task,0,NA,Digital
+12533369,Physical first,1,On Task,0,NA,Physical
+12533369,Physical first,2,On Task,0,NA,Physical
+12533369,Physical first,3,On Task,0,NA,Physical
+12533369,Physical first,4,On Task,0,NA,Physical
+12533369,Physical first,5,Unintentional,1,0,Physical
+12533369,Physical first,6,On Task,0,NA,Physical
+12533369,Physical first,7,Intentional,1,1,Physical
+12533369,Physical first,8,On Task,0,NA,Physical
+12533369,Physical first,9,Unintentional,1,0,Physical
+12533369,Physical first,10,Intentional,1,1,Physical
+12533369,Physical first,11,On Task,0,NA,Physical
+12533369,Physical first,12,Unintentional,1,0,Physical
+12533369,Physical first,13,Unintentional,1,0,Physical
+12533369,Physical first,14,Intentional,1,1,Physical
+12533369,Physical first,1,On Task,0,NA,Digital
+12533369,Physical first,2,Intentional,1,1,Digital
+12533369,Physical first,3,On Task,0,NA,Digital
+12533369,Physical first,4,On Task,0,NA,Digital
+12533369,Physical first,5,On Task,0,NA,Digital
+12533369,Physical first,6,On Task,0,NA,Digital
+12533369,Physical first,7,On Task,0,NA,Digital
+12533369,Physical first,8,Unintentional,1,0,Digital
+12533369,Physical first,9,Intentional,1,1,Digital
+12533369,Physical first,10,On Task,0,NA,Digital
+12533369,Physical first,11,Unintentional,1,0,Digital
+12533369,Physical first,12,Unintentional,1,0,Digital
+12533369,Physical first,13,On Task,0,NA,Digital
+12533373,Physical first,1,On Task,0,NA,Physical
+12533373,Physical first,2,On Task,0,NA,Physical
+12533373,Physical first,3,On Task,0,NA,Physical
+12533373,Physical first,4,On Task,0,NA,Physical
+12533373,Physical first,5,On Task,0,NA,Physical
+12533373,Physical first,6,On Task,0,NA,Physical
+12533373,Physical first,7,On Task,0,NA,Physical
+12533373,Physical first,8,On Task,0,NA,Physical
+12533373,Physical first,9,Unintentional,1,0,Physical
+12533373,Physical first,10,Unintentional,1,0,Physical
+12533373,Physical first,11,Intentional,1,1,Physical
+12533373,Physical first,12,Unintentional,1,0,Physical
+12533373,Physical first,13,On Task,0,NA,Physical
+12533373,Physical first,14,On Task,0,NA,Physical
+12533373,Physical first,1,On Task,0,NA,Digital
+12533373,Physical first,2,Unintentional,1,0,Digital
+12533373,Physical first,3,On Task,0,NA,Digital
+12533373,Physical first,4,On Task,0,NA,Digital
+12533373,Physical first,5,On Task,0,NA,Digital
+12533373,Physical first,6,On Task,0,NA,Digital
+12533373,Physical first,7,On Task,0,NA,Digital
+12533373,Physical first,8,Unintentional,1,0,Digital
+12533373,Physical first,9,Unintentional,1,0,Digital
+12533373,Physical first,10,Unintentional,1,0,Digital
+12533373,Physical first,11,On Task,0,NA,Digital
+12533373,Physical first,12,Unintentional,1,0,Digital
+12533373,Physical first,13,Unintentional,1,0,Digital
+12533376,Physical first,1,On Task,0,NA,Physical
+12533376,Physical first,2,Unintentional,1,0,Physical
+12533376,Physical first,3,On Task,0,NA,Physical
+12533376,Physical first,4,Intentional,1,1,Physical
+12533376,Physical first,5,On Task,0,NA,Physical
+12533376,Physical first,6,Intentional,1,1,Physical
+12533376,Physical first,7,On Task,0,NA,Physical
+12533376,Physical first,8,On Task,0,NA,Physical
+12533376,Physical first,9,Unintentional,1,0,Physical
+12533376,Physical first,10,Unintentional,1,0,Physical
+12533376,Physical first,11,On Task,0,NA,Physical
+12533376,Physical first,12,Intentional,1,1,Physical
+12533376,Physical first,13,On Task,0,NA,Physical
+12533376,Physical first,14,Unintentional,1,0,Physical
+12533376,Physical first,1,Unintentional,1,0,Digital
+12533376,Physical first,2,Unintentional,1,0,Digital
+12533376,Physical first,3,On Task,0,NA,Digital
+12533376,Physical first,4,On Task,0,NA,Digital
+12533376,Physical first,5,Intentional,1,1,Digital
+12533376,Physical first,6,On Task,0,NA,Digital
+12533376,Physical first,7,On Task,0,NA,Digital
+12533376,Physical first,8,On Task,0,NA,Digital
+12533376,Physical first,9,On Task,0,NA,Digital
+12533376,Physical first,10,Unintentional,1,0,Digital
+12533376,Physical first,11,Unintentional,1,0,Digital
+12533376,Physical first,12,Intentional,1,1,Digital
+12533376,Physical first,13,Intentional,1,1,Digital
+12533378,Physical first,1,On Task,0,NA,Physical
+12533378,Physical first,2,Unintentional,1,0,Physical
+12533378,Physical first,3,Unintentional,1,0,Physical
+12533378,Physical first,4,On Task,0,NA,Physical
+12533378,Physical first,5,On Task,0,NA,Physical
+12533378,Physical first,6,Unintentional,1,0,Physical
+12533378,Physical first,7,Unintentional,1,0,Physical
+12533378,Physical first,8,Unintentional,1,0,Physical
+12533378,Physical first,9,Unintentional,1,0,Physical
+12533378,Physical first,10,Unintentional,1,0,Physical
+12533378,Physical first,11,On Task,0,NA,Physical
+12533378,Physical first,12,Unintentional,1,0,Physical
+12533378,Physical first,13,On Task,0,NA,Physical
+12533378,Physical first,14,Unintentional,1,0,Physical
+12533378,Physical first,1,Unintentional,1,0,Digital
+12533378,Physical first,2,On Task,0,NA,Digital
+12533378,Physical first,3,On Task,0,NA,Digital
+12533378,Physical first,4,Unintentional,1,0,Digital
+12533378,Physical first,5,Unintentional,1,0,Digital
+12533378,Physical first,6,On Task,0,NA,Digital
+12533378,Physical first,7,On Task,0,NA,Digital
+12533378,Physical first,8,On Task,0,NA,Digital
+12533378,Physical first,9,Unintentional,1,0,Digital
+12533378,Physical first,10,Unintentional,1,0,Digital
+12533378,Physical first,11,Unintentional,1,0,Digital
+12533378,Physical first,12,Unintentional,1,0,Digital
+12533378,Physical first,13,Unintentional,1,0,Digital
+12533359,Physical first,1,On Task,0,NA,Physical
+12533359,Physical first,2,On Task,0,NA,Physical
+12533359,Physical first,3,On Task,0,NA,Physical
+12533359,Physical first,4,On Task,0,NA,Physical
+12533359,Physical first,5,Unintentional,1,0,Physical
+12533359,Physical first,6,Unintentional,1,0,Physical
+12533359,Physical first,7,Unintentional,1,0,Physical
+12533359,Physical first,8,On Task,0,NA,Physical
+12533359,Physical first,9,On Task,0,NA,Physical
+12533359,Physical first,10,On Task,0,NA,Physical
+12533359,Physical first,11,Unintentional,1,0,Physical
+12533359,Physical first,12,Unintentional,1,0,Physical
+12533359,Physical first,13,Unintentional,1,0,Physical
+12533359,Physical first,1,Unintentional,1,0,Digital
+12533359,Physical first,2,Unintentional,1,0,Digital
+12533359,Physical first,3,On Task,0,NA,Digital
+12533359,Physical first,4,On Task,0,NA,Digital
+12533359,Physical first,5,Unintentional,1,0,Digital
+12533359,Physical first,6,Unintentional,1,0,Digital
+12533359,Physical first,7,Unintentional,1,0,Digital
+12533359,Physical first,8,Unintentional,1,0,Digital
+12533359,Physical first,9,Unintentional,1,0,Digital
+12533359,Physical first,10,On Task,0,NA,Digital
+12533359,Physical first,11,On Task,0,NA,Digital
+12533359,Physical first,12,Unintentional,1,0,Digital
+12533359,Physical first,13,On Task,0,NA,Digital
+12533359,Physical first,14,Intentional,1,1,Digital
+12533365,Physical first,1,On Task,0,NA,Physical
+12533365,Physical first,2,On Task,0,NA,Physical
+12533365,Physical first,3,On Task,0,NA,Physical
+12533365,Physical first,4,On Task,0,NA,Physical
+12533365,Physical first,5,On Task,0,NA,Physical
+12533365,Physical first,6,On Task,0,NA,Physical
+12533365,Physical first,7,On Task,0,NA,Physical
+12533365,Physical first,8,On Task,0,NA,Physical
+12533365,Physical first,9,On Task,0,NA,Physical
+12533365,Physical first,10,On Task,0,NA,Physical
+12533365,Physical first,11,On Task,0,NA,Physical
+12533365,Physical first,12,On Task,0,NA,Physical
+12533365,Physical first,13,On Task,0,NA,Physical
+12533365,Physical first,1,On Task,0,NA,Digital
+12533365,Physical first,2,On Task,0,NA,Digital
+12533365,Physical first,3,On Task,0,NA,Digital
+12533365,Physical first,4,On Task,0,NA,Digital
+12533365,Physical first,5,On Task,0,NA,Digital
+12533365,Physical first,6,On Task,0,NA,Digital
+12533365,Physical first,7,On Task,0,NA,Digital
+12533365,Physical first,8,On Task,0,NA,Digital
+12533365,Physical first,9,On Task,0,NA,Digital
+12533365,Physical first,10,On Task,0,NA,Digital
+12533365,Physical first,11,On Task,0,NA,Digital
+12533365,Physical first,12,On Task,0,NA,Digital
+12533365,Physical first,13,On Task,0,NA,Digital
+12533365,Physical first,14,On Task,0,NA,Digital
+12533368,Physical first,1,On Task,0,NA,Physical
+12533368,Physical first,2,On Task,0,NA,Physical
+12533368,Physical first,3,On Task,0,NA,Physical
+12533368,Physical first,4,Unintentional,1,0,Physical
+12533368,Physical first,5,On Task,0,NA,Physical
+12533368,Physical first,6,On Task,0,NA,Physical
+12533368,Physical first,7,On Task,0,NA,Physical
+12533368,Physical first,8,On Task,0,NA,Physical
+12533368,Physical first,9,On Task,0,NA,Physical
+12533368,Physical first,10,Intentional,1,1,Physical
+12533368,Physical first,11,On Task,0,NA,Physical
+12533368,Physical first,12,On Task,0,NA,Physical
+12533368,Physical first,13,Unintentional,1,0,Physical
+12533368,Physical first,1,On Task,0,NA,Digital
+12533368,Physical first,2,On Task,0,NA,Digital
+12533368,Physical first,3,Unintentional,1,0,Digital
+12533368,Physical first,4,On Task,0,NA,Digital
+12533368,Physical first,5,On Task,0,NA,Digital
+12533368,Physical first,6,On Task,0,NA,Digital
+12533368,Physical first,7,On Task,0,NA,Digital
+12533368,Physical first,8,On Task,0,NA,Digital
+12533368,Physical first,9,On Task,0,NA,Digital
+12533368,Physical first,10,On Task,0,NA,Digital
+12533368,Physical first,11,On Task,0,NA,Digital
+12533368,Physical first,12,On Task,0,NA,Digital
+12533368,Physical first,13,On Task,0,NA,Digital
+12533368,Physical first,14,On Task,0,NA,Digital
+12533372,Physical first,1,On Task,0,NA,Physical
+12533372,Physical first,2,On Task,0,NA,Physical
+12533372,Physical first,3,On Task,0,NA,Physical
+12533372,Physical first,4,On Task,0,NA,Physical
+12533372,Physical first,5,On Task,0,NA,Physical
+12533372,Physical first,6,On Task,0,NA,Physical
+12533372,Physical first,7,Unintentional,1,0,Physical
+12533372,Physical first,8,Unintentional,1,0,Physical
+12533372,Physical first,9,Unintentional,1,0,Physical
+12533372,Physical first,10,Unintentional,1,0,Physical
+12533372,Physical first,11,Unintentional,1,0,Physical
+12533372,Physical first,12,Unintentional,1,0,Physical
+12533372,Physical first,13,Intentional,1,1,Physical
+12533372,Physical first,1,On Task,0,NA,Digital
+12533372,Physical first,2,Unintentional,1,0,Digital
+12533372,Physical first,3,Unintentional,1,0,Digital
+12533372,Physical first,4,Unintentional,1,0,Digital
+12533372,Physical first,5,On Task,0,NA,Digital
+12533372,Physical first,6,On Task,0,NA,Digital
+12533372,Physical first,7,Intentional,1,1,Digital
+12533372,Physical first,8,Unintentional,1,0,Digital
+12533372,Physical first,9,Unintentional,1,0,Digital
+12533372,Physical first,10,On Task,0,NA,Digital
+12533372,Physical first,11,Unintentional,1,0,Digital
+12533372,Physical first,12,Unintentional,1,0,Digital
+12533372,Physical first,13,Intentional,1,1,Digital
+12533372,Physical first,14,Unintentional,1,0,Digital
+12533375,Physical first,1,On Task,0,NA,Physical
+12533375,Physical first,2,On Task,0,NA,Physical
+12533375,Physical first,3,On Task,0,NA,Physical
+12533375,Physical first,4,On Task,0,NA,Physical
+12533375,Physical first,5,On Task,0,NA,Physical
+12533375,Physical first,6,On Task,0,NA,Physical
+12533375,Physical first,7,On Task,0,NA,Physical
+12533375,Physical first,8,Unintentional,1,0,Physical
+12533375,Physical first,9,On Task,0,NA,Physical
+12533375,Physical first,10,On Task,0,NA,Physical
+12533375,Physical first,11,On Task,0,NA,Physical
+12533375,Physical first,12,Unintentional,1,0,Physical
+12533375,Physical first,13,On Task,0,NA,Physical
+12533375,Physical first,1,On Task,0,NA,Digital
+12533375,Physical first,2,On Task,0,NA,Digital
+12533375,Physical first,3,On Task,0,NA,Digital
+12533375,Physical first,4,On Task,0,NA,Digital
+12533375,Physical first,5,On Task,0,NA,Digital
+12533375,Physical first,6,On Task,0,NA,Digital
+12533375,Physical first,7,On Task,0,NA,Digital
+12533375,Physical first,8,On Task,0,NA,Digital
+12533375,Physical first,9,On Task,0,NA,Digital
+12533375,Physical first,10,On Task,0,NA,Digital
+12533375,Physical first,11,On Task,0,NA,Digital
+12533375,Physical first,12,On Task,0,NA,Digital
+12533375,Physical first,13,On Task,0,NA,Digital
+12533375,Physical first,14,On Task,0,NA,Digital
+12533307,Digital first,1,On Task,0,NA,Digital
+12533307,Digital first,2,On Task,0,NA,Digital
+12533307,Digital first,3,Intentional,1,1,Digital
+12533307,Digital first,4,On Task,0,NA,Digital
+12533307,Digital first,5,On Task,0,NA,Digital
+12533307,Digital first,6,Intentional,1,1,Digital
+12533307,Digital first,7,On Task,0,NA,Digital
+12533307,Digital first,8,Unintentional,1,0,Digital
+12533307,Digital first,9,On Task,0,NA,Digital
+12533307,Digital first,10,On Task,0,NA,Digital
+12533307,Digital first,11,On Task,0,NA,Digital
+12533307,Digital first,12,On Task,0,NA,Digital
+12533307,Digital first,13,On Task,0,NA,Digital
+12533307,Digital first,14,On Task,0,NA,Digital
+12533307,Digital first,1,On Task,0,NA,Physical
+12533307,Digital first,2,On Task,0,NA,Physical
+12533307,Digital first,3,On Task,0,NA,Physical
+12533307,Digital first,4,On Task,0,NA,Physical
+12533307,Digital first,5,Intentional,1,1,Physical
+12533307,Digital first,6,On Task,0,NA,Physical
+12533307,Digital first,7,On Task,0,NA,Physical
+12533307,Digital first,8,On Task,0,NA,Physical
+12533307,Digital first,9,On Task,0,NA,Physical
+12533307,Digital first,10,On Task,0,NA,Physical
+12533307,Digital first,11,On Task,0,NA,Physical
+12533307,Digital first,12,Unintentional,1,0,Physical
+12533307,Digital first,13,On Task,0,NA,Physical
+12533311,Digital first,1,On Task,0,NA,Digital
+12533311,Digital first,2,Intentional,1,1,Digital
+12533311,Digital first,3,Intentional,1,1,Digital
+12533311,Digital first,4,Unintentional,1,0,Digital
+12533311,Digital first,5,Intentional,1,1,Digital
+12533311,Digital first,6,On Task,0,NA,Digital
+12533311,Digital first,7,Unintentional,1,0,Digital
+12533311,Digital first,8,Unintentional,1,0,Digital
+12533311,Digital first,9,Intentional,1,1,Digital
+12533311,Digital first,10,Unintentional,1,0,Digital
+12533311,Digital first,11,Unintentional,1,0,Digital
+12533311,Digital first,12,Intentional,1,1,Digital
+12533311,Digital first,13,Unintentional,1,0,Digital
+12533311,Digital first,14,Unintentional,1,0,Digital
+12533311,Digital first,1,On Task,0,NA,Physical
+12533311,Digital first,2,On Task,0,NA,Physical
+12533311,Digital first,3,On Task,0,NA,Physical
+12533311,Digital first,4,Intentional,1,1,Physical
+12533311,Digital first,5,Intentional,1,1,Physical
+12533311,Digital first,6,Unintentional,1,0,Physical
+12533311,Digital first,7,On Task,0,NA,Physical
+12533311,Digital first,8,Unintentional,1,0,Physical
+12533311,Digital first,9,Intentional,1,1,Physical
+12533311,Digital first,10,Unintentional,1,0,Physical
+12533311,Digital first,11,Unintentional,1,0,Physical
+12533311,Digital first,12,Unintentional,1,0,Physical
+12533311,Digital first,13,Unintentional,1,0,Physical
+12533315,Digital first,1,Unintentional,1,0,Digital
+12533315,Digital first,2,Unintentional,1,0,Digital
+12533315,Digital first,3,On Task,0,NA,Digital
+12533315,Digital first,4,On Task,0,NA,Digital
+12533315,Digital first,5,On Task,0,NA,Digital
+12533315,Digital first,6,On Task,0,NA,Digital
+12533315,Digital first,7,Unintentional,1,0,Digital
+12533315,Digital first,8,On Task,0,NA,Digital
+12533315,Digital first,9,Unintentional,1,0,Digital
+12533315,Digital first,10,Unintentional,1,0,Digital
+12533315,Digital first,11,Unintentional,1,0,Digital
+12533315,Digital first,12,Unintentional,1,0,Digital
+12533315,Digital first,13,On Task,0,NA,Digital
+12533315,Digital first,14,Unintentional,1,0,Digital
+12533315,Digital first,1,Unintentional,1,0,Physical
+12533315,Digital first,2,Unintentional,1,0,Physical
+12533315,Digital first,3,Unintentional,1,0,Physical
+12533315,Digital first,4,Unintentional,1,0,Physical
+12533315,Digital first,5,On Task,0,NA,Physical
+12533315,Digital first,6,On Task,0,NA,Physical
+12533315,Digital first,7,On Task,0,NA,Physical
+12533315,Digital first,8,Unintentional,1,0,Physical
+12533315,Digital first,9,On Task,0,NA,Physical
+12533315,Digital first,10,On Task,0,NA,Physical
+12533315,Digital first,11,Unintentional,1,0,Physical
+12533315,Digital first,12,Unintentional,1,0,Physical
+12533315,Digital first,13,On Task,0,NA,Physical
+12533306,Digital first,1,On Task,0,NA,Digital
+12533306,Digital first,2,Unintentional,1,0,Digital
+12533306,Digital first,3,On Task,0,NA,Digital
+12533306,Digital first,4,Unintentional,1,0,Digital
+12533306,Digital first,5,On Task,0,NA,Digital
+12533306,Digital first,6,On Task,0,NA,Digital
+12533306,Digital first,7,Unintentional,1,0,Digital
+12533306,Digital first,8,On Task,0,NA,Digital
+12533306,Digital first,9,Unintentional,1,0,Digital
+12533306,Digital first,10,On Task,0,NA,Digital
+12533306,Digital first,11,Unintentional,1,0,Digital
+12533306,Digital first,12,On Task,0,NA,Digital
+12533306,Digital first,13,On Task,0,NA,Digital
+12533306,Digital first,1,On Task,0,NA,Physical
+12533306,Digital first,2,Unintentional,1,0,Physical
+12533306,Digital first,3,On Task,0,NA,Physical
+12533306,Digital first,4,On Task,0,NA,Physical
+12533306,Digital first,5,Unintentional,1,0,Physical
+12533306,Digital first,6,On Task,0,NA,Physical
+12533306,Digital first,7,Unintentional,1,0,Physical
+12533306,Digital first,8,Unintentional,1,0,Physical
+12533306,Digital first,9,Unintentional,1,0,Physical
+12533306,Digital first,10,Unintentional,1,0,Physical
+12533306,Digital first,11,Intentional,1,1,Physical
+12533306,Digital first,12,Unintentional,1,0,Physical
+12533306,Digital first,13,On Task,0,NA,Physical
+12533306,Digital first,14,On Task,0,NA,Physical
+12533312,Digital first,1,On Task,0,NA,Digital
+12533312,Digital first,2,Intentional,1,1,Digital
+12533312,Digital first,3,Intentional,1,1,Digital
+12533312,Digital first,4,On Task,0,NA,Digital
+12533312,Digital first,5,On Task,0,NA,Digital
+12533312,Digital first,6,Intentional,1,1,Digital
+12533312,Digital first,7,On Task,0,NA,Digital
+12533312,Digital first,8,Intentional,1,1,Digital
+12533312,Digital first,9,Intentional,1,1,Digital
+12533312,Digital first,10,Unintentional,1,0,Digital
+12533312,Digital first,11,On Task,0,NA,Digital
+12533312,Digital first,12,Unintentional,1,0,Digital
+12533312,Digital first,13,Unintentional,1,0,Digital
+12533312,Digital first,1,Unintentional,1,0,Physical
+12533312,Digital first,2,Unintentional,1,0,Physical
+12533312,Digital first,3,Unintentional,1,0,Physical
+12533312,Digital first,4,Unintentional,1,0,Physical
+12533312,Digital first,5,Intentional,1,1,Physical
+12533312,Digital first,6,Unintentional,1,0,Physical
+12533312,Digital first,7,Unintentional,1,0,Physical
+12533312,Digital first,8,Intentional,1,1,Physical
+12533312,Digital first,9,Unintentional,1,0,Physical
+12533312,Digital first,10,Intentional,1,1,Physical
+12533312,Digital first,11,Unintentional,1,0,Physical
+12533312,Digital first,12,Unintentional,1,0,Physical
+12533312,Digital first,13,Unintentional,1,0,Physical
+12533312,Digital first,14,Unintentional,1,0,Physical
+12533308,Physical first,1,On Task,0,NA,Physical
+12533308,Physical first,2,On Task,0,NA,Physical
+12533308,Physical first,3,Intentional,1,1,Physical
+12533308,Physical first,4,Unintentional,1,0,Physical
+12533308,Physical first,5,On Task,0,NA,Physical
+12533308,Physical first,6,On Task,0,NA,Physical
+12533308,Physical first,7,On Task,0,NA,Physical
+12533308,Physical first,8,Intentional,1,1,Physical
+12533308,Physical first,9,On Task,0,NA,Physical
+12533308,Physical first,10,On Task,0,NA,Physical
+12533308,Physical first,11,On Task,0,NA,Physical
+12533308,Physical first,12,On Task,0,NA,Physical
+12533308,Physical first,13,On Task,0,NA,Physical
+12533308,Physical first,14,On Task,0,NA,Physical
+12533308,Physical first,1,Intentional,1,1,Digital
+12533308,Physical first,2,On Task,0,NA,Digital
+12533308,Physical first,3,On Task,0,NA,Digital
+12533308,Physical first,4,Unintentional,1,0,Digital
+12533308,Physical first,5,Unintentional,1,0,Digital
+12533308,Physical first,6,On Task,0,NA,Digital
+12533308,Physical first,7,Intentional,1,1,Digital
+12533308,Physical first,8,On Task,0,NA,Digital
+12533308,Physical first,9,On Task,0,NA,Digital
+12533308,Physical first,10,On Task,0,NA,Digital
+12533308,Physical first,11,Intentional,1,1,Digital
+12533308,Physical first,12,Intentional,1,1,Digital
+12533308,Physical first,13,Unintentional,1,0,Digital
+12533309,Physical first,1,On Task,0,NA,Physical
+12533309,Physical first,2,On Task,0,NA,Physical
+12533309,Physical first,3,On Task,0,NA,Physical
+12533309,Physical first,4,On Task,0,NA,Physical
+12533309,Physical first,5,On Task,0,NA,Physical
+12533309,Physical first,6,On Task,0,NA,Physical
+12533309,Physical first,7,On Task,0,NA,Physical
+12533309,Physical first,8,Unintentional,1,0,Physical
+12533309,Physical first,9,On Task,0,NA,Physical
+12533309,Physical first,10,On Task,0,NA,Physical
+12533309,Physical first,11,On Task,0,NA,Physical
+12533309,Physical first,12,On Task,0,NA,Physical
+12533309,Physical first,13,On Task,0,NA,Physical
+12533309,Physical first,14,Unintentional,1,0,Physical
+12533309,Physical first,1,On Task,0,NA,Digital
+12533309,Physical first,2,On Task,0,NA,Digital
+12533309,Physical first,3,On Task,0,NA,Digital
+12533309,Physical first,4,On Task,0,NA,Digital
+12533309,Physical first,5,On Task,0,NA,Digital
+12533309,Physical first,6,On Task,0,NA,Digital
+12533309,Physical first,7,Unintentional,1,0,Digital
+12533309,Physical first,8,On Task,0,NA,Digital
+12533309,Physical first,9,On Task,0,NA,Digital
+12533309,Physical first,10,On Task,0,NA,Digital
+12533309,Physical first,11,Unintentional,1,0,Digital
+12533309,Physical first,12,Unintentional,1,0,Digital
+12533309,Physical first,13,Unintentional,1,0,Digital
+12533316,Physical first,1,On Task,0,NA,Physical
+12533316,Physical first,2,On Task,0,NA,Physical
+12533316,Physical first,3,On Task,0,NA,Physical
+12533316,Physical first,4,On Task,0,NA,Physical
+12533316,Physical first,5,Unintentional,1,0,Physical
+12533316,Physical first,6,Unintentional,1,0,Physical
+12533316,Physical first,7,On Task,0,NA,Physical
+12533316,Physical first,8,On Task,0,NA,Physical
+12533316,Physical first,9,Intentional,1,1,Physical
+12533316,Physical first,10,Unintentional,1,0,Physical
+12533316,Physical first,11,Unintentional,1,0,Physical
+12533316,Physical first,12,Unintentional,1,0,Physical
+12533316,Physical first,13,On Task,0,NA,Physical
+12533316,Physical first,14,On Task,0,NA,Physical
+12533316,Physical first,1,On Task,0,NA,Digital
+12533316,Physical first,2,Unintentional,1,0,Digital
+12533316,Physical first,3,Unintentional,1,0,Digital
+12533316,Physical first,4,On Task,0,NA,Digital
+12533316,Physical first,5,Unintentional,1,0,Digital
+12533316,Physical first,6,On Task,0,NA,Digital
+12533316,Physical first,7,Intentional,1,1,Digital
+12533316,Physical first,8,Unintentional,1,0,Digital
+12533316,Physical first,9,On Task,0,NA,Digital
+12533316,Physical first,10,On Task,0,NA,Digital
+12533316,Physical first,11,On Task,0,NA,Digital
+12533316,Physical first,12,Unintentional,1,0,Digital
+12533316,Physical first,13,On Task,0,NA,Digital
+12533310,Physical first,1,On Task,0,NA,Physical
+12533310,Physical first,2,On Task,0,NA,Physical
+12533310,Physical first,3,On Task,0,NA,Physical
+12533310,Physical first,4,On Task,0,NA,Physical
+12533310,Physical first,5,On Task,0,NA,Physical
+12533310,Physical first,6,On Task,0,NA,Physical
+12533310,Physical first,7,Unintentional,1,0,Physical
+12533310,Physical first,8,On Task,0,NA,Physical
+12533310,Physical first,9,Unintentional,1,0,Physical
+12533310,Physical first,10,On Task,0,NA,Physical
+12533310,Physical first,11,On Task,0,NA,Physical
+12533310,Physical first,12,Unintentional,1,0,Physical
+12533310,Physical first,13,On Task,0,NA,Physical
+12533310,Physical first,1,On Task,0,NA,Digital
+12533310,Physical first,2,On Task,0,NA,Digital
+12533310,Physical first,3,Intentional,1,1,Digital
+12533310,Physical first,4,On Task,0,NA,Digital
+12533310,Physical first,5,On Task,0,NA,Digital
+12533310,Physical first,6,On Task,0,NA,Digital
+12533310,Physical first,7,Intentional,1,1,Digital
+12533310,Physical first,8,Unintentional,1,0,Digital
+12533310,Physical first,9,Unintentional,1,0,Digital
+12533310,Physical first,10,On Task,0,NA,Digital
+12533310,Physical first,11,On Task,0,NA,Digital
+12533310,Physical first,12,On Task,0,NA,Digital
+12533310,Physical first,13,On Task,0,NA,Digital
+12533310,Physical first,14,On Task,0,NA,Digital
+12533313,Physical first,1,Unintentional,1,0,Physical
+12533313,Physical first,2,Unintentional,1,0,Physical
+12533313,Physical first,3,Unintentional,1,0,Physical
+12533313,Physical first,4,Unintentional,1,0,Physical
+12533313,Physical first,5,Unintentional,1,0,Physical
+12533313,Physical first,6,Unintentional,1,0,Physical
+12533313,Physical first,7,Unintentional,1,0,Physical
+12533313,Physical first,8,Unintentional,1,0,Physical
+12533313,Physical first,9,Unintentional,1,0,Physical
+12533313,Physical first,10,Unintentional,1,0,Physical
+12533313,Physical first,11,Unintentional,1,0,Physical
+12533313,Physical first,12,Unintentional,1,0,Physical
+12533313,Physical first,13,Unintentional,1,0,Physical
+12533313,Physical first,1,Unintentional,1,0,Digital
+12533313,Physical first,2,Unintentional,1,0,Digital
+12533313,Physical first,3,On Task,0,NA,Digital
+12533313,Physical first,4,Unintentional,1,0,Digital
+12533313,Physical first,5,On Task,0,NA,Digital
+12533313,Physical first,6,Unintentional,1,0,Digital
+12533313,Physical first,7,Unintentional,1,0,Digital
+12533313,Physical first,8,Unintentional,1,0,Digital
+12533313,Physical first,9,Unintentional,1,0,Digital
+12533313,Physical first,10,Unintentional,1,0,Digital
+12533313,Physical first,11,Unintentional,1,0,Digital
+12533313,Physical first,12,Unintentional,1,0,Digital
+12533313,Physical first,13,Unintentional,1,0,Digital
+12533313,Physical first,14,On Task,0,NA,Digital
+12533314,Physical first,1,On Task,0,NA,Physical
+12533314,Physical first,2,Intentional,1,1,Physical
+12533314,Physical first,3,Unintentional,1,0,Physical
+12533314,Physical first,4,On Task,0,NA,Physical
+12533314,Physical first,5,On Task,0,NA,Physical
+12533314,Physical first,6,On Task,0,NA,Physical
+12533314,Physical first,7,On Task,0,NA,Physical
+12533314,Physical first,8,On Task,0,NA,Physical
+12533314,Physical first,9,Unintentional,1,0,Physical
+12533314,Physical first,10,On Task,0,NA,Physical
+12533314,Physical first,11,Unintentional,1,0,Physical
+12533314,Physical first,12,Unintentional,1,0,Physical
+12533314,Physical first,13,Unintentional,1,0,Physical
+12533314,Physical first,1,Unintentional,1,0,Digital
+12533314,Physical first,2,Unintentional,1,0,Digital
+12533314,Physical first,3,Unintentional,1,0,Digital
+12533314,Physical first,4,Unintentional,1,0,Digital
+12533314,Physical first,5,Unintentional,1,0,Digital
+12533314,Physical first,6,Unintentional,1,0,Digital
+12533314,Physical first,7,Unintentional,1,0,Digital
+12533314,Physical first,8,Unintentional,1,0,Digital
+12533314,Physical first,9,On Task,0,NA,Digital
+12533314,Physical first,10,Unintentional,1,0,Digital
+12533314,Physical first,11,Unintentional,1,0,Digital
+12533314,Physical first,12,On Task,0,NA,Digital
+12533314,Physical first,13,Unintentional,1,0,Digital
+12533314,Physical first,14,Unintentional,1,0,Digital

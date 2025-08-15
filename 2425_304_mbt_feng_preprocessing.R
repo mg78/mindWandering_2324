@@ -89,7 +89,9 @@ temp <- temp_digitalA_dat %>%
   add_row(temp_sona_physicalB)
 
 feng_dat <- feng_dat %>%
-  add_row(temp) %>%
+  add_row(temp)
+
+feng_dat <- feng_dat %>%
   rename(origID = `Participant Private ID`,
          display = Display,
          spreadsheet = Spreadsheet,
@@ -144,16 +146,73 @@ feng_dat <- feng_dat %>%
     spreadsheet == "Physical B" & passage == "2" ~ "Physical",
     spreadsheet == "Physical B" & passage == "4" ~ "Physical",
     spreadsheet == "Physical B" & passage == "6" ~ "Physical",
-    spreadsheet == "Physical B" & passage == "8" ~ "Physical",
+    spreadsheet == "Physical B" & passage == "8" ~ "Physical"
   )) %>%
   mutate(order = case_when(
     spreadsheet == "Digital A" ~ "Digital first",
     spreadsheet == "Digital B" ~ "Digital first",
     spreadsheet == "Physical A" ~ "Physical first",
     spreadsheet == "Physical B" ~ "Physical first"
+  )) %>%
+  mutate(probeNumber = case_when(
+    spreadsheet == "Digital A" & display == "probe" & trial == "1" | spreadsheet == "Physical A" & display == "probe_physical" & trial == "1" ~ "1",
+    spreadsheet == "Digital A" & display == "probe" & trial == "2" | spreadsheet == "Physical A" & display == "probe_physical" & trial == "2" ~ "2",
+    spreadsheet == "Digital A" & display == "probe" & trial == "3" | spreadsheet == "Physical A" & display == "probe_physical" & trial == "3" ~ "3",
+    spreadsheet == "Digital A" & display == "probe" & trial == "4" | spreadsheet == "Physical A" & display == "probe_physical" & trial == "4" ~ "4",
+    spreadsheet == "Digital A" & display == "probe" & trial == "5" | spreadsheet == "Physical A" & display == "probe_physical" & trial == "5" ~ "5",
+    spreadsheet == "Digital A" & display == "probe" & trial == "6" | spreadsheet == "Physical A" & display == "probe_physical" & trial == "6" ~ "6",
+    spreadsheet == "Digital A" & display == "probe" & trial == "7" | spreadsheet == "Physical A" & display == "probe_physical" & trial == "7" ~ "7",
+    spreadsheet == "Digital A" & display == "probe" & trial == "8" | spreadsheet == "Physical A" & display == "probe_physical" & trial == "8" ~ "8",
+    spreadsheet == "Digital A" & display == "probe" & trial == "9" | spreadsheet == "Physical A" & display == "probe_physical" & trial == "9" ~ "9",
+    spreadsheet == "Digital A" & display == "probe" & trial == "10" | spreadsheet == "Physical A" & display == "probe_physical" & trial == "10" ~ "10",
+    spreadsheet == "Digital A" & display == "probe" & trial == "11" | spreadsheet == "Physical A" & display == "probe_physical" & trial == "11" ~ "11",
+    spreadsheet == "Digital A" & display == "probe" & trial == "12" | spreadsheet == "Physical A" & display == "probe_physical" & trial == "12" ~ "12",
+    spreadsheet == "Digital A" & display == "probe" & trial == "13" | spreadsheet == "Physical A" & display == "probe_physical" & trial == "13" ~ "13",
+    spreadsheet == "Digital A" & display == "probe" & trial == "14" | spreadsheet == "Physical A" & display == "probe_physical" & trial == "14" ~ "14",
+    
+    spreadsheet == "Digital A" & display == "probe_physical" & trial == "1" | spreadsheet == "Physical A" & display == "probe" & trial == "1" ~ "15",
+    spreadsheet == "Digital A" & display == "probe_physical" & trial == "2" | spreadsheet == "Physical A" & display == "probe" & trial == "2" ~ "16",
+    spreadsheet == "Digital A" & display == "probe_physical" & trial == "3" | spreadsheet == "Physical A" & display == "probe" & trial == "3" ~ "17",
+    spreadsheet == "Digital A" & display == "probe_physical" & trial == "4" | spreadsheet == "Physical A" & display == "probe" & trial == "4" ~ "18",
+    spreadsheet == "Digital A" & display == "probe_physical" & trial == "5" | spreadsheet == "Physical A" & display == "probe" & trial == "5" ~ "19",
+    spreadsheet == "Digital A" & display == "probe_physical" & trial == "6" | spreadsheet == "Physical A" & display == "probe" & trial == "6" ~ "20",
+    spreadsheet == "Digital A" & display == "probe_physical" & trial == "7" | spreadsheet == "Physical A" & display == "probe" & trial == "7" ~ "21",
+    spreadsheet == "Digital A" & display == "probe_physical" & trial == "8" | spreadsheet == "Physical A" & display == "probe" & trial == "8" ~ "22",
+    spreadsheet == "Digital A" & display == "probe_physical" & trial == "9" | spreadsheet == "Physical A" & display == "probe" & trial == "9" ~ "23",
+    spreadsheet == "Digital A" & display == "probe_physical" & trial == "10" | spreadsheet == "Physical A" & display == "probe" & trial == "10" ~ "24",
+    spreadsheet == "Digital A" & display == "probe_physical" & trial == "11" | spreadsheet == "Physical A" & display == "probe" & trial == "11" ~ "25",
+    spreadsheet == "Digital A" & display == "probe_physical" & trial == "12" | spreadsheet == "Physical A" & display == "probe" & trial == "12" ~ "26",
+    spreadsheet == "Digital A" & display == "probe_physical" & trial == "13" | spreadsheet == "Physical A" & display == "probe" & trial == "13" ~ "27",
+    
+    spreadsheet == "Digital B" & display == "probe" & trial == "1" | spreadsheet == "Physical B" & display == "probe_physical" & trial == "1" ~ "1",
+    spreadsheet == "Digital B" & display == "probe" & trial == "2" | spreadsheet == "Physical B" & display == "probe_physical" & trial == "2" ~ "2",
+    spreadsheet == "Digital B" & display == "probe" & trial == "3" | spreadsheet == "Physical B" & display == "probe_physical" & trial == "3" ~ "3",
+    spreadsheet == "Digital B" & display == "probe" & trial == "4" | spreadsheet == "Physical B" & display == "probe_physical" & trial == "4" ~ "4",
+    spreadsheet == "Digital B" & display == "probe" & trial == "5" | spreadsheet == "Physical B" & display == "probe_physical" & trial == "5" ~ "5",
+    spreadsheet == "Digital B" & display == "probe" & trial == "6" | spreadsheet == "Physical B" & display == "probe_physical" & trial == "6" ~ "6",
+    spreadsheet == "Digital B" & display == "probe" & trial == "7" | spreadsheet == "Physical B" & display == "probe_physical" & trial == "7" ~ "7",
+    spreadsheet == "Digital B" & display == "probe" & trial == "8" | spreadsheet == "Physical B" & display == "probe_physical" & trial == "8" ~ "8",
+    spreadsheet == "Digital B" & display == "probe" & trial == "9" | spreadsheet == "Physical B" & display == "probe_physical" & trial == "9" ~ "9",
+    spreadsheet == "Digital B" & display == "probe" & trial == "10" | spreadsheet == "Physical B" & display == "probe_physical" & trial == "10" ~ "10",
+    spreadsheet == "Digital B" & display == "probe" & trial == "11" | spreadsheet == "Physical B" & display == "probe_physical" & trial == "11" ~ "11",
+    spreadsheet == "Digital B" & display == "probe" & trial == "12" | spreadsheet == "Physical B" & display == "probe_physical" & trial == "12" ~ "12",
+    spreadsheet == "Digital B" & display == "probe" & trial == "13" | spreadsheet == "Physical B" & display == "probe_physical" & trial == "13" ~ "13",
+    
+    spreadsheet == "Digital B" & display == "probe_physical" & trial == "1" | spreadsheet == "Physical B" & display == "probe" & trial == "1" ~ "14",
+    spreadsheet == "Digital B" & display == "probe_physical" & trial == "2" | spreadsheet == "Physical B" & display == "probe" & trial == "2" ~ "15",
+    spreadsheet == "Digital B" & display == "probe_physical" & trial == "3" | spreadsheet == "Physical B" & display == "probe" & trial == "3" ~ "16",
+    spreadsheet == "Digital B" & display == "probe_physical" & trial == "4" | spreadsheet == "Physical B" & display == "probe" & trial == "4" ~ "17",
+    spreadsheet == "Digital B" & display == "probe_physical" & trial == "5" | spreadsheet == "Physical B" & display == "probe" & trial == "5" ~ "18",
+    spreadsheet == "Digital B" & display == "probe_physical" & trial == "6" | spreadsheet == "Physical B" & display == "probe" & trial == "6" ~ "19",
+    spreadsheet == "Digital B" & display == "probe_physical" & trial == "7" | spreadsheet == "Physical B" & display == "probe" & trial == "7" ~ "20",
+    spreadsheet == "Digital B" & display == "probe_physical" & trial == "8" | spreadsheet == "Physical B" & display == "probe" & trial == "8" ~ "21",
+    spreadsheet == "Digital B" & display == "probe_physical" & trial == "9" | spreadsheet == "Physical B" & display == "probe" & trial == "9" ~ "22",
+    spreadsheet == "Digital B" & display == "probe_physical" & trial == "10" | spreadsheet == "Physical B" & display == "probe" & trial == "10" ~ "23",
+    spreadsheet == "Digital B" & display == "probe_physical" & trial == "11" | spreadsheet == "Physical B" & display == "probe" & trial == "11" ~ "24",
+    spreadsheet == "Digital B" & display == "probe_physical" & trial == "12" | spreadsheet == "Physical B" & display == "probe" & trial == "12" ~ "25",
+    spreadsheet == "Digital B" & display == "probe_physical" & trial == "13" | spreadsheet == "Physical B" & display == "probe" & trial == "13" ~ "26",
+    spreadsheet == "Digital B" & display == "probe_physical" & trial == "14" | spreadsheet == "Physical B" & display == "probe" & trial == "14" ~ "27"
   ))
-
-
 
 # 4) Once dataframe with participants from all setups is created, score responses and calculate score
 
@@ -174,9 +233,15 @@ rc_score <- rc_dat %>%
   summarise(rc_acc = mean(rc_correct)*100,
             rct = mean(rt))
 
+rc_score_megan <- rc_dat %>%                # Order and condition irrelevant for project Megan
+  group_by(origID) %>%
+  summarise(rc_acc = mean(rc_correct)*100,
+            rct = mean(rt))
+
 ## Mind wandering
+
 mw_dat <- feng_dat %>%
-  select(origID, display, order, trial, response) %>%
+  select(origID, spreadsheet, display, order, trial, probeNumber, response) %>%
   filter(display == "probe" | display == "probe_physical") %>%
   mutate(mw_response = dplyr::recode(response,
                                      "On Task" = "0",
@@ -190,15 +255,83 @@ mw_dat <- feng_dat %>%
   mutate(condition = case_when(
     display == "probe" ~ "Digital",
     display == "probe_physical" ~ "Physical"
-  ))
-  
+  )) %>%
+  select(-display) %>%
+  mutate(passage = case_when(
+    spreadsheet == "Digital A" & probeNumber == 1 | spreadsheet ==  "Physical A" & probeNumber == 1 ~ 1,
+    spreadsheet == "Digital A" & probeNumber == 2 | spreadsheet ==  "Physical A" & probeNumber == 2 ~ 1,
+    spreadsheet == "Digital A" & probeNumber == 3 | spreadsheet ==  "Physical A" & probeNumber == 3 ~ 1,
+    spreadsheet == "Digital A" & probeNumber == 4 | spreadsheet ==  "Physical A" & probeNumber == 4 ~ 1,
+    spreadsheet == "Digital A" & probeNumber == 5 | spreadsheet ==  "Physical A" & probeNumber == 5 ~ 1,
+    spreadsheet == "Digital A" & probeNumber == 6 | spreadsheet ==  "Physical A" & probeNumber == 6 ~ 1,
+    spreadsheet == "Digital A" & probeNumber == 7 | spreadsheet ==  "Physical A" & probeNumber == 7 ~ 1,
+    spreadsheet == "Digital A" & probeNumber == 8 | spreadsheet ==  "Physical A" & probeNumber == 8 ~ 3,
+    spreadsheet == "Digital A" & probeNumber == 9 | spreadsheet ==  "Physical A" & probeNumber == 9 ~ 3,
+    spreadsheet == "Digital A" & probeNumber == 10 | spreadsheet ==  "Physical A" & probeNumber == 10 ~ 5,
+    spreadsheet == "Digital A" & probeNumber == 11 | spreadsheet ==  "Physical A" & probeNumber == 11 ~ 5,
+    spreadsheet == "Digital A" & probeNumber == 12 | spreadsheet ==  "Physical A" & probeNumber == 12 ~ 5,
+    spreadsheet == "Digital A" & probeNumber == 13 | spreadsheet ==  "Physical A" & probeNumber == 13 ~ 7,
+    spreadsheet == "Digital A" & probeNumber == 14 | spreadsheet ==  "Physical A" & probeNumber == 14 ~ 7,
+    spreadsheet == "Digital A" & probeNumber == 15 | spreadsheet ==  "Physical A" & probeNumber == 15 ~ 2,
+    spreadsheet == "Digital A" & probeNumber == 16 | spreadsheet ==  "Physical A" & probeNumber == 16 ~ 2,
+    spreadsheet == "Digital A" & probeNumber == 17 | spreadsheet ==  "Physical A" & probeNumber == 17 ~ 4,
+    spreadsheet == "Digital A" & probeNumber == 18 | spreadsheet ==  "Physical A" & probeNumber == 18 ~ 4,
+    spreadsheet == "Digital A" & probeNumber == 19 | spreadsheet ==  "Physical A" & probeNumber == 19 ~ 4,
+    spreadsheet == "Digital A" & probeNumber == 20 | spreadsheet ==  "Physical A" & probeNumber == 20 ~ 4,
+    spreadsheet == "Digital A" & probeNumber == 21 | spreadsheet ==  "Physical A" & probeNumber == 21 ~ 6,
+    spreadsheet == "Digital A" & probeNumber == 22 | spreadsheet ==  "Physical A" & probeNumber == 22 ~ 6,
+    spreadsheet == "Digital A" & probeNumber == 23 | spreadsheet ==  "Physical A" & probeNumber == 23 ~ 6,
+    spreadsheet == "Digital A" & probeNumber == 24 | spreadsheet ==  "Physical A" & probeNumber == 24 ~ 6,
+    spreadsheet == "Digital A" & probeNumber == 25 | spreadsheet ==  "Physical A" & probeNumber == 25 ~ 8,
+    spreadsheet == "Digital A" & probeNumber == 26 | spreadsheet ==  "Physical A" & probeNumber == 26 ~ 8,
+    spreadsheet == "Digital A" & probeNumber == 27 | spreadsheet ==  "Physical A" & probeNumber == 27 ~ 8,
+    
+    spreadsheet == "Digital B" & probeNumber == 1 | spreadsheet ==  "Physical B" & probeNumber == 1 ~ 2,
+    spreadsheet == "Digital B" & probeNumber == 2 | spreadsheet ==  "Physical B" & probeNumber == 2 ~ 2,
+    spreadsheet == "Digital B" & probeNumber == 3 | spreadsheet ==  "Physical B" & probeNumber == 3 ~ 4,
+    spreadsheet == "Digital B" & probeNumber == 4 | spreadsheet ==  "Physical B" & probeNumber == 4 ~ 4,
+    spreadsheet == "Digital B" & probeNumber == 5 | spreadsheet ==  "Physical B" & probeNumber == 5 ~ 4,
+    spreadsheet == "Digital B" & probeNumber == 6 | spreadsheet ==  "Physical B" & probeNumber == 6 ~ 4,
+    spreadsheet == "Digital B" & probeNumber == 7 | spreadsheet ==  "Physical B" & probeNumber == 7 ~ 6,
+    spreadsheet == "Digital B" & probeNumber == 8 | spreadsheet ==  "Physical B" & probeNumber == 8 ~ 6,
+    spreadsheet == "Digital B" & probeNumber == 9 | spreadsheet ==  "Physical B" & probeNumber == 9 ~ 6,
+    spreadsheet == "Digital B" & probeNumber == 10 | spreadsheet ==  "Physical B" & probeNumber == 10 ~ 6,
+    spreadsheet == "Digital B" & probeNumber == 11 | spreadsheet ==  "Physical B" & probeNumber == 11 ~ 8,
+    spreadsheet == "Digital B" & probeNumber == 12 | spreadsheet ==  "Physical B" & probeNumber == 12 ~ 8,
+    spreadsheet == "Digital B" & probeNumber == 13 | spreadsheet ==  "Physical B" & probeNumber == 13 ~ 8,
+    spreadsheet == "Digital B" & probeNumber == 14 | spreadsheet ==  "Physical B" & probeNumber == 14 ~ 1,
+    spreadsheet == "Digital B" & probeNumber == 15 | spreadsheet ==  "Physical B" & probeNumber == 15 ~ 1,
+    spreadsheet == "Digital B" & probeNumber == 16 | spreadsheet ==  "Physical B" & probeNumber == 16 ~ 1,
+    spreadsheet == "Digital B" & probeNumber == 17 | spreadsheet ==  "Physical B" & probeNumber == 17 ~ 1,
+    spreadsheet == "Digital B" & probeNumber == 18 | spreadsheet ==  "Physical B" & probeNumber == 18 ~ 1,
+    spreadsheet == "Digital B" & probeNumber == 19 | spreadsheet ==  "Physical B" & probeNumber == 19 ~ 1,
+    spreadsheet == "Digital B" & probeNumber == 20 | spreadsheet ==  "Physical B" & probeNumber == 20 ~ 1,
+    spreadsheet == "Digital B" & probeNumber == 21 | spreadsheet ==  "Physical B" & probeNumber == 21 ~ 3,
+    spreadsheet == "Digital B" & probeNumber == 22 | spreadsheet ==  "Physical B" & probeNumber == 22 ~ 3,
+    spreadsheet == "Digital B" & probeNumber == 23 | spreadsheet ==  "Physical B" & probeNumber == 23 ~ 5,
+    spreadsheet == "Digital B" & probeNumber == 24 | spreadsheet ==  "Physical B" & probeNumber == 24 ~ 5,
+    spreadsheet == "Digital B" & probeNumber == 25 | spreadsheet ==  "Physical B" & probeNumber == 25 ~ 5,
+    spreadsheet == "Digital B" & probeNumber == 26 | spreadsheet ==  "Physical B" & probeNumber == 26 ~ 7,
+    spreadsheet == "Digital B" & probeNumber == 27 | spreadsheet ==  "Physical B" & probeNumber == 27 ~ 7,
+  )) %>%
+  select (-spreadsheet)
+
 mw_score <- mw_dat %>%
   group_by(origID, order, condition) %>%
   summarise(mw_freq = mean(mw_response)*100)
-  
+
 mw_intent_score <- mw_dat %>%
   filter(response != "On Task") %>%
   group_by(origID, order, condition) %>%
+  summarise(mw_intent_freq = mean(mw_intent)*100)
+
+mw_score_megan <- mw_dat %>%               # Order and condition irrelevant for project Megan
+  group_by(origID) %>%
+  summarise(mw_freq = mean(mw_response)*100)
+
+mw_intent_score_megan <- mw_dat %>%       # Order and condition irrelevant for project Megan
+  filter(response != "On Task") %>%
+  group_by(origID) %>%
   summarise(mw_intent_freq = mean(mw_intent)*100)
 
 ## Combine into one df
@@ -207,8 +340,16 @@ mw <- rc_score %>%
   left_join(mw_score) %>%
   left_join(mw_intent_score)
 
+mw_megan <- rc_score_megan %>%
+  left_join(mw_score_megan) %>%
+  left_join(mw_intent_score_megan)
+
 # 5) Save results in new data file
 
 write_csv(mw, here("mw2425_06data/mackin-boylan-tolentino/mw_2425_mbt_processed", "mw_20250402.csv"))
+write_csv(mw_dat, here("mw2425_06data/mackin-boylan-tolentino/mw_2425_mbt_processed", "mw_dat_20250417.csv")) # For project Annabel Boylan
+write_csv(mw_megan, here("mw2425_06data/mackin-boylan-tolentino/mw_2425_mbt_processed", "mw_megan_20250402.csv")) # For project Megan Tolentino
 
 test <- read_csv(here("mw2425_06data/mackin-boylan-tolentino/mw_2425_mbt_processed", "mw_20250402.csv"))
+test2 <- read_csv(here("mw2425_06data/mackin-boylan-tolentino/mw_2425_mbt_processed", "mw_dat_20250417.csv"))
+test3 <- read_csv(here("mw2425_06data/mackin-boylan-tolentino/mw_2425_mbt_processed", "mw_megan_20250402.csv"))

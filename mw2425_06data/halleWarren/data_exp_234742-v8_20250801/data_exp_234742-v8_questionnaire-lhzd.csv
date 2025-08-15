@@ -1,0 +1,22 @@
+Event Index,UTC Timestamp,UTC Date and Time,Local Timestamp,Local Timezone,Local Date and Time,Experiment ID,Experiment Version,Tree Node Key,Repeat Key,Schedule ID,Participant Public ID,Participant Private ID,Participant Starting Group,Participant Status,Participant Completion Code,Participant External Session ID,Participant Device Type,Participant Device,Participant OS,Participant Browser,Participant Monitor Size,Participant Viewport Size,Checkpoint,Room ID,Room Order,Task Name,Task Version,randomiser-mq2e,branch-s3b7,Page,Page ID,Page Counter,Question,Response Type,Key,Response,Tag,OptionOrder,Object Name,Object Number,Object ID,branch-dgjt
+1,1753199171901,22/07/2025 15:46,1753202771901,1,22/07/2025 17:46,234742,8,questionnaire-lhzd,,48249487,BLINDED,13860366,,complete,,,computer,Desktop or Laptop,Windows 10,Edge 138.0.0.0,1536x864,1528x708,,,0,FB - VOUCHER INFO,3,probe_selfreport,Eligible,,,,,info,,BEGIN,,,,,,Voucher
+5,1753199175077,22/07/2025 15:46,1753202775077,1,22/07/2025 17:46,234742,8,questionnaire-lhzd,,48249487,BLINDED,13860366,,complete,,,computer,Desktop or Laptop,Windows 10,Edge 138.0.0.0,1536x864,1528x708,,,0,FB - VOUCHER INFO,3,probe_selfreport,Eligible,Page 1,l5rppi,1,"**For the chance to win a £10 Amazon gift card, please enter your details down below.**
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Full Name-value,,,,fb_prizeemail,1,object-16,Voucher
+6,1753199175078,22/07/2025 15:46,1753202775078,1,22/07/2025 17:46,234742,8,questionnaire-lhzd,,48249487,BLINDED,13860366,,complete,,,computer,Desktop or Laptop,Windows 10,Edge 138.0.0.0,1536x864,1528x708,,,0,FB - VOUCHER INFO,3,probe_selfreport,Eligible,Page 1,l5rppi,1,"**For the chance to win a £10 Amazon gift card, please enter your details down below.**
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Personal Email Address-value,,,,fb_prizeemail,1,object-16,Voucher
+7,1753199175078,22/07/2025 15:46,1753202775078,1,22/07/2025 17:46,234742,8,questionnaire-lhzd,,48249487,BLINDED,13860366,,complete,,,computer,Desktop or Laptop,Windows 10,Edge 138.0.0.0,1536x864,1528x708,,,0,FB - VOUCHER INFO,3,probe_selfreport,Eligible,,,,,info,,END,3135,,,,,Voucher
+1,1753201319663,22/07/2025 16:21,1753204919663,1,22/07/2025 18:21,234742,8,questionnaire-lhzd,,48250720,BLINDED,13860618,,complete,,,computer,Desktop or Laptop,Mac OS 10.15.7,Safari 16.6,1440x900,1440x820,,,0,FB - VOUCHER INFO,3,selfreport_probe,Eligible,,,,,info,,BEGIN,,,,,,Voucher
+5,1753201340992,22/07/2025 16:22,1753204940992,1,22/07/2025 18:22,234742,8,questionnaire-lhzd,,48250720,BLINDED,13860618,,complete,,,computer,Desktop or Laptop,Mac OS 10.15.7,Safari 16.6,1440x900,1440x820,,,0,FB - VOUCHER INFO,3,selfreport_probe,Eligible,Page 1,l5rppi,1,"**For the chance to win a £10 Amazon gift card, please enter your details down below.**
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Full Name-value,Heather Allmark,,,fb_prizeemail,1,object-16,Voucher
+6,1753201340992,22/07/2025 16:22,1753204940992,1,22/07/2025 18:22,234742,8,questionnaire-lhzd,,48250720,BLINDED,13860618,,complete,,,computer,Desktop or Laptop,Mac OS 10.15.7,Safari 16.6,1440x900,1440x820,,,0,FB - VOUCHER INFO,3,selfreport_probe,Eligible,Page 1,l5rppi,1,"**For the chance to win a £10 Amazon gift card, please enter your details down below.**
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Personal Email Address-value,heatherall51@gmail.com,,,fb_prizeemail,1,object-16,Voucher
+7,1753201340992,22/07/2025 16:22,1753204940992,1,22/07/2025 18:22,234742,8,questionnaire-lhzd,,48250720,BLINDED,13860618,,complete,,,computer,Desktop or Laptop,Mac OS 10.15.7,Safari 16.6,1440x900,1440x820,,,0,FB - VOUCHER INFO,3,selfreport_probe,Eligible,,,,,info,,END,21302,,,,,Voucher
+END OF FILE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
