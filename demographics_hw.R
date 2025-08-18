@@ -3,7 +3,7 @@
 # Assumes separate .csv files for each experiment/version/project/wave of data collection
 # Optional: Can use function check.n() for checking n participants
 # Main: 
-# 1) Read in data files
+# 1) Read in data files (final data download on 18th August 2025)
 # 2) Use function clean.demo() to pivot, select and rename relevant variables. For the first data file, assign output to a 
 # new data frame (e.g., 'demo_dys').
 # 3) For subsequent data files, use function clean.demo() again, but assign output to 'temp' and add rows to the original data frame.
@@ -47,9 +47,10 @@ clean.demo <- function(data){
 }
 
 # 1) Read in data files -----------
-demo_sona_aug25 <- read_csv(here("mw2425_06data/halleWarren/data_exp_233799-v28_20250814", "data_exp_233799-v28_questionnaire-hpzd.csv"))
-demo_sl_aug25 <- read_csv(here("mw2425_06data/halleWarren/data_exp_234742-v8_20250801", "data_exp_234742-v8_questionnaire-hpzd.csv"))
-demo_sl2_aug25 <- read_csv(here("mw2425_06data/halleWarren/data_exp_234742-v9_20250814", "data_exp_234742-v9_questionnaire-hpzd.csv"))
+##  (final data download on 18th August 2025)
+demo_sona_aug25 <- read_csv(here("work_project_data/mw/mw2425_06data/halleWarren/data_exp_233799-v28_20250818", "data_exp_233799-v28_questionnaire-hpzd.csv"))
+demo_sl_aug25 <- read_csv(here("work_project_data/mw/mw2425_06data/halleWarren/data_exp_234742-v8_20250801", "data_exp_234742-v8_questionnaire-hpzd.csv"))
+demo_sl2_aug25 <- read_csv(here("work_project_data/mw/mw2425_06data/halleWarren/data_exp_234742-v9_20250818", "data_exp_234742-v9_questionnaire-hpzd.csv"))
 
 # 2) For first data file -----------
 n <- check.n(demo_sl_aug25) # check number of participants in data file
@@ -71,9 +72,9 @@ demo_dat <- demo_dat %>% # add participants 'temp' to main data frame
   add_row(temp)
 
 # 4) Save results in new data file -----------
-write_csv(demo_dat, here("mw2425_06data/halleWarren/mw2425_hw_processed", "demo_dat_20250814.csv"))
+write_csv(demo_dat, here("work_project_data/mw/mw2425_06data/halleWarren/mw2425_hw_processed", "demo_dat_20250818.csv"))
 
-test <- read_csv(here("mw2425_06data/halleWarren/mw2425_hw_processed", "demo_dat_20250814.csv"))
+test <- read_csv(here("work_project_data/mw/mw2425_06data/halleWarren/mw2425_hw_processed", "demo_dat_20250818.csv"))
 
 
 

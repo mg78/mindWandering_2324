@@ -1,0 +1,78 @@
+origID,age,gender,diag_gr,other_text,await,other_med,ASD_Score_total,ASD_Score1,ASD_Score2,ASD_Score3,ASD_Score4,ASD_Score5,asrs_total,adhd_risk,order,mw_pc_count,mw_pc_aware_count,mw_sr_count
+13860366,22,woman,control,NA,await_no,No,80,23,11,6,26,14,18,5,probe_selfreport,10,3,0
+13860618,22,woman,control,NA,await_no,No,83,25,7,14,25,12,5,0,selfreport_probe,4,4,0
+13861171,24,woman,autism,NA,await_no,"Yes, and I am within the time period it is active.",45,11,3,7,12,12,13,4,selfreport_probe,9,7,3
+13862736,22,woman,control,NA,await_no,No,65,20,6,7,17,15,7,2,probe_selfreport,4,3,0
+13863654,22,woman,control,NA,await_no,No,90,25,7,11,29,18,10,3,selfreport_probe,7,3,3
+13863726,21,woman,control,NA,await_no,No,79,27,9,9,28,6,14,3,probe_selfreport,10,2,0
+13865096,19,woman,control,NA,await_autism,No,41,13,5,5,8,10,20,6,selfreport_probe,10,5,17
+13865493,29,woman,control,NA,await_no,No,69,19,6,12,21,11,14,3,probe_selfreport,1,1,3
+13867638,22,woman,control,NA,await_no,No,93,23,11,13,27,19,10,2,probe_selfreport,11,7,0
+13869196,22,woman,control,NA,await_no,No,63,15,8,9,21,10,18,6,selfreport_probe,5,4,2
+13869316,21,woman,control,NA,await_no,No,71,19,4,10,24,14,11,2,probe_selfreport,3,0,1
+13869340,22,man,control,NA,await_no,No,72,23,9,7,28,5,9,3,probe_selfreport,7,3,1
+13872305,22,woman,control,NA,await_no,No,83,24,7,11,23,18,8,2,selfreport_probe,8,4,6
+13872675,21,woman,control,NA,await_no,No,68,19,7,5,20,17,19,5,selfreport_probe,11,11,6
+13873740,23,woman,control,NA,await_no,No,75,26,11,8,22,8,14,5,probe_selfreport,11,3,9
+13875906,23,woman,autism,NA,await_no,No,50,11,3,5,23,8,11,2,selfreport_probe,9,1,2
+13875978,22,woman,control,NA,await_no,No,73,21,6,6,27,13,11,3,probe_selfreport,10,8,14
+13876620,22,woman,autism,NA,await_no,No,67,21,4,7,29,6,13,4,selfreport_probe,3,3,0
+13876896,22,woman,other,"Tourette's Syndrome and anxiety, with some mild OCD",await_no,No,92,26,10,12,29,15,17,5,probe_selfreport,10,8,14
+13878596,22,man,control,NA,await_no,No,66,19,7,8,18,14,14,4,selfreport_probe,12,1,5
+13878626,25,woman,autism,NA,await_adhd,No,50,14,5,4,20,7,14,3,probe_selfreport,3,3,3
+13880418,25,woman,control,NA,await_no,No,89,19,10,14,30,16,9,2,probe_selfreport,4,3,0
+13881637,26,woman,control,NA,await_no,No,69,20,7,10,22,10,15,4,selfreport_probe,9,0,0
+13883538,18,woman,control,NA,await_no,No,80,22,8,6,28,16,15,4,selfreport_probe,8,5,2
+13884078,28,woman,control,NA,await_no,No,103,27,12,14,31,19,7,0,probe_selfreport,3,2,0
+13884260,25,woman,control,NA,await_no,No,80,15,9,12,29,15,8,0,selfreport_probe,4,0,0
+13884574,21,man,control,NA,await_no,No,71,20,8,8,23,12,22,6,selfreport_probe,1,0,0
+13884575,22,woman,control,NA,await_no,No,74,28,8,13,16,9,5,1,probe_selfreport,1,1,1
+13886867,22,woman,control,NA,await_no,No,81,25,9,11,23,13,9,2,probe_selfreport,11,7,11
+13889770,22,woman,control,NA,await_no,No,76,19,9,8,26,14,11,3,selfreport_probe,9,1,2
+13889851,25,woman,control,NA,await_no,No,74,21,9,8,23,13,17,5,selfreport_probe,2,0,0
+13891246,26,woman,control,NA,await_no,No,73,22,6,7,23,15,20,5,probe_selfreport,7,4,3
+13892982,24,woman,control,NA,await_no,No,64,20,5,9,18,12,15,5,selfreport_probe,2,1,0
+13898927,25,woman,adhd,NA,await_adhd,"Yes, and I am within the time period it is active.",76,22,11,13,24,6,8,2,selfreport_probe,0,NA,0
+13898999,23,man,adhd,NA,await_adhd,"Yes, and I am within the time period it is active.",81,23,9,12,26,11,13,3,probe_selfreport,0,NA,0
+13899297,20,man,autism,NA,await_autism,"Yes, and I am within the time period it is active.",74,21,7,12,22,12,11,2,selfreport_probe,0,NA,0
+13899320,31,man,control,NA,await_no,No,78,26,10,12,23,7,0,0,probe_selfreport,0,NA,0
+13899490,20,man,autism,NA,await_autism,"Yes, and I am within the time period it is active.",71,19,9,11,23,9,10,1,selfreport_probe,2,0,0
+13899548,30,man,autism,NA,await_autism,No,80,25,9,13,26,7,7,1,probe_selfreport,2,0,0
+13900380,30,man,adhd,NA,await_no,"Yes, and I am within the time period it is active.",68,18,7,14,24,5,12,2,selfreport_probe,7,2,0
+13902549,23,woman,control,NA,await_no,No,63,21,10,6,20,6,23,6,probe_selfreport,11,9,0
+13903684,23,woman,control,NA,await_no,No,61,17,3,6,22,13,15,4,selfreport_probe,9,5,4
+13903970,22,man,control,NA,await_no,No,69,20,6,11,19,13,7,1,probe_selfreport,2,2,0
+13904200,30,man,multiple,NA,await_multiple,"Yes, and I am within the time period it is active.",81,27,11,6,26,11,23,6,selfreport_probe,12,5,0
+13904660,21,man,control,NA,await_no,No,73,20,10,5,26,12,20,6,selfreport_probe,8,4,2
+13906995,20,woman,control,NA,await_adhd,"Yes, but I am not within the time period it is active.",75,17,7,10,32,9,20,6,probe_selfreport,8,5,20
+13907028,22,man,control,NA,await_no,No,86,29,8,12,23,14,6,0,selfreport_probe,2,2,0
+13907280,21,woman,control,NA,await_no,No,82,21,7,9,26,19,12,3,probe_selfreport,6,6,13
+13907333,33,woman,adhd,NA,await_no,"Yes, and I am within the time period it is active.",71,15,8,9,27,12,21,6,probe_selfreport,12,12,7
+13907670,22,woman,control,NA,await_no,No,73,19,9,9,16,20,16,4,probe_selfreport,6,2,2
+13907689,25,woman,control,NA,await_no,No,75,24,9,7,26,9,11,3,selfreport_probe,12,12,5
+13908207,19,woman,control,NA,await_no,No,58,15,5,6,17,15,18,4,probe_selfreport,11,7,19
+13909522,19,man,control,NA,await_no,No,50,15,4,6,19,6,18,5,probe_selfreport,11,3,8
+13909736,19,man,autism,NA,await_no,No,60,12,8,8,24,8,12,2,selfreport_probe,9,9,5
+13909813,20,woman,autism,NA,await_no,No,70,19,5,6,27,13,11,3,probe_selfreport,9,4,1
+13911092,22,man,control,NA,await_no,No,83,27,9,12,26,9,8,1,selfreport_probe,7,3,8
+13912295,19,non-binary,autism,NA,await_no,No,51,13,6,6,18,8,19,5,probe_selfreport,6,2,14
+13914804,18,man,control,NA,await_no,No,63,14,6,10,21,12,11,2,selfreport_probe,7,1,2
+13919253,22,woman,control,NA,await_no,No,68,21,5,8,17,17,2,0,probe_selfreport,11,0,0
+13919855,22,woman,control,NA,await_no,No,78,26,10,10,22,10,16,6,probe_selfreport,7,6,0
+13920088,22,woman,control,NA,await_no,No,68,20,9,12,18,9,15,4,selfreport_probe,8,4,2
+13920225,25,man,other,Awaiting screening/diagnosis for ADHD,await_adhd,No,75,21,8,5,23,18,12,2,selfreport_probe,11,7,11
+13921803,25,woman,control,NA,await_multiple,No,69,19,9,7,20,14,11,3,probe_selfreport,5,2,0
+13924121,33,woman,adhd,NA,await_autism,No,59,17,5,10,19,8,21,6,selfreport_probe,10,6,13
+13925040,29,woman,control,NA,await_autism,No,48,12,3,6,13,14,7,1,probe_selfreport,0,NA,0
+13925905,26,woman,other,dyslexia,await_adhd,No,72,11,6,10,25,20,21,5,probe_selfreport,11,8,3
+13926988,23,woman,control,NA,await_no,No,68,19,7,9,23,10,13,4,selfreport_probe,10,9,0
+13929615,21,man,control,NA,await_adhd,No,71,21,7,9,20,14,18,5,selfreport_probe,3,3,1
+13933305,20,woman,multiple,NA,await_no,No,73,23,8,12,18,12,11,2,probe_selfreport,7,5,2
+13935420,21,woman,control,NA,await_no,"Yes, and I am within the time period it is active.",84,23,6,10,28,17,17,4,selfreport_probe,8,5,1
+13942867,33,woman,other,Sensory Processing Disorder,await_multiple,No,59,16,6,6,23,8,18,4,selfreport_probe,8,3,1
+13944689,31,woman,multiple,NA,await_no,No,64,20,5,6,26,7,19,6,probe_selfreport,9,4,0
+13953935,34,woman,autism,NA,await_adhd,"Yes, and I am within the time period it is active.",50,14,4,6,20,6,20,5,selfreport_probe,12,3,4
+13934025,34,man,control,NA,await_no,No,80,25,7,12,24,12,2,0,selfreport_probe,11,0,0
+13955495,23,woman,control,NA,await_no,No,77,27,10,8,21,11,12,3,probe_selfreport,11,6,10
+13963720,32,woman,control,NA,await_adhd,No,92,27,10,14,25,16,16,4,selfreport_probe,12,11,0
+13963957,21,woman,adhd,NA,await_no,No,81,19,9,11,28,14,18,5,probe_selfreport,8,3,18

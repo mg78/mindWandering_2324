@@ -109,9 +109,9 @@ clean.diagnoses2_p2 <- function(data){
 }
 
 # 1) Read in data files -----------
-diag_sona_aug25 <- read_csv(here("mw2425_06data/halleWarren/data_exp_233799-v28_20250814", "data_exp_233799-v28_questionnaire-wctd.csv"))
-diag_sl_aug25 <- read_csv(here("mw2425_06data/halleWarren/data_exp_234742-v8_20250801", "data_exp_234742-v8_questionnaire-wctd.csv"))
-diag_sl2_aug25 <- read_csv(here("mw2425_06data/halleWarren/data_exp_234742-v9_20250814", "data_exp_234742-v9_questionnaire-wctd.csv"))
+diag_sona_aug25 <- read_csv(here("work_project_data/mw/mw2425_06data/halleWarren/data_exp_233799-v28_20250818", "data_exp_233799-v28_questionnaire-wctd.csv"))
+diag_sl_aug25 <- read_csv(here("work_project_data/mw/mw2425_06data/halleWarren/data_exp_234742-v8_20250801", "data_exp_234742-v8_questionnaire-wctd.csv"))
+diag_sl2_aug25 <- read_csv(here("work_project_data/mw/mw2425_06data/halleWarren/data_exp_234742-v9_20250818", "data_exp_234742-v9_questionnaire-wctd.csv"))
 
 # 2) For first data file -----------
 nsub <- check.n(diag_sl_aug25) # check number of participants in data file
@@ -143,9 +143,9 @@ diag_dat <- diag_dat %>%
   relocate(origID, diag_gr, other_text, await, other_med)
 
 # 4) Save results in new data file
-write_csv(diag_dat, here("mw2425_06data/halleWarren/mw2425_hw_processed", "diag_dat_20250814.csv"))
+write_csv(diag_dat, here("work_project_data/mw/mw2425_06data/halleWarren/mw2425_hw_processed", "diag_dat_20250818.csv"))
 
-test <- read_csv(here("mw2425_06data/halleWarren/mw2425_hw_processed", "diag_dat_20250814.csv"))
+test <- read_csv(here("work_project_data/mw/mw2425_06data/halleWarren/mw2425_hw_processed", "diag_dat_20250818.csv"))
 
 ##
 

@@ -36,12 +36,12 @@ clean.asd <- function(data){
 }
 
 # 1) Read in data files -----------
-asd_sona_aug25b1 <- read_csv(here("mw2425_06data/halleWarren/data_exp_233799-v28_20250814", "data_exp_233799-v28_questionnaire-opi6.csv"))
-asd_slv8_aug25b1 <- read_csv(here("mw2425_06data/halleWarren/data_exp_234742-v8_20250801", "data_exp_234742-v8_questionnaire-opi6.csv"))
-asd_slv9_aug25b1 <- read_csv(here("mw2425_06data/halleWarren/data_exp_234742-v9_20250814", "data_exp_234742-v9_questionnaire-opi6.csv"))
-asd_sona_aug25b2 <- read_csv(here("mw2425_06data/halleWarren/data_exp_233799-v28_20250814", "data_exp_233799-v28_questionnaire-zmbq.csv"))
-asd_slv8_aug25b2 <- read_csv(here("mw2425_06data/halleWarren/data_exp_234742-v8_20250801", "data_exp_234742-v8_questionnaire-zmbq.csv"))
-asd_slv9_aug25b2 <- read_csv(here("mw2425_06data/halleWarren/data_exp_234742-v9_20250814", "data_exp_234742-v9_questionnaire-zmbq.csv"))
+asd_sona_aug25b1 <- read_csv(here("work_project_data/mw/mw2425_06data/halleWarren/data_exp_233799-v28_20250818", "data_exp_233799-v28_questionnaire-opi6.csv"))
+asd_slv8_aug25b1 <- read_csv(here("work_project_data/mw/mw2425_06data/halleWarren/data_exp_234742-v8_20250801", "data_exp_234742-v8_questionnaire-opi6.csv"))
+asd_slv9_aug25b1 <- read_csv(here("work_project_data/mw/mw2425_06data/halleWarren/data_exp_234742-v9_20250818", "data_exp_234742-v9_questionnaire-opi6.csv"))
+asd_sona_aug25b2 <- read_csv(here("work_project_data/mw/mw2425_06data/halleWarren/data_exp_233799-v28_20250818", "data_exp_233799-v28_questionnaire-zmbq.csv"))
+asd_slv8_aug25b2 <- read_csv(here("work_project_data/mw/mw2425_06data/halleWarren/data_exp_234742-v8_20250801", "data_exp_234742-v8_questionnaire-zmbq.csv"))
+asd_slv9_aug25b2 <- read_csv(here("work_project_data/mw/mw2425_06data/halleWarren/data_exp_234742-v9_20250818", "data_exp_234742-v9_questionnaire-zmbq.csv"))
 
 # 2) For first data file -----------
 nsub <- check.n(asd_slv8_aug25b1) # check number of participants in data file
@@ -232,9 +232,9 @@ asd_scores <- asd_dat %>%
   )
 
 # 5) Save results in new data file -----------
-write_csv(asd_scores, here("mw2425_06data/halleWarren/mw2425_hw_processed", "asd_scores_20250814.csv"))
+write_csv(asd_scores, here("work_project_data/mw/mw2425_06data/halleWarren/mw2425_hw_processed", "asd_scores_20250818.csv"))
 
-test <- read_csv(here("mw2425_06data/halleWarren/mw2425_hw_processed", "asd_scores_20250814.csv"))
+test <- read_csv(here("work_project_data/mw/mw2425_06data/halleWarren/mw2425_hw_processed", "asd_scores_20250818.csv"))
 
 #######
 # Following Hoekstra et al. (2011) using the abridged version of the autism-specturem quotient (AQ-Short)

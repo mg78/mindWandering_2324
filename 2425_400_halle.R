@@ -12,11 +12,11 @@ library(tidyverse)
 # Feedback
 
 # 1) Read in data files -----------
-demo_dat <- read_csv(here("mw2425_06data/halleWarren/mw2425_hw_processed", "demo_dat_20250814.csv"))
-diag_dat <- read_csv(here("mw2425_06data/halleWarren/mw2425_hw_processed", "diag_dat_20250814.csv"))
-asd_dat <- read_csv(here("mw2425_06data/halleWarren/mw2425_hw_processed", "asd_scores_20250814.csv"))
-asrs_dat <- read_csv(here("mw2425_06data/halleWarren/mw2425_hw_processed", "asrs_all_20250814.csv"))
-mw_dat <- read_csv(here("mw2425_06data/halleWarren/mw2425_hw_processed", "mw_scores_20250815.csv"))
+demo_dat <- read_csv(here("work_project_data/mw/mw2425_06data/halleWarren/mw2425_hw_processed", "demo_dat_20250818.csv"))
+diag_dat <- read_csv(here("work_project_data/mw/mw2425_06data/halleWarren/mw2425_hw_processed", "diag_dat_20250818.csv"))
+asd_dat <- read_csv(here("work_project_data/mw/mw2425_06data/halleWarren/mw2425_hw_processed", "asd_scores_20250818.csv"))
+asrs_dat <- read_csv(here("work_project_data/mw/mw2425_06data/halleWarren/mw2425_hw_processed", "asrs_all_20250818.csv"))
+mw_dat <- read_csv(here("work_project_data/mw/mw2425_06data/halleWarren/mw2425_hw_processed", "mw_scores_20250818.csv"))
 
 fb_dat <- 
 voucher <- 
@@ -33,7 +33,7 @@ halle_dat <- demo_dat %>%
   left_join(mw_dat)
   
 # 3) Save results in new data file ---------
-write_csv(halle_dat, here("mw2425_06data/halleWarren/mw2425_hw_processed", "halle_dat_20250815.csv"))
+write_csv(halle_dat, here("work_project_data/mw/mw2425_06data/halleWarren/mw2425_hw_processed", "halle_dat_20250818.csv"))
 
 ##########
 # Abbreviations

@@ -43,12 +43,12 @@ clean.asrs <- function(data){
 }
 
 # 1) Read in data files -----------
-asrs_slv8_aug25b1 <- read_csv(here("mw2425_06data/halleWarren/data_exp_234742-v8_20250801", "data_exp_234742-v8_questionnaire-5zpv.csv"))
-asrs_slv9_aug25b1 <- read_csv(here("mw2425_06data/halleWarren/data_exp_234742-v9_20250814", "data_exp_234742-v9_questionnaire-5zpv.csv"))
-asrs_sona_aug25b1 <- read_csv(here("mw2425_06data/halleWarren/data_exp_233799-v28_20250814", "data_exp_233799-v28_questionnaire-5zpv.csv"))
-asrs_slv8_aug25b2 <- read_csv(here("mw2425_06data/halleWarren/data_exp_234742-v8_20250801", "data_exp_234742-v8_questionnaire-6kdr.csv"))
-asrs_slv9_aug25b2 <- read_csv(here("mw2425_06data/halleWarren/data_exp_234742-v9_20250814", "data_exp_234742-v9_questionnaire-6kdr.csv"))
-asrs_sona_aug25b2 <- read_csv(here("mw2425_06data/halleWarren/data_exp_233799-v28_20250814", "data_exp_233799-v28_questionnaire-6kdr.csv"))
+asrs_slv8_aug25b1 <- read_csv(here("work_project_data/mw/mw2425_06data/halleWarren/data_exp_234742-v8_20250801", "data_exp_234742-v8_questionnaire-5zpv.csv"))
+asrs_slv9_aug25b1 <- read_csv(here("work_project_data/mw/mw2425_06data/halleWarren/data_exp_234742-v9_20250818", "data_exp_234742-v9_questionnaire-5zpv.csv"))
+asrs_sona_aug25b1 <- read_csv(here("work_project_data/mw/mw2425_06data/halleWarren/data_exp_233799-v28_20250818", "data_exp_233799-v28_questionnaire-5zpv.csv"))
+asrs_slv8_aug25b2 <- read_csv(here("work_project_data/mw/mw2425_06data/halleWarren/data_exp_234742-v8_20250801", "data_exp_234742-v8_questionnaire-6kdr.csv"))
+asrs_slv9_aug25b2 <- read_csv(here("work_project_data/mw/mw2425_06data/halleWarren/data_exp_234742-v9_20250818", "data_exp_234742-v9_questionnaire-6kdr.csv"))
+asrs_sona_aug25b2 <- read_csv(here("work_project_data/mw/mw2425_06data/halleWarren/data_exp_233799-v28_20250818", "data_exp_233799-v28_questionnaire-6kdr.csv"))
 
 # 2) For first data file -----------
 nsub <- check.n(asrs_slv8_aug25b1) # check number of participants in data file
@@ -108,9 +108,9 @@ asrs_all <- asrs_score %>%
   left_join(asrs_screen)
 
 # 5) Save results in new data file -----------
-write_csv(asrs_all, here("mw2425_06data/halleWarren/mw2425_hw_processed", "asrs_all_20250814.csv"))
+write_csv(asrs_all, here("work_project_data/mw/mw2425_06data/halleWarren/mw2425_hw_processed", "asrs_all_20250818.csv"))
 
-test <- read_csv(here("mw2425_06data/halleWarren/mw2425_hw_processed", "asrs_all_20250814.csv"))
+test <- read_csv(here("work_project_data/mw/mw2425_06data/halleWarren/mw2425_hw_processed", "asrs_all_20250818.csv"))
 
 #######
 # Following Kessler et al. 2005, two scores are derived:

@@ -1,0 +1,42 @@
+Event Index,UTC Timestamp,UTC Date and Time,Local Timestamp,Local Timezone,Local Date and Time,Experiment ID,Experiment Version,Tree Node Key,Repeat Key,Schedule ID,Participant Public ID,Participant Private ID,Participant Starting Group,Participant Status,Participant Completion Code,Participant External Session ID,Participant Device Type,Participant Device,Participant OS,Participant Browser,Participant Monitor Size,Participant Viewport Size,Checkpoint,Room ID,Room Order,Task Name,Task Version,randomiser-mq2e,branch-s3b7,branch-wcx7,branch-spxp,Page,Page ID,Page Counter,Question,Response Type,Key,Response,Tag,OptionOrder,Object Name,Object Number,Object ID
+1,1754562030749,07/08/2025 10:20,1754565630749,1,07/08/2025 12:20,233799,28,questionnaire-syjg,,48574230,BLINDED,13934025,,complete,,,computer,Desktop or Laptop,Windows 10,Chrome 138.0.0.0,1536x864,1536x703,,,0,FB - VOUCHER INFO,3,selfreport_probe,Eligible,Voucher,Yes,,,,,info,,BEGIN,,,,,
+5,1754562052615,07/08/2025 10:20,1754565652615,1,07/08/2025 12:20,233799,28,questionnaire-syjg,,48574230,BLINDED,13934025,,complete,,,computer,Desktop or Laptop,Windows 10,Chrome 138.0.0.0,1536x864,1536x703,,,0,FB - VOUCHER INFO,3,selfreport_probe,Eligible,Voucher,Yes,Page 1,l5rppi,1,"**For the chance to win a £10 Amazon gift card, please enter your details down below.**
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Full Name-value,Mohit Kumar Joshi,,,fb_prizeemail,1,object-16
+6,1754562052615,07/08/2025 10:20,1754565652615,1,07/08/2025 12:20,233799,28,questionnaire-syjg,,48574230,BLINDED,13934025,,complete,,,computer,Desktop or Laptop,Windows 10,Chrome 138.0.0.0,1536x864,1536x703,,,0,FB - VOUCHER INFO,3,selfreport_probe,Eligible,Voucher,Yes,Page 1,l5rppi,1,"**For the chance to win a £10 Amazon gift card, please enter your details down below.**
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Personal Email Address-value,m.k.joshi@lancaster.ac.uk,,,fb_prizeemail,1,object-16
+7,1754562052615,07/08/2025 10:20,1754565652615,1,07/08/2025 12:20,233799,28,questionnaire-syjg,,48574230,BLINDED,13934025,,complete,,,computer,Desktop or Laptop,Windows 10,Chrome 138.0.0.0,1536x864,1536x703,,,0,FB - VOUCHER INFO,3,selfreport_probe,Eligible,Voucher,Yes,,,,,info,,END,21825,,,,
+1,1755089663895,13/08/2025 12:54,1755093263895,1,13/08/2025 14:54,233799,28,questionnaire-syjg,,48676969,BLINDED,13955495,,complete,,,computer,Desktop or Laptop,Windows 10,Firefox 141.0,1536x864,1536x703,,,0,FB - VOUCHER INFO,3,probe_selfreport,Eligible,Voucher,Yes,,,,,info,,BEGIN,,,,,
+5,1755089675372,13/08/2025 12:54,1755093275372,1,13/08/2025 14:54,233799,28,questionnaire-syjg,,48676969,BLINDED,13955495,,complete,,,computer,Desktop or Laptop,Windows 10,Firefox 141.0,1536x864,1536x703,,,0,FB - VOUCHER INFO,3,probe_selfreport,Eligible,Voucher,Yes,Page 1,l5rppi,1,"**For the chance to win a £10 Amazon gift card, please enter your details down below.**
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Full Name-value,Emma Stoltz,,,fb_prizeemail,1,object-16
+6,1755089675372,13/08/2025 12:54,1755093275372,1,13/08/2025 14:54,233799,28,questionnaire-syjg,,48676969,BLINDED,13955495,,complete,,,computer,Desktop or Laptop,Windows 10,Firefox 141.0,1536x864,1536x703,,,0,FB - VOUCHER INFO,3,probe_selfreport,Eligible,Voucher,Yes,Page 1,l5rppi,1,"**For the chance to win a £10 Amazon gift card, please enter your details down below.**
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Personal Email Address-value,e.stoltz@lancaster.ac.uk,,,fb_prizeemail,1,object-16
+7,1755089675373,13/08/2025 12:54,1755093275373,1,13/08/2025 14:54,233799,28,questionnaire-syjg,,48676969,BLINDED,13955495,,complete,,,computer,Desktop or Laptop,Windows 10,Firefox 141.0,1536x864,1536x703,,,0,FB - VOUCHER INFO,3,probe_selfreport,Eligible,Voucher,Yes,,,,,info,,END,11453,,,,
+1,1755279584018,15/08/2025 17:39,1755283184018,1,15/08/2025 19:39,233799,28,questionnaire-syjg,,48712579,BLINDED,13963720,,complete,,,computer,Desktop or Laptop,Windows 10,Edge 139.0.0.0,1920x1080,1912x954,,,0,FB - VOUCHER INFO,3,selfreport_probe,Eligible,Voucher,Yes,,,,,info,,BEGIN,,,,,
+5,1755279601908,15/08/2025 17:40,1755283201908,1,15/08/2025 19:40,233799,28,questionnaire-syjg,,48712579,BLINDED,13963720,,complete,,,computer,Desktop or Laptop,Windows 10,Edge 139.0.0.0,1920x1080,1912x954,,,0,FB - VOUCHER INFO,3,selfreport_probe,Eligible,Voucher,Yes,Page 1,l5rppi,1,"**For the chance to win a £10 Amazon gift card, please enter your details down below.**
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Full Name-value,Evgenia Apostolou,,,fb_prizeemail,1,object-16
+6,1755279601908,15/08/2025 17:40,1755283201908,1,15/08/2025 19:40,233799,28,questionnaire-syjg,,48712579,BLINDED,13963720,,complete,,,computer,Desktop or Laptop,Windows 10,Edge 139.0.0.0,1920x1080,1912x954,,,0,FB - VOUCHER INFO,3,selfreport_probe,Eligible,Voucher,Yes,Page 1,l5rppi,1,"**For the chance to win a £10 Amazon gift card, please enter your details down below.**
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Personal Email Address-value,e.apostolou1@lancaster.ac.uk,,,fb_prizeemail,1,object-16
+7,1755279601909,15/08/2025 17:40,1755283201909,1,15/08/2025 19:40,233799,28,questionnaire-syjg,,48712579,BLINDED,13963720,,complete,,,computer,Desktop or Laptop,Windows 10,Edge 139.0.0.0,1920x1080,1912x954,,,0,FB - VOUCHER INFO,3,selfreport_probe,Eligible,Voucher,Yes,,,,,info,,END,17874,,,,
+1,1755290806334,15/08/2025 20:46,1755294406334,1,15/08/2025 22:46,233799,28,questionnaire-syjg,,48713685,BLINDED,13963957,,complete,,,computer,Desktop or Laptop,Mac OS 10.15.7,Chrome 139.0.0.0,1280x800,1280x712,,,0,FB - VOUCHER INFO,3,probe_selfreport,Eligible,Voucher,Yes,,,,,info,,BEGIN,,,,,
+5,1755290825119,15/08/2025 20:47,1755294425119,1,15/08/2025 22:47,233799,28,questionnaire-syjg,,48713685,BLINDED,13963957,,complete,,,computer,Desktop or Laptop,Mac OS 10.15.7,Chrome 139.0.0.0,1280x800,1280x712,,,0,FB - VOUCHER INFO,3,probe_selfreport,Eligible,Voucher,Yes,Page 1,l5rppi,1,"**For the chance to win a £10 Amazon gift card, please enter your details down below.**
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Full Name-value,Farzanah Parker,,,fb_prizeemail,1,object-16
+6,1755290825119,15/08/2025 20:47,1755294425119,1,15/08/2025 22:47,233799,28,questionnaire-syjg,,48713685,BLINDED,13963957,,complete,,,computer,Desktop or Laptop,Mac OS 10.15.7,Chrome 139.0.0.0,1280x800,1280x712,,,0,FB - VOUCHER INFO,3,probe_selfreport,Eligible,Voucher,Yes,Page 1,l5rppi,1,"**For the chance to win a £10 Amazon gift card, please enter your details down below.**
+<br><br>
+
+_Please be assured that this information is stored separate from any of your responses and will be deleted as soon as the prizes have been allocated._",response,Personal Email Address-value,17parkerf@gmail.com,,,fb_prizeemail,1,object-16
+7,1755290825119,15/08/2025 20:47,1755294425119,1,15/08/2025 22:47,233799,28,questionnaire-syjg,,48713685,BLINDED,13963957,,complete,,,computer,Desktop or Laptop,Mac OS 10.15.7,Chrome 139.0.0.0,1280x800,1280x712,,,0,FB - VOUCHER INFO,3,probe_selfreport,Eligible,Voucher,Yes,,,,,info,,END,18766,,,,
+END OF FILE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

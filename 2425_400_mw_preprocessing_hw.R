@@ -67,22 +67,22 @@ clean.mw_selfreport <- function(data){
 
 # 1) Read in data files -----------
 ## Experiment advertised via Sona
-mw_pc_sona_aug25b1 <- read_csv(here("mw2425_06data/halleWarren/data_exp_233799-v28_20250814", "data_exp_233799-v28_task-jj2g.csv"))
-mw_sr_sona_aug25b1 <- read_csv(here("mw2425_06data/halleWarren/data_exp_233799-v28_20250814", "data_exp_233799-v28_task-ucpj.csv"))
-mw_pc_sona_aug25b2 <- read_csv(here("mw2425_06data/halleWarren/data_exp_233799-v28_20250814", "data_exp_233799-v28_task-qc6r.csv"))
-mw_sr_sona_aug25b2 <- read_csv(here("mw2425_06data/halleWarren/data_exp_233799-v28_20250814", "data_exp_233799-v28_task-kwp2.csv"))
+mw_pc_sona_aug25b1 <- read_csv(here("work_project_data/mw/mw2425_06data/halleWarren/data_exp_233799-v28_20250818", "data_exp_233799-v28_task-jj2g.csv"))
+mw_sr_sona_aug25b1 <- read_csv(here("work_project_data/mw/mw2425_06data/halleWarren/data_exp_233799-v28_20250818", "data_exp_233799-v28_task-ucpj.csv"))
+mw_pc_sona_aug25b2 <- read_csv(here("work_project_data/mw/mw2425_06data/halleWarren/data_exp_233799-v28_20250818", "data_exp_233799-v28_task-qc6r.csv"))
+mw_sr_sona_aug25b2 <- read_csv(here("work_project_data/mw/mw2425_06data/halleWarren/data_exp_233799-v28_20250818", "data_exp_233799-v28_task-kwp2.csv"))
 
 ## Experiment advertised via Simple link (version 8)
-mw_pc_slv8_aug25b1 <- read_csv(here("mw2425_06data/halleWarren/data_exp_234742-v8_20250801", "data_exp_234742-v8_task-jj2g.csv"))
-mw_sr_slv8_aug25b1 <- read_csv(here("mw2425_06data/halleWarren/data_exp_234742-v8_20250801", "data_exp_234742-v8_task-ucpj.csv"))
-mw_pc_slv8_aug25b2 <- read_csv(here("mw2425_06data/halleWarren/data_exp_234742-v8_20250801", "data_exp_234742-v8_task-qc6r.csv"))
-mw_sr_slv8_aug25b2 <- read_csv(here("mw2425_06data/halleWarren/data_exp_234742-v8_20250801", "data_exp_234742-v8_task-kwp2.csv"))
+mw_pc_slv8_aug25b1 <- read_csv(here("work_project_data/mw/mw2425_06data/halleWarren/data_exp_234742-v8_20250801", "data_exp_234742-v8_task-jj2g.csv"))
+mw_sr_slv8_aug25b1 <- read_csv(here("work_project_data/mw/mw2425_06data/halleWarren/data_exp_234742-v8_20250801", "data_exp_234742-v8_task-ucpj.csv"))
+mw_pc_slv8_aug25b2 <- read_csv(here("work_project_data/mw/mw2425_06data/halleWarren/data_exp_234742-v8_20250801", "data_exp_234742-v8_task-qc6r.csv"))
+mw_sr_slv8_aug25b2 <- read_csv(here("work_project_data/mw/mw2425_06data/halleWarren/data_exp_234742-v8_20250801", "data_exp_234742-v8_task-kwp2.csv"))
 
 ## Experiment advertised via Simple link (version 9)
-mw_pc_slv9_aug25b1 <- read_csv(here("mw2425_06data/halleWarren/data_exp_234742-v9_20250814", "data_exp_234742-v9_task-jj2g.csv"))
-mw_sr_slv9_aug25b1 <- read_csv(here("mw2425_06data/halleWarren/data_exp_234742-v9_20250814", "data_exp_234742-v9_task-ucpj.csv"))
-mw_pc_slv9_aug25b2 <- read_csv(here("mw2425_06data/halleWarren/data_exp_234742-v9_20250814", "data_exp_234742-v9_task-qc6r.csv"))
-mw_sr_slv9_aug25b2 <- read_csv(here("mw2425_06data/halleWarren/data_exp_234742-v9_20250814", "data_exp_234742-v9_task-kwp2.csv"))
+mw_pc_slv9_aug25b1 <- read_csv(here("work_project_data/mw/mw2425_06data/halleWarren/data_exp_234742-v9_20250818", "data_exp_234742-v9_task-jj2g.csv"))
+mw_sr_slv9_aug25b1 <- read_csv(here("work_project_data/mw/mw2425_06data/halleWarren/data_exp_234742-v9_20250818", "data_exp_234742-v9_task-ucpj.csv"))
+mw_pc_slv9_aug25b2 <- read_csv(here("work_project_data/mw/mw2425_06data/halleWarren/data_exp_234742-v9_20250818", "data_exp_234742-v9_task-qc6r.csv"))
+mw_sr_slv9_aug25b2 <- read_csv(here("work_project_data/mw/mw2425_06data/halleWarren/data_exp_234742-v9_20250818", "data_exp_234742-v9_task-kwp2.csv"))
 
 # 2) Performance -----------
 # 2a) For first data file 
@@ -237,15 +237,15 @@ mw_dat_selfreport <- mw_dat_selfreport %>%
 # 5) Some intermediate actions  ------------
 ## We now have 3 key data files, let's save each of them to avoid having to rerun every time:
 ### 1) One data file that contains performance data for all participants in all tasks (mw_dat_trials)
-write_csv(mw_dat_trials, here("mw2425_06data/halleWarren/mw2425_hw_processed", "mw_dat_trials.csv"))
+write_csv(mw_dat_trials, here("work_project_data/mw/mw2425_06data/halleWarren/mw2425_hw_processed", "mw_dat_trials_20250818.csv"))
 ### 2) One data file that contains mind wandering data for all participants in the probe-caught tasks (mw_dat_probes)
-write_csv(mw_dat_probes, here("mw2425_06data/halleWarren/mw2425_hw_processed", "mw_dat_probes.csv"))
+write_csv(mw_dat_probes, here("work_project_data/mw/mw2425_06data/halleWarren/mw2425_hw_processed", "mw_dat_probes_20250818.csv"))
 ### 3) One data file that contains mind wandering data for all participants in the self-report tasks (mw_dat_selfreport)
-write_csv(mw_dat_selfreport, here("mw2425_06data/halleWarren/mw2425_hw_processed", "mw_dat_selfreport.csv"))
+write_csv(mw_dat_selfreport, here("work_project_data/mw/mw2425_06data/halleWarren/mw2425_hw_processed", "mw_dat_selfreport_20250818.csv"))
 
-mw_dat_trials <- read_csv(here("mw2425_06data/halleWarren/mw2425_hw_processed", "mw_dat_trials.csv"))
-mw_dat_probes <- read_csv(here("mw2425_06data/halleWarren/mw2425_hw_processed", "mw_dat_probes.csv"))
-mw_dat_selfreport <- read_csv(here("mw2425_06data/halleWarren/mw2425_hw_processed", "mw_dat_selfreport.csv"))
+mw_dat_trials <- read_csv(here("work_project_data/mw/mw2425_06data/halleWarren/mw2425_hw_processed", "mw_dat_trials_20250818.csv"))
+mw_dat_probes <- read_csv(here("work_project_data/mw/mw2425_06data/halleWarren/mw2425_hw_processed", "mw_dat_probes_20250818.csv"))
+mw_dat_selfreport <- read_csv(here("work_project_data/mw/mw2425_06data/halleWarren/mw2425_hw_processed", "mw_dat_selfreport_20250818.csv"))
 
 ## Tidy up variable names
 mw_dat_trials <- mw_dat_trials %>%
@@ -356,6 +356,6 @@ mw_scores <- mw_scores %>%
 
 # 5) Save results in new data file
 
-write_csv(mw_scores, here("mw2425_06data/halleWarren/mw2425_hw_processed", "mw_scores_20250815.csv"))
+write_csv(mw_scores, here("work_project_data/mw/mw2425_06data/halleWarren/mw2425_hw_processed", "mw_scores_20250818.csv"))
 
-test <- read_csv(here("mw2425_06data/halleWarren/mw2425_hw_processed", "mw_scores_20250815.csv"))
+test <- read_csv(here("work_project_data/mw/mw2425_06data/halleWarren/mw2425_hw_processed", "mw_scores_20250818.csv"))
